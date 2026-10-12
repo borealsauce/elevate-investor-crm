@@ -1,13 +1,13 @@
 (function(){
 const D = window.CRM, S = D.sheets;
-const TABS = ['Dashboard','Investors','Deals','Commissions','Raise Income','Brokering Income','Combined','Pipeline','Activity Log','Year by Year','Reconciliation','Notes'];
+const TABS = ['Dashboard','Investors','Investor Positions','Deals','Commissions','Raise Income','Brokering Income','Combined','Pipeline','Activity Log','Year by Year','Reconciliation','Notes'];
 const $ = (h)=>{const t=document.createElement('template');t.innerHTML=h.trim();return t.content.firstChild;};
 const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const money = (v,dec) => (v<0?'-':'')+'$'+Math.abs(v).toLocaleString('en-US',{minimumFractionDigits:dec?2:0,maximumFractionDigits:dec?2:0});
 const fmtMoney = v => money(v, Math.round(v)!==v);
 const pct = v => (v*100).toLocaleString('en-US',{maximumFractionDigits:2})+'%';
 const isPct = h => /RATE|COMM\. %|MARGIN|VS BEST/.test(h);
-const isMoney = h => /\$|RAISE|COMMISSION|AMOUNT|INCOME|GAP|BASIS|DIFFERENCE|SHEP SHEET|SCREENSHOT|^20\d\d$|TOTAL RAISED|LIFETIME/.test(h) && !/YEAR|YR|TAB NAME|NOTE|STATUS|COMMENT|OFFERING\(S\)/.test(h);
+const isMoney = h => /\$|RAISE|COMMISSION|AMOUNT|INCOME|GAP|BASIS|DIFFERENCE|SHEP SHEET|SCREENSHOT|^20\d\d$|TOTAL RAISED|LIFETIME|INVESTED/.test(h) && !/YEAR|YR|TAB NAME|NOTE|STATUS|COMMENT|OFFERING\(S\)/.test(h);
 function fmt(h, v){
   if(v===null||v===undefined||v==='') return '';
   if(typeof v==='number'){ if(isPct(h)) return pct(v); if(isMoney(h)) return fmtMoney(v); return String(v); }
@@ -63,7 +63,7 @@ function renderTable(t, opts={}){
   thead.appendChild(headHtml());
   const rowHtml=(r,cls='')=>`<tr class="${cls}">${r.map((v,i)=>{const h=t.header[i];
     const inner = (BADGE_COLS.test(h)&&v&&!cls)? badge(v) : fmt(h,v);
-    return `<td class="${numCol[i]?'num':''} ${WIDE_COLS.test(h)?'wrapc':''}">${inner}</td>`;}).join('')}</tr>`;
+    return `<td class="${numCol[i]?'num':''} ${(opts.wide||WIDE_COLS).test(h)?'wrapc':''}">${inner}</td>`;}).join('')}</tr>`;
   const sortKey=v=>{
     if(v==null||v==='') return null;
     if(typeof v==='number') return v;
@@ -138,7 +138,46 @@ const views={
     p4.appendChild($(`<p class="sub" style="margin-top:10px">Full list on the Pipeline tab.</p>`));
     g2.appendChild(p4);
   },
-  'Investors'(app){ const t=titles('Investors'); app.appendChild(sec('Investors','Contacts',t[1])); app.appendChild(renderTable(tables('Investors')[0],{search:'investors',filterCol:'STATUS',splitTotal:true})); },
+  'Investors'(app){ const t=titles('Investors'); app.appendChild(sec('Investors','Contacts',t[1]));
+    app.appendChild($(`<p class="sub">Click an investor's name to open their park positions.</p>`));
+    const w=renderTable(tables('Investors')[0],{search:'investors',filterCol:'STATUS',splitTotal:true}); w.classList.add('inv-link');
+    w.addEventListener('click',e=>{const td=e.target.closest('tbody td:first-child'); if(td&&td.textContent.trim()) go('Investor Positions',td.textContent.trim());});
+    app.appendChild(w); },
+  'Investor Positions'(app,name,inv){
+    const bl=tables('Investor Positions'), T=bl[0], SUM=bl[1], H=T.header, ix=n=>H.indexOf(n);
+    const JOINT={'Don Sanford':['Don / Cari']};
+    const names=SUM.rows.filter(r=>r[0]!=='TOTAL').map(r=>r[0]);
+    app.appendChild(sec('Investor positions','Park breakdown by investor',titles('Investor Positions')[1]));
+    const tb=$(`<div class="toolbar"><select id="invsel"><option value="">Choose an investor…</option>${names.map(n=>`<option ${n===inv?'selected':''}>${esc(n)}</option>`).join('')}</select><span class="count">Amounts come from Shep's sheet + Elevate emails; CHECK = needs confirmation. Brokering rows show deal price, not an investment.</span></div>`);
+    tb.querySelector('select').onchange=e=>go('Investor Positions',e.target.value);
+    app.appendChild(tb);
+    if(inv){
+      const want=new Set([inv,...(JOINT[inv]||[])]);
+      const mine=T.rows.filter(r=>want.has(r[ix('INVESTOR')]));
+      if(!mine.length){ app.appendChild($(`<div class="callout">No park positions on record for <b>${esc(inv)}</b> (only amounts shown in the sources are listed).</div>`)); }
+      else{
+        const held=mine.filter(r=>r[ix('PROGRAM')]!=='Brokering'), brok=mine.filter(r=>r[ix('PROGRAM')]==='Brokering');
+        const total=held.reduce((a,r)=>a+(r[ix('AMOUNT INVESTED')]||0),0);
+        const joint=held.filter(r=>r[ix('INVESTOR')]!==inv||r[ix('JOINT')]).reduce((a,r)=>a+(r[ix('AMOUNT INVESTED')]||0),0);
+        const parks=new Set(); held.forEach(r=>{const d=r[ix('PARK / DEAL')]; if(r[ix('PROGRAM')]==='BoaVida') return; d.split(' & ').filter(x=>/MHC|RV|Park/i.test(x)||!d.includes(' & ')).forEach(x=>parks.add(x.trim()));});
+        const yrs=[...new Set(held.map(r=>r[ix('YEAR')]))].sort();
+        app.appendChild(kpiGrid([
+          {label:'TOTAL INVESTED',value:total,caption:joint?`incl. ${fmtMoney(joint)} joint (${(JOINT[inv]||[]).join(', ')})`:'Elevate + BoaVida'},
+          {label:'PARKS',value:String(parks.size),caption:'Elevate parks (Frontier & Sequoia = 2)'},
+          {label:'YEARS INVESTING',value:String(yrs.length),caption:yrs.length?`${yrs[0]}–${yrs[yrs.length-1]}`:''},
+          {label:'POSITIONS',value:String(held.length),caption:'park / offering rows'},
+          {label:'BROKERED DEALS',value:String(brok.length),caption:'direct purchases (not in total)'}]));
+        app.appendChild(sec('',inv+' · positions'));
+        app.appendChild(renderTable({header:H,rows:mine.slice().sort((a,b)=>b[ix('YEAR')]-a[ix('YEAR')])},{noMax:true,wide:/NOTE|^SOURCE$/}));
+      }
+    }
+    app.appendChild(sec('All investors','Investor summary'));
+    const sw=renderTable(SUM,{noMax:true,splitTotal:true}); sw.classList.add('inv-link');
+    sw.addEventListener('click',e=>{const td=e.target.closest('tbody td:first-child'); if(td&&td.textContent.trim()) go('Investor Positions',td.textContent.trim());});
+    app.appendChild(sw);
+    app.appendChild(sec('All positions','Every park / deal row'));
+    app.appendChild(renderTable(T,{search:'positions',filterCol:'PROGRAM',splitTotal:true,wide:/NOTE|^SOURCE$/}));
+  },
   'Deals'(app){ const t=titles('Deals'); app.appendChild(sec('Deals','Raises & brokering',t[1])); app.appendChild(renderTable(tables('Deals')[0],{search:'deals',filterCol:'TYPE',splitTotal:true})); },
   'Pipeline'(app){ const t=titles('Pipeline'); app.appendChild(sec('Pipeline','Follow-ups',t[1])); app.appendChild(renderTable(tables('Pipeline')[0],{search:'pipeline',filterCol:'STAGE',splitTotal:true})); },
   'Activity Log'(app){ const t=titles('Activity Log'); app.appendChild(sec('Activity log','Every outreach row',t[1])); app.appendChild(renderTable(tables('Activity Log')[0],{search:'activity',filterCol:'YEAR',splitTotal:true})); },
@@ -163,7 +202,7 @@ function sectioned(app, name){
 const nav=document.getElementById('nav'), app=document.getElementById('app');
 document.getElementById('subtitle').textContent=D.dashboard.subtitle;
 document.getElementById('foot').textContent=`Generated from ${D.source} · ${D.generated} · Shepard Banks Investments · raise & brokering data only.`;
-function go(name){ if(!views[name]) name='Dashboard'; app.innerHTML=''; [...nav.children].forEach(b=>b.classList.toggle('on',b.textContent===name)); views[name](app,name); if(location.hash.slice(1)!==encodeURIComponent(name)) history.replaceState(null,'','#'+encodeURIComponent(name)); window.scrollTo(0,0); }
+function go(name,arg){ if(arg===undefined&&name&&name.includes('::')){[name,arg]=name.split('::');} if(!views[name]) name='Dashboard'; app.innerHTML=''; [...nav.children].forEach(b=>b.classList.toggle('on',b.textContent===name)); views[name](app,name,arg); const h='#'+encodeURIComponent(name+(arg?'::'+arg:'')); if(location.hash!==h) history.replaceState(null,'',h); window.scrollTo(0,0); }
 TABS.forEach(t=>{const b=$(`<button>${t}</button>`);b.onclick=()=>go(t);nav.appendChild(b);});
 window.addEventListener('hashchange',()=>go(decodeURIComponent(location.hash.slice(1))));
 go(decodeURIComponent(location.hash.slice(1))||'Dashboard');

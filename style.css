@@ -76,3 +76,6 @@ td.wrapc{min-width:340px;max-width:520px;line-height:1.4}
 
 th.sortable{cursor:pointer;user-select:none}
 th.sortable:hover{color:var(--gold)}
+
+.inv-link tbody td:first-child{cursor:pointer;color:var(--gold);text-decoration:underline;text-decoration-color:#93c5fd;text-underline-offset:3px}
+.inv-link tbody tr.total td:first-child{text-decoration:none;cursor:default}
