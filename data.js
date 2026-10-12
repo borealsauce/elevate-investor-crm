@@ -73,7 +73,7 @@ window.CRM = {
       2026,
       null,
       null,
-      "DUPLICATE CHECK: Shep lists Don / Cari at $1,100,000 under BOTH Elevate Portland and Elevate OH (2026). Same round figure twice — may be one commitment double-entered. 2026 total here = $2.2M as listed; confirm with Shep. Possibly same family as 'Don' (2025) / 'Don Sanford' (2020-24) — not merged."
+      "DUPLICATE CHECK: Shep lists Don / Cari at $1,100,000 under BOTH Elevate Portland and Elevate OH (2026). Same round figure twice — may be one commitment double-entered. 2026 total here = $2.2M as listed; confirm with Shep. Possibly same family as Don Sanford (Don + Don Sanford merged 2026-10-12)."
      ],
      [
       "Hayden",
@@ -142,33 +142,14 @@ window.CRM = {
       null,
       2500000,
       2000000,
+      900000,
       null,
-      null,
-      4500000,
+      5400000,
       2023,
-      2024,
-      "2024-07-26",
-      "2024: CONFIRMED",
-      "Possible match to Don (2025) and Don / Cari (2026). Kept separate pending confirmation."
-     ],
-     [
-      "Don",
-      "Past investor · Elevate",
-      "Elevate",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      900000,
-      null,
-      900000,
-      2025,
       2025,
       "2025-06-05",
       "2025: Wanted to do 500k",
-      "Possible match to Don / Cari (2026) and Don Sanford (2023-24). Kept separate pending confirmation."
+      "Merged Don + Don Sanford per Ryan 2026-10-12."
      ],
      [
       "Dean",
@@ -3554,7 +3535,7 @@ window.CRM = {
      ],
      [
       "TOTAL",
-      "184 contacts",
+      "183 contacts",
       null,
       null,
       800000,
@@ -3743,7 +3724,7 @@ window.CRM = {
       "Brokering",
       "NNN",
       2026,
-      "Don",
+      "Don Sanford",
       null,
       null,
       42200,
@@ -3788,7 +3769,7 @@ window.CRM = {
       "Brokering",
       null,
       2025,
-      "Don",
+      "Don Sanford",
       229750,
       0.2,
       45950,
@@ -3803,7 +3784,7 @@ window.CRM = {
       "Brokering",
       "MHP",
       2025,
-      "Don",
+      "Don Sanford",
       2256000,
       0.02,
       45120,
@@ -4028,7 +4009,7 @@ window.CRM = {
       "Deals transacted",
       null,
       2024,
-      "Don",
+      "Don Sanford",
       2280000,
       null,
       null,
@@ -4104,7 +4085,7 @@ window.CRM = {
      ],
      [
       "Don DB NNN",
-      "Don",
+      "Don Sanford",
       42200,
       "Closed",
       "Shep 2026 tab"
@@ -4463,7 +4444,7 @@ window.CRM = {
       "Open"
      ],
      [
-      "Don",
+      "Don Sanford",
       "Brokering",
       "DB NNN",
       null,
@@ -4481,17 +4462,6 @@ window.CRM = {
       null,
       "2025 tab 'Oregon Deals'",
       "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Don Sanford",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      2000000,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
       "Ryan",
       "Open"
      ],
@@ -5003,9 +4973,9 @@ window.CRM = {
      ],
      [
       "TOTAL",
-      "54 open",
+      "53 open",
       null,
-      6650000,
+      4650000,
       null,
       null,
       null,
@@ -5241,7 +5211,7 @@ window.CRM = {
       2025,
       "Elevate Eagle, ID",
       "Elevate",
-      "Don",
+      "Don Sanford",
       "Don",
       400000,
       "2025-06-05",
@@ -5254,7 +5224,7 @@ window.CRM = {
       2025,
       "Elevate Pocatello, ID",
       "Elevate",
-      "Don",
+      "Don Sanford",
       "Don",
       500000,
       null,
@@ -8782,7 +8752,7 @@ window.CRM = {
     "rows": [
      [
       "Don / Cari duplicate (Portland vs OH)",
-      "DUPLICATE CHECK: Shep lists Don / Cari at $1,100,000 under BOTH Elevate Portland and Elevate OH (2026). Same round figure twice — may be one commitment double-entered. 2026 total here = $2.2M as listed; confirm with Shep. Possibly same family as 'Don' (2025) / 'Don Sanford' (2020-24) — not merged."
+      "DUPLICATE CHECK: Shep lists Don / Cari at $1,100,000 under BOTH Elevate Portland and Elevate OH (2026). Same round figure twice — may be one commitment double-entered. 2026 total here = $2.2M as listed; confirm with Shep. Possibly same family as Don Sanford (Don + Don Sanford merged 2026-10-12)."
      ],
      [
       "Round $1.1M figures",
@@ -8802,7 +8772,7 @@ window.CRM = {
      ],
      [
       "Don name variants",
-      "'Don Sanford' (2020-24), 'Don' (2025), 'Don / Cari' (2026), 'Don DB' brokering — kept as separate contacts pending confirmation."
+      "'Don' and 'Don Sanford' merged into Don Sanford per Ryan 2026-10-12. 'Don / Cari' (2026) kept separate pending confirmation."
      ]
     ]
    }
@@ -8862,7 +8832,7 @@ window.CRM = {
     "type": "line",
     "cells": [
      "Name merges",
-     "Obvious variants merged (e.g., 'Dr Joe' / 'Dr Calendra' → Dr Joe Calendra; 'Ali invested 2021' → Ali Mostafavi). Don variants NOT merged — flagged."
+     "Obvious variants merged (e.g., 'Dr Joe' / 'Dr Calendra' → Dr Joe Calendra; 'Ali invested 2021' → Ali Mostafavi). 'Don' merged into Don Sanford (2026-10-12); Don / Cari kept separate — flagged."
     ]
    },
    {
@@ -8932,7 +8902,7 @@ window.CRM = {
    },
    {
     "label": "OPEN PIPELINE",
-    "value": 54,
+    "value": 53,
     "caption": "Follow-ups on Pipeline tab"
    },
    {
