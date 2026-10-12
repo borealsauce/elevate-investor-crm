@@ -630,7 +630,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 20 (\"Daniel\")",
+      "Sheet: 2024 $3.15M row 39 (\"Daniel\")",
       null
      ],
      [
@@ -918,7 +918,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 16 (\"Don Sanford\")",
+      "Sheet: 2024 $3.15M row 42 (\"Don Sanford\")",
       null
      ],
      [
@@ -934,7 +934,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 49 (\"Don Sanford\")",
+      "Sheet: 2024 $3.15M row 60 (\"Don Sanford\")",
       null
      ],
      [
@@ -982,7 +982,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 21 (\"Dr Joe Calendra\")",
+      "Sheet: 2024 $3.15M row 40 (\"Dr Joe Calendra\")",
       null
      ],
      [
@@ -998,7 +998,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       "CHECK",
-      "Sheet: 2024 $3.15M row 47 (\"Dr Joe Calendra\")",
+      "Sheet: 2024 $3.15M row 58 (\"Dr Joe Calendra\")",
       "Sheet note says 'Call Today' (not 'CONFIRMED'), but the amount is counted in the $1.175M Flamingo total."
      ],
      [
@@ -1094,7 +1094,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 19 (\"Hayden\")",
+      "Sheet: 2024 $3.15M row 38 (\"Hayden\")",
       null
      ],
      [
@@ -1110,7 +1110,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 48 (\"Hayden\")",
+      "Sheet: 2024 $3.15M row 59 (\"Hayden\")",
       null
      ],
      [
@@ -1206,7 +1206,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 18 (\"Mike Folb\")",
+      "Sheet: 2024 $3.15M row 37 (\"Mike Folb\")",
       null
      ],
      [
@@ -1238,7 +1238,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       "CHECK",
-      "Sheet: 2024 $3.15M row 60 (\"Mike Wood\")",
+      "Sheet: 2024 $3.15M row 56 (\"Mike Wood\")",
       "Sheet note: 'More likely to do next deal' – counted in the $1.175M Flamingo total; confirm funded."
      ],
      [
@@ -1302,7 +1302,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 22 (\"Paul Clata\")",
+      "Sheet: 2024 $3.15M row 41 (\"Paul Clata\")",
       null
      ],
      [
@@ -1318,7 +1318,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 17 (\"Renee\")",
+      "Sheet: 2024 $3.15M row 36 (\"Renee\")",
       null
      ],
      [
@@ -1398,7 +1398,7 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 46 (\"Scott Long Airbnb tenant did $500K\")",
+      "Sheet: 2024 $3.15M row 57 (\"Scott Long Airbnb tenant did $500K\")",
       null
      ],
      [
@@ -3330,7 +3330,7 @@ window.CRM = {
       83500,
       280000,
       280000,
-      18035000,
+      18040000,
       "Elevate cash + brokering"
      ],
      [
@@ -3366,7 +3366,7 @@ window.CRM = {
       382307,
       688386.59,
       1600386.59,
-      18035000,
+      18040000,
       null
      ]
     ]
@@ -3480,138 +3480,6 @@ window.CRM = {
       null,
       "2025 tab 'Oregon Deals'",
       "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Paul Clata",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      300000,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Diane Tony’s friend",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      200000,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Dana Pickleball",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      100000,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Laura Holck",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      100000,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Nick Discord",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      100000,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Erik Friz",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      50000,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Dr Joe Calendra",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      50000,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Trevor Eli’s Buddy",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      null,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Sam Moore",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      null,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Eric Iantorno",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      null,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "CHS airport realtors",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      null,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Bryan Erik PPF lead",
-      "Soft interest",
-      "Next Deal (from 2024 list)",
-      null,
-      null,
-      "2024 tab 'Next Deal' list",
-      "Re-engage on next offering",
       "Ryan",
       "Open"
      ],
@@ -4155,6 +4023,17 @@ window.CRM = {
       "Open"
      ],
      [
+      "Eric Iantorno",
+      "Prospect",
+      "Prospect (no $ listed yet)",
+      null,
+      "2025-05-29",
+      "No invested total on raise tabs",
+      "Qualify / add to next offering",
+      "Ryan",
+      "Open"
+     ],
+     [
       "Fredrik Elkund",
       "Prospect",
       "Prospect (no $ listed yet)",
@@ -4496,17 +4375,6 @@ window.CRM = {
       "Open"
      ],
      [
-      "Peter Garcia",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-08-12",
-      "2024: Has rental homes said cash tied up in market.",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
       "Phil Sambazis",
       "Prospect",
       "Prospect (no $ listed yet)",
@@ -4546,6 +4414,17 @@ window.CRM = {
       null,
       null,
       "No invested total on raise tabs",
+      "Qualify / add to next offering",
+      "Ryan",
+      "Open"
+     ],
+     [
+      "Sam Moore",
+      "Prospect",
+      "Prospect (no $ listed yet)",
+      null,
+      "2025-05-29",
+      "2022: Not Interested",
       "Qualify / add to next offering",
       "Ryan",
       "Open"
@@ -5278,9 +5157,9 @@ window.CRM = {
      ],
      [
       "TOTAL",
-      "170 open",
+      "159 open",
       null,
-      4617000,
+      3717000,
       null,
       null,
       null,
@@ -5867,58 +5746,6 @@ window.CRM = {
       2024,
       "Elevate Flamingo, MI",
       "Elevate",
-      "Scott Long",
-      "Scott Long Airbnb tenant did $500K",
-      500000,
-      "2024-07-26",
-      "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      46
-     ],
-     [
-      2024,
-      "Elevate Flamingo, MI",
-      "Elevate",
-      "Dr Joe Calendra",
-      "Dr Joe Calendra",
-      75000,
-      "2024-08-16",
-      "Committed",
-      "Call Today",
-      "2024 $3.15M",
-      47
-     ],
-     [
-      2024,
-      "Elevate Flamingo, MI",
-      "Elevate",
-      "Hayden",
-      "Hayden",
-      50000,
-      "2024-07-26",
-      "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      48
-     ],
-     [
-      2024,
-      "Elevate Flamingo, MI",
-      "Elevate",
-      "Don Sanford",
-      "Don Sanford",
-      500000,
-      "2024-07-26",
-      "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      49
-     ],
-     [
-      2024,
-      "Elevate Flamingo, MI",
-      "Elevate",
       "Mike Folb",
       "Mike Folb",
       0,
@@ -5926,7 +5753,7 @@ window.CRM = {
       "Contacted",
       "Texted didn’t respond much will send printed offering",
       "2024 $3.15M",
-      50
+      46
      ],
      [
       2024,
@@ -5939,7 +5766,7 @@ window.CRM = {
       "Warm",
       "Emailed he’s calling tomorrow",
       "2024 $3.15M",
-      51
+      47
      ],
      [
       2024,
@@ -5952,7 +5779,7 @@ window.CRM = {
       "Not interested",
       "Not interested",
       "2024 $3.15M",
-      52
+      48
      ],
      [
       2024,
@@ -5965,7 +5792,7 @@ window.CRM = {
       "Contacted",
       null,
       "2024 $3.15M",
-      53
+      49
      ],
      [
       2024,
@@ -5978,7 +5805,7 @@ window.CRM = {
       "Not interested",
       "Not interested",
       "2024 $3.15M",
-      54
+      50
      ],
      [
       2024,
@@ -5991,7 +5818,7 @@ window.CRM = {
       "Not interested",
       "Not interested",
       "2024 $3.15M",
-      55
+      51
      ],
      [
       2024,
@@ -6004,7 +5831,7 @@ window.CRM = {
       "Not interested",
       "Not interested doing his own deals.",
       "2024 $3.15M",
-      56
+      52
      ],
      [
       2024,
@@ -6017,7 +5844,7 @@ window.CRM = {
       "Not interested",
       "Not interested",
       "2024 $3.15M",
-      57
+      53
      ],
      [
       2024,
@@ -6030,7 +5857,7 @@ window.CRM = {
       "Not interested",
       "Not interested",
       "2024 $3.15M",
-      58
+      54
      ],
      [
       2024,
@@ -6043,7 +5870,7 @@ window.CRM = {
       "Not interested",
       "Not interested",
       "2024 $3.15M",
-      59
+      55
      ],
      [
       2024,
@@ -6056,20 +5883,59 @@ window.CRM = {
       "Committed",
       "More likely to do next deal has $1.5M exchange open",
       "2024 $3.15M",
-      60
+      56
      ],
      [
       2024,
       "Elevate Flamingo, MI",
       "Elevate",
-      "Peter Garcia",
-      "Peter Garcia",
-      0,
-      "2024-08-12",
-      "Contacted",
-      "Has rental homes said cash tied up in market.",
+      "Scott Long",
+      "Scott Long Airbnb tenant did $500K",
+      500000,
+      "2024-07-26",
+      "Confirmed",
+      "CONFIRMED",
       "2024 $3.15M",
-      61
+      57
+     ],
+     [
+      2024,
+      "Elevate Flamingo, MI",
+      "Elevate",
+      "Dr Joe Calendra",
+      "Dr Joe Calendra",
+      75000,
+      "2024-08-16",
+      "Committed",
+      "Call Today",
+      "2024 $3.15M",
+      58
+     ],
+     [
+      2024,
+      "Elevate Flamingo, MI",
+      "Elevate",
+      "Hayden",
+      "Hayden",
+      50000,
+      "2024-07-26",
+      "Confirmed",
+      "CONFIRMED",
+      "2024 $3.15M",
+      59
+     ],
+     [
+      2024,
+      "Elevate Flamingo, MI",
+      "Elevate",
+      "Don Sanford",
+      "Don Sanford",
+      500000,
+      "2024-07-26",
+      "Confirmed",
+      "CONFIRMED",
+      "2024 $3.15M",
+      60
      ],
      [
       2024,
@@ -6179,175 +6045,6 @@ window.CRM = {
       2024,
       "Elevate OH (Columbus)",
       "Elevate",
-      "Sam Pinto",
-      "Sam Pinto",
-      0,
-      null,
-      "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      10
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "Mike Wood",
-      "Mike Wood",
-      0,
-      null,
-      "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      11
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "Kellen",
-      "Kellen",
-      0,
-      "2024-04-19",
-      "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      12
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "Craig Napoliello",
-      "Craig Napoliello",
-      0,
-      "2024-04-23",
-      "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      13
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "Solomon",
-      "Solomon",
-      0,
-      "2024-04-19",
-      "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      14
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "John Dang",
-      "John Dang",
-      0,
-      "2024-04-28",
-      "Contacted",
-      "Left vm",
-      "2024 $3.15M",
-      15
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "Don Sanford",
-      "Don Sanford",
-      1500000,
-      "2024-04-19",
-      "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      16
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "Renee",
-      "Renee",
-      200000,
-      "2024-04-24",
-      "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      17
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "Mike Folb",
-      "Mike Folb",
-      100000,
-      "2024-04-23",
-      "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      18
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "Hayden",
-      "Hayden",
-      100000,
-      "2024-04-19",
-      "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      19
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "Daniel",
-      "Daniel",
-      50000,
-      "2024-04-19",
-      "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      20
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "Dr Joe Calendra",
-      "Dr Joe Calendra",
-      100000,
-      "2024-04-23",
-      "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      21
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
-      "Paul Clata",
-      "Paul Clata",
-      50000,
-      "2024-05-03",
-      "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      22
-     ],
-     [
-      2024,
-      "Elevate OH (Columbus)",
-      "Elevate",
       "Brian Cepalak",
       "Brian Cepalak",
       0,
@@ -6355,7 +6052,7 @@ window.CRM = {
       "Confirmed",
       "Hasn’t confirmed 100k??",
       "2024 $3.15M",
-      23
+      10
      ],
      [
       2024,
@@ -6368,7 +6065,7 @@ window.CRM = {
       "Warm",
       "$230K exchange possible speaking Monday",
       "2024 $3.15M",
-      24
+      11
      ],
      [
       2024,
@@ -6381,7 +6078,7 @@ window.CRM = {
       "Not interested",
       "Not interested",
       "2024 $3.15M",
-      25
+      12
      ],
      [
       2024,
@@ -6394,7 +6091,7 @@ window.CRM = {
       "Not interested",
       "Not interested",
       "2024 $3.15M",
-      26
+      13
      ],
      [
       2024,
@@ -6407,7 +6104,7 @@ window.CRM = {
       "Contacted",
       null,
       "2024 $3.15M",
-      27
+      14
      ],
      [
       2024,
@@ -6420,7 +6117,7 @@ window.CRM = {
       "Contacted",
       null,
       "2024 $3.15M",
-      28
+      15
      ],
      [
       2024,
@@ -6433,7 +6130,7 @@ window.CRM = {
       "Not interested",
       "Not interested",
       "2024 $3.15M",
-      29
+      16
      ],
      [
       2024,
@@ -6446,7 +6143,7 @@ window.CRM = {
       "Not interested",
       "Not interested",
       "2024 $3.15M",
-      30
+      17
      ],
      [
       2024,
@@ -6459,7 +6156,7 @@ window.CRM = {
       "Not interested",
       "Not interested",
       "2024 $3.15M",
-      31
+      18
      ],
      [
       2024,
@@ -6472,7 +6169,7 @@ window.CRM = {
       "Contacted",
       null,
       "2024 $3.15M",
-      32
+      19
      ],
      [
       2024,
@@ -6485,7 +6182,7 @@ window.CRM = {
       "Not interested",
       "Not interested but maybe future deals",
       "2024 $3.15M",
-      33
+      20
      ],
      [
       2024,
@@ -6498,7 +6195,7 @@ window.CRM = {
       "Contacted",
       null,
       "2024 $3.15M",
-      34
+      21
      ],
      [
       2024,
@@ -6511,7 +6208,7 @@ window.CRM = {
       "Contacted",
       null,
       "2024 $3.15M",
-      35
+      22
      ],
      [
       2024,
@@ -6524,7 +6221,7 @@ window.CRM = {
       "Warm",
       "Her brother has NNN’s and uncle for next deal",
       "2024 $3.15M",
-      36
+      23
      ],
      [
       2024,
@@ -6537,7 +6234,7 @@ window.CRM = {
       "Contacted",
       null,
       "2024 $3.15M",
-      37
+      24
      ],
      [
       2024,
@@ -6550,7 +6247,7 @@ window.CRM = {
       "Contacted",
       null,
       "2024 $3.15M",
-      38
+      25
      ],
      [
       2024,
@@ -6563,7 +6260,7 @@ window.CRM = {
       "Contacted",
       null,
       "2024 $3.15M",
-      39
+      26
      ],
      [
       2024,
@@ -6576,7 +6273,7 @@ window.CRM = {
       "Warm",
       "Had rental Ron looked at maybe exchange later",
       "2024 $3.15M",
-      40
+      27
      ],
      [
       2024,
@@ -6589,7 +6286,7 @@ window.CRM = {
       "Contacted",
       "He’s a developer and does his work in San Fran his dad may be involved too",
       "2024 $3.15M",
-      41
+      28
      ],
      [
       2024,
@@ -6602,202 +6299,176 @@ window.CRM = {
       "Contacted",
       "Unable to use money from Fund",
       "2024 $3.15M",
-      42
+      29
      ],
      [
       2024,
-      "Next Deal (soft interest)",
+      "Elevate OH (Columbus)",
       "Elevate",
-      "Dana Pickleball",
-      "Dana Pickleball",
-      100000,
+      "Sam Pinto",
+      "Sam Pinto",
+      0,
       null,
-      "Soft interest",
-      null,
+      "Not interested",
+      "Not interested",
       "2024 $3.15M",
-      66
+      30
      ],
      [
       2024,
-      "Next Deal (soft interest)",
+      "Elevate OH (Columbus)",
       "Elevate",
       "Mike Wood",
       "Mike Wood",
-      700000,
+      0,
       null,
-      "Soft interest",
-      null,
+      "Not interested",
+      "Not interested",
       "2024 $3.15M",
-      67
+      31
      ],
      [
       2024,
-      "Next Deal (soft interest)",
+      "Elevate OH (Columbus)",
       "Elevate",
-      "Diane Tony’s friend",
-      "Diane Tony’s friend",
+      "Kellen",
+      "Kellen",
+      0,
+      "2024-04-19",
+      "Not interested",
+      "Not interested",
+      "2024 $3.15M",
+      32
+     ],
+     [
+      2024,
+      "Elevate OH (Columbus)",
+      "Elevate",
+      "Craig Napoliello",
+      "Craig Napoliello",
+      0,
+      "2024-04-23",
+      "Not interested",
+      "Not interested",
+      "2024 $3.15M",
+      33
+     ],
+     [
+      2024,
+      "Elevate OH (Columbus)",
+      "Elevate",
+      "Solomon",
+      "Solomon",
+      0,
+      "2024-04-19",
+      "Not interested",
+      "Not interested",
+      "2024 $3.15M",
+      34
+     ],
+     [
+      2024,
+      "Elevate OH (Columbus)",
+      "Elevate",
+      "John Dang",
+      "John Dang",
+      0,
+      "2024-04-28",
+      "Contacted",
+      "Left vm",
+      "2024 $3.15M",
+      35
+     ],
+     [
+      2024,
+      "Elevate OH (Columbus)",
+      "Elevate",
+      "Renee",
+      "Renee",
       200000,
-      null,
-      "Soft interest",
-      null,
+      "2024-04-24",
+      "Confirmed",
+      "CONFIRMED",
       "2024 $3.15M",
-      68
+      36
      ],
      [
       2024,
-      "Next Deal (soft interest)",
+      "Elevate OH (Columbus)",
       "Elevate",
-      "Erik Friz",
-      "Erik Friz",
+      "Mike Folb",
+      "Mike Folb",
+      100000,
+      "2024-04-23",
+      "Confirmed",
+      "CONFIRMED",
+      "2024 $3.15M",
+      37
+     ],
+     [
+      2024,
+      "Elevate OH (Columbus)",
+      "Elevate",
+      "Hayden",
+      "Hayden",
+      100000,
+      "2024-04-19",
+      "Confirmed",
+      "CONFIRMED",
+      "2024 $3.15M",
+      38
+     ],
+     [
+      2024,
+      "Elevate OH (Columbus)",
+      "Elevate",
+      "Daniel",
+      "Daniel",
       50000,
-      null,
-      "Soft interest",
-      null,
+      "2024-04-19",
+      "Confirmed",
+      "CONFIRMED",
       "2024 $3.15M",
-      69
+      39
      ],
      [
       2024,
-      "Next Deal (soft interest)",
-      "Elevate",
-      "Paul Clata",
-      "Paul Clata",
-      300000,
-      null,
-      "Soft interest",
-      null,
-      "2024 $3.15M",
-      70
-     ],
-     [
-      2024,
-      "Next Deal (soft interest)",
-      "Elevate",
-      "Scott Long",
-      "Scott Long",
-      500000,
-      null,
-      "Soft interest",
-      null,
-      "2024 $3.15M",
-      71
-     ],
-     [
-      2024,
-      "Next Deal (soft interest)",
-      "Elevate",
-      "Don Sanford",
-      "Don Sanford",
-      2000000,
-      null,
-      "Soft interest",
-      null,
-      "2024 $3.15M",
-      72
-     ],
-     [
-      2024,
-      "Next Deal (soft interest)",
-      "Elevate",
-      "Trevor Eli’s Buddy",
-      "Trevor Eli’s Buddy",
-      null,
-      null,
-      "Prospect",
-      null,
-      "2024 $3.15M",
-      73
-     ],
-     [
-      2024,
-      "Next Deal (soft interest)",
-      "Elevate",
-      "Sam Moore",
-      "Sam Moore",
-      null,
-      null,
-      "Prospect",
-      null,
-      "2024 $3.15M",
-      74
-     ],
-     [
-      2024,
-      "Next Deal (soft interest)",
-      "Elevate",
-      "Eric Iantorno",
-      "Eric Iantorno",
-      null,
-      null,
-      "Prospect",
-      null,
-      "2024 $3.15M",
-      75
-     ],
-     [
-      2024,
-      "Next Deal (soft interest)",
-      "Elevate",
-      "CHS airport realtors",
-      "CHS airport realtors",
-      null,
-      null,
-      "Prospect",
-      null,
-      "2024 $3.15M",
-      76
-     ],
-     [
-      2024,
-      "Next Deal (soft interest)",
-      "Elevate",
-      "Bryan Erik PPF lead",
-      "Bryan Erik PPF lead",
-      null,
-      null,
-      "Prospect",
-      null,
-      "2024 $3.15M",
-      77
-     ],
-     [
-      2024,
-      "Next Deal (soft interest)",
-      "Elevate",
-      "Laura Holck",
-      "Laura Holck",
-      100000,
-      null,
-      "Soft interest",
-      null,
-      "2024 $3.15M",
-      78
-     ],
-     [
-      2024,
-      "Next Deal (soft interest)",
-      "Elevate",
-      "Nick Discord",
-      "Nick Discord",
-      100000,
-      null,
-      "Soft interest",
-      null,
-      "2024 $3.15M",
-      79
-     ],
-     [
-      2024,
-      "Next Deal (soft interest)",
+      "Elevate OH (Columbus)",
       "Elevate",
       "Dr Joe Calendra",
       "Dr Joe Calendra",
-      50000,
-      null,
-      "Soft interest",
-      null,
+      100000,
+      "2024-04-23",
+      "Confirmed",
+      "CONFIRMED",
       "2024 $3.15M",
-      80
+      40
+     ],
+     [
+      2024,
+      "Elevate OH (Columbus)",
+      "Elevate",
+      "Paul Clata",
+      "Paul Clata",
+      50000,
+      "2024-05-03",
+      "Confirmed",
+      "CONFIRMED",
+      "2024 $3.15M",
+      41
+     ],
+     [
+      2024,
+      "Elevate OH (Columbus)",
+      "Elevate",
+      "Don Sanford",
+      "Don Sanford",
+      1500000,
+      "2024-04-19",
+      "Confirmed",
+      "CONFIRMED",
+      "2024 $3.15M",
+      42
      ],
      [
       2023,
@@ -8907,11 +8578,11 @@ window.CRM = {
      ],
      [
       "TOTAL",
-      "275 rows",
+      "259 rows",
       null,
       null,
       null,
-      22189591,
+      18089591,
       null,
       null,
       null,
@@ -9193,7 +8864,7 @@ window.CRM = {
     "type": "line",
     "cells": [
      "Amounts",
-     "Investor year columns = $ counted in Shep's year total for that year (2021: INVESTED rows + Hayden/Folb = $2.62M; 2022: 'Confirmed' block = $3.2M; 2024: Columbus + Flamingo; 2025: Eagle + Pocatello; 2026: Portland + OH). Other amounts Shep typed (interest/indications, 2024 'Next Deal' list) stay in Activity Log as 'Indicated' / 'Soft interest' and on Pipeline."
+     "Investor year columns = $ counted in Shep's year total for that year (2021: INVESTED rows + Hayden/Folb = $2.62M; 2022: 'Confirmed' block = $3.2M; 2024: Columbus + Flamingo; 2025: Eagle + Pocatello; 2026: Portland + OH). Other amounts Shep typed (interest/indications) stay in Activity Log as 'Indicated' and on Pipeline. The 2024 'Next Deal' soft-interest list was removed from the source workbook (Oct 12, 4:54 PM PT)."
     ]
    },
    {
