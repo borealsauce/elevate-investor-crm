@@ -5,6 +5,7 @@ const $ = (h)=>{const t=document.createElement('template');t.innerHTML=h.trim();
 const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const money = (v,dec) => (v<0?'-':'')+'$'+Math.abs(v).toLocaleString('en-US',{minimumFractionDigits:dec?2:0,maximumFractionDigits:dec?2:0});
 const fmtMoney = v => money(v, Math.round(v)!==v);
+const moneyOrDash = v => (v==null||v===''||(typeof v==='number'&&!Number.isFinite(v))) ? '—' : fmtMoney(v);
 const pct = v => (v*100).toLocaleString('en-US',{maximumFractionDigits:2})+'%';
 const isPct = h => /RATE|COMM\. %|MARGIN|VS BEST/.test(h);
 const isMoney = h => /\$|RAISE|COMMISSION|AMOUNT|INCOME|GAP|BASIS|DIFFERENCE|SHEP SHEET|SCREENSHOT|^20\d\d$|TOTAL RAISED|LIFETIME|INVESTED/.test(h) && !/YEAR|YR|TAB NAME|NOTE|STATUS|COMMENT|OFFERING\(S\)/.test(h);
@@ -117,12 +118,12 @@ const views={
       <table class="income-tbl"><thead><tr><th>YEAR</th><th class="num">RAISE $</th><th class="num">COMMISSION</th></tr></thead><tbody></tbody><tfoot></tfoot></table>
       <div class="bars raise-bars" style="margin-top:14px"></div></div>`);
     const rt=raise.querySelector('tbody'), rtf=raise.querySelector('tfoot'), rb=raise.querySelector('.raise-bars');
-    const rMax=Math.max(...years.map(raiseComm),1);
+    const rMax=Math.max(...years.map(y=>raiseComm(y)||0),1);
     years.forEach(y=>{
-      rt.appendChild($(`<tr><td>${y}</td><td class="num">${fmtMoney(raiseAmt(y))}</td><td class="num">${fmtMoney(raiseComm(y))}</td></tr>`));
-      rb.appendChild($(`<div class="bar"><div><div class="yr">${y}</div><div class="prog">commission</div></div><div class="track"><div class="fill raise-fill" style="width:${(raiseComm(y)/rMax*100).toFixed(1)}%"></div></div><div class="amt">${fmtMoney(raiseComm(y))}</div></div>`));
+      rt.appendChild($(`<tr><td>${y}</td><td class="num">${fmtMoney(raiseAmt(y))}</td><td class="num">${moneyOrDash(raiseComm(y))}</td></tr>`));
+      rb.appendChild($(`<div class="bar"><div><div class="yr">${y}</div><div class="prog">commission</div></div><div class="track"><div class="fill raise-fill" style="width:${((raiseComm(y)||0)/rMax*100).toFixed(1)}%"></div></div><div class="amt">${moneyOrDash(raiseComm(y))}</div></div>`));
     });
-    rtf.appendChild($(`<tr class="total"><td>TOTAL</td><td class="num">${fmtMoney(sum(raiseAmt))}</td><td class="num">${fmtMoney(sum(raiseComm))}</td></tr>`));
+    rtf.appendChild($(`<tr class="total"><td>TOTAL</td><td class="num">${fmtMoney(sum(raiseAmt))}</td><td class="num">${fmtMoney(sum(y=>raiseComm(y)||0))}</td></tr>`));
     panels.appendChild(raise);
 
     // BROKERING panel
@@ -131,13 +132,13 @@ const views={
       <div class="bars brok-bars" style="margin-top:14px"></div>
       <p class="sub" style="margin-top:10px">Volume = deals transacted with no brokering commission (2024 only in source). 2020–2023 have raise amounts only.</p></div>`);
     const bt=brok.querySelector('tbody'), btf=brok.querySelector('tfoot'), bb=brok.querySelector('.brok-bars');
-    const bMax=Math.max(...years.map(brokComm),1);
+    const bMax=Math.max(...years.map(y=>brokComm(y)||0),1);
     years.forEach(y=>{
       const v=volAmt(y);
-      bt.appendChild($(`<tr><td>${y}</td><td class="num">${fmtMoney(brokComm(y))}</td><td class="num">${v?fmtMoney(v):'—'}</td></tr>`));
-      bb.appendChild($(`<div class="bar"><div><div class="yr">${y}</div><div class="prog">commission</div></div><div class="track"><div class="fill brok-fill" style="width:${(brokComm(y)/bMax*100).toFixed(1)}%"></div></div><div class="amt">${fmtMoney(brokComm(y))}</div></div>`));
+      bt.appendChild($(`<tr><td>${y}</td><td class="num">${moneyOrDash(brokComm(y))}</td><td class="num">${v?fmtMoney(v):'—'}</td></tr>`));
+      bb.appendChild($(`<div class="bar"><div><div class="yr">${y}</div><div class="prog">commission</div></div><div class="track"><div class="fill brok-fill" style="width:${((brokComm(y)||0)/bMax*100).toFixed(1)}%"></div></div><div class="amt">${moneyOrDash(brokComm(y))}</div></div>`));
     });
-    btf.appendChild($(`<tr class="total"><td>TOTAL</td><td class="num">${fmtMoney(sum(brokComm))}</td><td class="num">${fmtMoney(sum(y=>volAmt(y)||0))}</td></tr>`));
+    btf.appendChild($(`<tr class="total"><td>TOTAL</td><td class="num">${fmtMoney(sum(y=>brokComm(y)||0))}</td><td class="num">${fmtMoney(sum(y=>volAmt(y)||0))}</td></tr>`));
     panels.appendChild(brok);
     app.appendChild(panels);
 
@@ -146,13 +147,13 @@ const views={
     const ct=$(`<div class="panel combined-panel"><table class="income-tbl"><thead><tr><th>YEAR</th><th class="num">RAISE COMMISSION</th><th class="num">BROKERING COMMISSION</th><th class="num">TOTAL INCOME</th></tr></thead><tbody></tbody><tfoot></tfoot></table>
       <div class="bars stacked-bars" style="margin-top:16px"></div></div>`);
     const ctb=ct.querySelector('tbody'), ctf=ct.querySelector('tfoot'), sb=ct.querySelector('.stacked-bars');
-    const iMax=Math.max(...years.map(totIncome),1);
+    const iMax=Math.max(...years.map(y=>totIncome(y)||0),1);
     years.forEach(y=>{
-      ctb.appendChild($(`<tr><td>${y}</td><td class="num">${fmtMoney(raiseComm(y))}</td><td class="num">${fmtMoney(brokComm(y))}</td><td class="num">${fmtMoney(totIncome(y))}</td></tr>`));
+      ctb.appendChild($(`<tr><td>${y}</td><td class="num">${moneyOrDash(raiseComm(y))}</td><td class="num">${moneyOrDash(brokComm(y))}</td><td class="num">${moneyOrDash(totIncome(y))}</td></tr>`));
       const rc=raiseComm(y)||0, bc=brokComm(y)||0, tot=totIncome(y)||0;
-      sb.appendChild($(`<div class="bar"><div><div class="yr">${y}</div><div class="prog">stacked</div></div><div class="track stacked"><div class="fill raise-fill" style="width:${(rc/iMax*100).toFixed(1)}%"></div><div class="fill brok-fill" style="width:${(bc/iMax*100).toFixed(1)}%"></div></div><div class="amt">${fmtMoney(tot)}</div></div>`));
+      sb.appendChild($(`<div class="bar"><div><div class="yr">${y}</div><div class="prog">stacked</div></div><div class="track stacked"><div class="fill raise-fill" style="width:${(rc/iMax*100).toFixed(1)}%"></div><div class="fill brok-fill" style="width:${(bc/iMax*100).toFixed(1)}%"></div></div><div class="amt">${moneyOrDash(tot||null)}</div></div>`));
     });
-    ctf.appendChild($(`<tr class="total"><td>GRAND TOTAL</td><td class="num">${fmtMoney(sum(raiseComm))}</td><td class="num">${fmtMoney(sum(brokComm))}</td><td class="num">${fmtMoney(sum(totIncome))}</td></tr>`));
+    ctf.appendChild($(`<tr class="total"><td>GRAND TOTAL</td><td class="num">${fmtMoney(sum(y=>raiseComm(y)||0))}</td><td class="num">${fmtMoney(sum(y=>brokComm(y)||0))}</td><td class="num">${fmtMoney(sum(y=>totIncome(y)||0))}</td></tr>`));
     app.appendChild(ct);
     app.appendChild($(`<div class="legend"><span class="lg raise-lg"></span> Raise commission &nbsp;&nbsp; <span class="lg brok-lg"></span> Brokering commission</div>`));
 
