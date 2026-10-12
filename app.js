@@ -1,6 +1,6 @@
 (function(){
 const D = window.CRM, S = D.sheets;
-const TABS = ['Dashboard','Investors','Deals','Commissions','Pipeline','Activity Log','Year by Year','Reconciliation','Notes'];
+const TABS = ['Dashboard','Investors','Deals','Commissions','Raise Income','Brokering Income','Combined','Pipeline','Activity Log','Year by Year','Reconciliation','Notes'];
 const $ = (h)=>{const t=document.createElement('template');t.innerHTML=h.trim();return t.content.firstChild;};
 const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const money = (v,dec) => (v<0?'-':'')+'$'+Math.abs(v).toLocaleString('en-US',{minimumFractionDigits:dec?2:0,maximumFractionDigits:dec?2:0});
@@ -50,14 +50,42 @@ function renderTable(t, opts={}){
   const thead=tw.querySelector('thead'), tbody=tw.querySelector('tbody'), tfoot=tw.querySelector('tfoot');
   const numCol = t.header.map((h,i)=>body.some(r=>typeof r[i]==='number') && !body.some(r=>typeof r[i]==='string' && r[i]!==''));
   const tr=document.createElement('tr');
-  t.header.forEach((h,i)=>{const th=$(`<th class="${numCol[i]?'num':''}">${esc(h)}</th>`);th.onclick=()=>{state.dir=state.sort===i?-state.dir:1;state.sort=i;draw();};tr.appendChild(th);});
-  thead.appendChild(tr);
+  function headHtml(){
+    const tr=document.createElement('tr');
+    t.header.forEach((h,i)=>{
+      const arrow = state.sort===i ? (state.dir>0?' \u25B2':' \u25BC') : '';
+      const th=$(`<th class="sortable ${numCol[i]?'num':''}" title="Sort">${esc(h)}${arrow}</th>`);
+      th.onclick=()=>{state.dir=state.sort===i?-state.dir:1;state.sort=i;draw();};
+      tr.appendChild(th);
+    });
+    return tr;
+  }
+  thead.appendChild(headHtml());
   const rowHtml=(r,cls='')=>`<tr class="${cls}">${r.map((v,i)=>{const h=t.header[i];
     const inner = (BADGE_COLS.test(h)&&v&&!cls)? badge(v) : fmt(h,v);
     return `<td class="${numCol[i]?'num':''} ${WIDE_COLS.test(h)?'wrapc':''}">${inner}</td>`;}).join('')}</tr>`;
+  const sortKey=v=>{
+    if(v==null||v==='') return null;
+    if(typeof v==='number') return v;
+    if(typeof v==='string'){
+      const n=Number(String(v).replace(/[$,]/g,'').replace(/\((.*)\)/,'-$1'));
+      if(!Number.isNaN(n) && /[\d]/.test(v) && /^[\s$(),.\-\d%]+$/.test(v)) return n;
+      return v.toLowerCase();
+    }
+    return v;
+  };
   function draw(){
     let rows=body.filter(r=>(!state.q||r.join(' ').toLowerCase().includes(state.q))&&(!state.f||String(r[filterCol])===state.f));
-    if(state.sort!=null){const i=state.sort;rows=rows.slice().sort((a,b)=>{const x=a[i],y=b[i];if(x==null)return 1;if(y==null)return -1;return (typeof x==='number'&&typeof y==='number'?x-y:String(x).localeCompare(String(y)))*state.dir;});}
+    if(state.sort!=null){
+      const i=state.sort;
+      rows=rows.slice().sort((a,b)=>{
+        const x=sortKey(a[i]), y=sortKey(b[i]);
+        if(x==null&&y==null) return 0; if(x==null) return 1; if(y==null) return -1;
+        if(typeof x==='number'&&typeof y==='number') return (x-y)*state.dir;
+        return String(x).localeCompare(String(y),undefined,{numeric:true,sensitivity:'base'})*state.dir;
+      });
+    }
+    thead.innerHTML=''; thead.appendChild(headHtml());
     tbody.innerHTML=rows.map(r=>rowHtml(r, (!opts.splitTotal && /^total/i.test(String(r[0])))?'total':'')).join('');
     tfoot.innerHTML= total? rowHtml(total,'total'):'';
     if(wrap._cnt) wrap._cnt.textContent=`${rows.length} of ${body.length} rows`;
@@ -114,7 +142,7 @@ const views={
   'Deals'(app){ const t=titles('Deals'); app.appendChild(sec('Deals','Raises & brokering',t[1])); app.appendChild(renderTable(tables('Deals')[0],{search:'deals',filterCol:'TYPE',splitTotal:true})); },
   'Pipeline'(app){ const t=titles('Pipeline'); app.appendChild(sec('Pipeline','Follow-ups',t[1])); app.appendChild(renderTable(tables('Pipeline')[0],{search:'pipeline',filterCol:'STAGE',splitTotal:true})); },
   'Activity Log'(app){ const t=titles('Activity Log'); app.appendChild(sec('Activity log','Every outreach row',t[1])); app.appendChild(renderTable(tables('Activity Log')[0],{search:'activity',filterCol:'YEAR',splitTotal:true})); },
-  'Commissions':sectioned, 'Year by Year':sectioned, 'Reconciliation':sectioned,
+  'Commissions':sectioned, 'Raise Income':sectioned, 'Brokering Income':sectioned, 'Combined':sectioned, 'Year by Year':sectioned, 'Reconciliation':sectioned,
   'Notes'(app){ app.appendChild(sec('Notes','How this CRM is built')); const p=$(`<div class="panel notes"><dl></dl></div>`);
     S['Notes'].filter(b=>b.type==='line').forEach(b=>p.querySelector('dl').append($(`<dt>${esc(b.cells[0])}</dt>`),$(`<dd>${esc(b.cells.slice(1).join(' '))}</dd>`)));
     p.querySelector('dl').append($(`<dt>Web version</dt>`),$(`<dd>Static site generated from ${esc(D.source)} on ${esc(D.generated)}. ${D.contactsIncluded?'':'Phone and email columns are left out of this public web build; they remain in the workbook.'}</dd>`));
@@ -134,7 +162,7 @@ function sectioned(app, name){
 }
 const nav=document.getElementById('nav'), app=document.getElementById('app');
 document.getElementById('subtitle').textContent=D.dashboard.subtitle;
-document.getElementById('foot').textContent=`Generated from ${D.source} · ${D.generated} · Elevate raise & brokering data only.`;
+document.getElementById('foot').textContent=`Generated from ${D.source} · ${D.generated} · Shepard Banks Investments · raise & brokering data only.`;
 function go(name){ if(!views[name]) name='Dashboard'; app.innerHTML=''; [...nav.children].forEach(b=>b.classList.toggle('on',b.textContent===name)); views[name](app,name); if(location.hash.slice(1)!==encodeURIComponent(name)) history.replaceState(null,'','#'+encodeURIComponent(name)); window.scrollTo(0,0); }
 TABS.forEach(t=>{const b=$(`<button>${t}</button>`);b.onclick=()=>go(t);nav.appendChild(b);});
 window.addEventListener('hashchange',()=>go(decodeURIComponent(location.hash.slice(1))));

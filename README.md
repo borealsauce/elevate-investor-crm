@@ -1,6 +1,6 @@
-# Elevate Investor CRM (static web)
+# Shepard Banks Investments Brokering & Raise Income (static web)
 
-Static, no-build site generated from `Elevate_Investor_CRM.xlsx` (Elevate raise & brokering only).
+Static, no-build site generated from `Elevate_Investor_CRM.xlsx` (Shepard Banks Investments · raise & brokering).
 
 - `tools/extract.py` recalculates the workbook with LibreOffice and writes `data.js`.
   - `python3 tools/extract.py path/to/Elevate_Investor_CRM.xlsx`

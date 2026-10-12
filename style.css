@@ -8,7 +8,7 @@ a{color:var(--gold)}
 .brand{display:flex;gap:14px;align-items:center}
 .logo{width:46px;height:46px;border-radius:12px;border:2px solid var(--gold);display:grid;place-items:center;font-family:Oswald;font-weight:700;font-size:26px;color:var(--gold);box-shadow:0 0 24px #1e3a8a22}
 h1,h2,h3{font-family:Oswald,Inter,sans-serif;letter-spacing:.04em;margin:0}
-h1{font-size:26px;color:var(--gold)}
+h1{font-size:18px;color:var(--gold);line-height:1.15;max-width:520px}
 #subtitle{margin:2px 0 0;font-size:13px}
 .pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .pills button{background:var(--card);color:var(--txt);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font:600 13px Inter;cursor:pointer;transition:.15s}
@@ -73,3 +73,6 @@ td:first-child{white-space:nowrap;font-weight:600}
 td.wrapc{min-width:340px;max-width:520px;line-height:1.4}
 .tblwrap{scrollbar-color:#9ca3af #f3f4f6}
 .tblwrap::-webkit-scrollbar{height:10px;width:10px}.tblwrap::-webkit-scrollbar-track{background:#f3f4f6}.tblwrap::-webkit-scrollbar-thumb{background:#9ca3af;border-radius:10px}
+
+th.sortable{cursor:pointer;user-select:none}
+th.sortable:hover{color:var(--gold)}
