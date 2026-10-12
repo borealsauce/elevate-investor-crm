@@ -120,3 +120,22 @@ th.sortable:hover{color:var(--gold)}
 @media (prefers-reduced-motion: reduce){
   .grand-total .grand-value,.hero .hv{transition:none}
 }
+
+.grand-split{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:8px 0 16px}
+@media(max-width:1000px){.grand-split{grid-template-columns:1fr}}
+.grand-card{border-radius:16px;padding:16px 18px;color:#fff}
+.grand-card.cash{background:linear-gradient(135deg,#1e3a8a,#1e40af)}
+.grand-card.bshare{background:linear-gradient(135deg,#475569,#64748b)}
+.grand-card.all{background:linear-gradient(135deg,#111827,#0f172a)}
+.grand-card .eyebrow{font:700 10px Inter;letter-spacing:.14em;text-transform:uppercase;color:#bfdbfe}
+.grand-card.bshare .eyebrow{color:#e2e8f0}
+.grand-card .grand-label{font:700 12px Inter;letter-spacing:.1em;margin:4px 0 2px;color:#dbeafe}
+.grand-card .grand-value{font:700 32px Oswald,Inter,sans-serif;letter-spacing:.02em}
+.hero-kpis.twin{display:grid;grid-template-columns:1fr 1fr;gap:14px;border-top:1px solid rgba(255,255,255,.22);padding-top:12px;margin-top:12px}
+@media(max-width:700px){.hero-kpis.twin{grid-template-columns:1fr}}
+.hero-block{background:rgba(255,255,255,.08);border-radius:12px;padding:10px 12px}
+.hero-block .hb-title{font:700 10px Inter;letter-spacing:.12em;color:#bfdbfe;margin-bottom:8px}
+.hero-block.bvg .hb-title{color:#e2e8f0}
+.hero-block .hb-note{font:600 10px Inter;color:#cbd5e1;margin-top:6px}
+.bshare-fill{background:linear-gradient(90deg,#64748b,#94a3b8)!important}
+.legend .bshare-lg{background:#64748b}
