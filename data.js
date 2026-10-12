@@ -2226,7 +2226,7 @@ window.CRM = {
    },
    {
     "type": "title",
-    "text": "2026 · $115K BROKERING / $73K RAISE"
+    "text": "2026 · $115K BROKERING / $72.6K RAISE (PAID)"
    },
    {
     "type": "title",
@@ -2281,137 +2281,7 @@ window.CRM = {
    },
    {
     "type": "title",
-    "text": "2026 · SHEP SHEET BASIS (INVESTOR COMMITMENTS BY DEAL)"
-   },
-   {
-    "type": "title",
-    "text": "Raise Income"
-   },
-   {
-    "type": "table",
-    "header": [
-     "OFFERING / INVESTOR",
-     "OFFERING",
-     "RAISE",
-     "RATE",
-     "RAISE COMMISSION",
-     "STATUS",
-     "NOTE"
-    ],
-    "cols": [
-     0,
-     1,
-     2,
-     3,
-     4,
-     5,
-     6
-    ],
-    "rows": [
-     [
-      "Don Sanford (401k)",
-      "Elevate Portland - Frontier & Sequoia",
-      299999,
-      0.02,
-      5999.98,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Hayden",
-      "Elevate Portland - Frontier & Sequoia",
-      50000,
-      0.02,
-      1000,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Don / Cari",
-      "Elevate Portland - Frontier & Sequoia",
-      1100000,
-      0.02,
-      22000,
-      "Committed (Shep sheet)",
-      "DUPLICATE CHECK: same $1.1M in Portland & OH"
-     ],
-     [
-      "Don / Cari",
-      "Elevate OH - Orchard",
-      1100000,
-      0.02,
-      22000,
-      "Committed (Shep sheet)",
-      "DUPLICATE CHECK: same $1.1M in Portland & OH"
-     ],
-     [
-      "Hayden",
-      "Elevate OH - Orchard",
-      300000,
-      0.02,
-      6000,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Don Sanford (401k)",
-      "Elevate OH - Orchard",
-      127592,
-      0.02,
-      2551.84,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Don Sanford",
-      "Parkview RV OR",
-      200000,
-      0.02,
-      4000,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Scott Long",
-      "Parkview RV OR",
-      250000,
-      0.02,
-      5000,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Scott Long",
-      "Bellevue Idaho Riverside RV",
-      217000,
-      0.02,
-      4340,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Don Sanford (401k)",
-      "Bellevue Idaho Riverside RV",
-      200000,
-      0.02,
-      4000,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Total Raise Commission (sheet)",
-      null,
-      3844591,
-      null,
-      76891.82,
-      null,
-      null
-     ]
-    ]
-   },
-   {
-    "type": "title",
-    "text": "2026 · CREDITED BASIS (COMMISSION SCREENSHOT)"
+    "text": "2026 · RAISE COMMISSION (ACTUAL PAID)"
    },
    {
     "type": "title",
@@ -2439,13 +2309,22 @@ window.CRM = {
     ],
     "rows": [
      [
+      "Orchard MHC",
+      "MHC",
+      1427592,
+      0.02,
+      28551.84,
+      "Paid",
+      "Hassan Fall · Oct 6 email · ACH"
+     ],
+     [
       "Frontier MHC",
       "MHC",
       537034.99,
       0.0200000003724152,
       10740.7,
-      "Credited",
-      "Commission screenshot"
+      "Paid",
+      "Hassan Fall · Oct 12 batch"
      ],
      [
       "Sequoia MHC",
@@ -2453,8 +2332,8 @@ window.CRM = {
       997352.54,
       0.0199999991978764,
       19947.05,
-      "Credited",
-      "Commission screenshot"
+      "Paid",
+      "Hassan Fall · Oct 12 batch"
      ],
      [
       "Parkview RV",
@@ -2462,8 +2341,8 @@ window.CRM = {
       450000,
       0.02,
       9000,
-      "Credited",
-      "Commission screenshot"
+      "Paid",
+      "Hassan Fall · Oct 12 batch"
      ],
      [
       "Riverside RV",
@@ -2471,15 +2350,15 @@ window.CRM = {
       217000,
       0.02,
       4340,
-      "Credited",
-      "Commission screenshot"
+      "Paid",
+      "Hassan Fall · Oct 12 batch"
      ],
      [
-      "Total Raise Commission (credited)",
+      "Total Raise (paid)",
       null,
-      2201387.53,
-      0.0199999997274446,
-      44027.75,
+      3628979.53,
+      0.0199999998346643,
+      72579.59,
       null,
       null
      ]
@@ -2489,9 +2368,9 @@ window.CRM = {
     "type": "table",
     "header": [
      "2026 TOTALS",
-     "SHEET BASIS",
-     "CREDITED BASIS",
-     "DIFFERENCE"
+     "RAISE PAID",
+     "BROKERING",
+     "TOTAL INCOME"
     ],
     "cols": [
      0,
@@ -2502,19 +2381,19 @@ window.CRM = {
     "rows": [
      [
       "Total Brokering and Raise",
-      191748.82,
-      158884.75,
-      32864.07
+      72579.59,
+      114857,
+      187436.59
      ]
     ]
    },
    {
     "type": "title",
-    "text": "HISTORY · FROM SHEP'S YEAR TABS"
+    "text": "HISTORY"
    },
    {
     "type": "title",
-    "text": "Income by Year"
+    "text": "Income by Year · one raise commission figure per year"
    },
    {
     "type": "table",
@@ -2541,7 +2420,7 @@ window.CRM = {
       196500,
       83500,
       280000,
-      "2024 tab: Columbus OH $2.1M + Flamingo MI $1.175M; MHP raise comm. $196,500; broker income $83,500 (excl. $27,737 stock income)"
+      "2024 tab: Columbus OH $2.1M + Flamingo MI $1.175M; MHP raise comm. $196,500; broker income $83,500"
      ],
      [
       2025,
@@ -2553,18 +2432,18 @@ window.CRM = {
      ],
      [
       2026,
-      3844591,
-      76891.82,
+      3628979.53,
+      72579.59,
       114857,
-      191748.82,
-      "2026 tab updated 2026-10-12 (sheet basis). Credited basis raise comm. = $44,027.75"
+      187436.59,
+      "2026 = Hassan paid: Orchard $28,551.84 + Oct 12 batch $44,027.75 = $72,579.59"
      ],
      [
       "Total",
-      8969591,
-      310391.82,
+      8753979.53,
+      306079.59,
       382307,
-      692698.82,
+      688386.59,
       null
      ]
     ]
@@ -2577,11 +2456,11 @@ window.CRM = {
    },
    {
     "type": "title",
-    "text": "Elevate raises & offerings only · credited (screenshot) + Shep sheet investor commitments · by deal and year"
+    "text": "Elevate / BoaVida raises · ONE raise commission figure per year (2026 = Hassan paid)"
    },
    {
     "type": "title",
-    "text": "2026 · CREDITED (HASSAN / COMMISSION SCREENSHOT)"
+    "text": "2026 · ACTUAL PAID (HASSAN FALL)"
    },
    {
     "type": "title",
@@ -2611,14 +2490,24 @@ window.CRM = {
     ],
     "rows": [
      [
+      "Orchard MHC",
+      "MHC",
+      2026,
+      1427592,
+      0.02,
+      28551.84,
+      "Paid",
+      "Hassan Fall · Oct 6 email · ACH"
+     ],
+     [
       "Frontier MHC",
       "MHC",
       2026,
       537034.99,
       0.0200000003724152,
       10740.7,
-      "Credited",
-      "Commission screenshot"
+      "Paid",
+      "Hassan Fall · Oct 12 batch"
      ],
      [
       "Sequoia MHC",
@@ -2627,8 +2516,8 @@ window.CRM = {
       997352.54,
       0.0199999991978764,
       19947.05,
-      "Credited",
-      "Commission screenshot"
+      "Paid",
+      "Hassan Fall · Oct 12 batch"
      ],
      [
       "Parkview RV",
@@ -2637,8 +2526,8 @@ window.CRM = {
       450000,
       0.02,
       9000,
-      "Credited",
-      "Commission screenshot"
+      "Paid",
+      "Hassan Fall · Oct 12 batch"
      ],
      [
       "Riverside RV",
@@ -2647,159 +2536,16 @@ window.CRM = {
       217000,
       0.02,
       4340,
-      "Credited",
-      "Commission screenshot"
+      "Paid",
+      "Hassan Fall · Oct 12 batch"
      ],
      [
-      "TOTAL CREDITED",
+      "TOTAL 2026 PAID",
       null,
       null,
-      2201387.53,
+      3628979.53,
       null,
-      44027.75,
-      null,
-      null
-     ]
-    ]
-   },
-   {
-    "type": "title",
-    "text": "2026 · SHEP SHEET (INVESTOR COMMITMENTS BY OFFERING)"
-   },
-   {
-    "type": "title",
-    "text": "Raise by investor / offering"
-   },
-   {
-    "type": "table",
-    "header": [
-     "INVESTOR",
-     "OFFERING",
-     "YEAR",
-     "RAISE $",
-     "COMM. %",
-     "COMMISSION $",
-     "STATUS",
-     "NOTE"
-    ],
-    "cols": [
-     0,
-     1,
-     2,
-     3,
-     4,
-     5,
-     6,
-     7
-    ],
-    "rows": [
-     [
-      "Don Sanford (401k)",
-      "Elevate Portland - Frontier & Sequoia",
-      2026,
-      299999,
-      0.02,
-      5999.98,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Hayden",
-      "Elevate Portland - Frontier & Sequoia",
-      2026,
-      50000,
-      0.02,
-      1000,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Don / Cari",
-      "Elevate Portland - Frontier & Sequoia",
-      2026,
-      1100000,
-      0.02,
-      22000,
-      "Committed (Shep sheet)",
-      "Duplicate flag"
-     ],
-     [
-      "Don / Cari",
-      "Elevate OH - Orchard",
-      2026,
-      1100000,
-      0.02,
-      22000,
-      "Committed (Shep sheet)",
-      "Duplicate flag"
-     ],
-     [
-      "Hayden",
-      "Elevate OH - Orchard",
-      2026,
-      300000,
-      0.02,
-      6000,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Don Sanford (401k)",
-      "Elevate OH - Orchard",
-      2026,
-      127592,
-      0.02,
-      2551.84,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Don Sanford",
-      "Parkview RV OR",
-      2026,
-      200000,
-      0.02,
-      4000,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Scott Long",
-      "Parkview RV OR",
-      2026,
-      250000,
-      0.02,
-      5000,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Scott Long",
-      "Bellevue Idaho Riverside RV",
-      2026,
-      217000,
-      0.02,
-      4340,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "Don Sanford (401k)",
-      "Bellevue Idaho Riverside RV",
-      2026,
-      200000,
-      0.02,
-      4000,
-      "Committed (Shep sheet)",
-      null
-     ],
-     [
-      "TOTAL SHEET 2026",
-      null,
-      null,
-      3844591,
-      null,
-      76891.82,
+      72579.59,
       null,
       null
      ]
@@ -2894,57 +2640,45 @@ window.CRM = {
    },
    {
     "type": "title",
-    "text": "Raise income by year"
+    "text": "Raise income by year · single commission column"
    },
    {
     "type": "table",
     "header": [
      "YEAR",
-     "RAISE $ (SHEET / OFFERINGS)",
+     "RAISE $",
      "RAISE COMMISSION",
-     "RAISE $ (CREDITED 2026)",
-     "RAISE COMM (CREDITED)",
      "NOTES"
     ],
     "cols": [
      0,
      1,
      2,
-     3,
-     4,
-     5
+     3
     ],
     "rows": [
      [
       2024,
       3275000,
       196500,
-      null,
-      null,
       "Columbus + Flamingo"
      ],
      [
       2025,
       1850000,
       37000,
-      null,
-      null,
       "Eagle + Pocatello"
      ],
      [
       2026,
-      3844591,
-      76891.82,
-      2201387.53,
-      44027.75,
-      "Sheet updated 2026-10-12; credited = Hassan screenshot"
+      3628979.53,
+      72579.59,
+      "Hassan paid: Orchard $28,551.84 + Oct 12 $44,027.75"
      ],
      [
       "TOTAL",
-      8969591,
-      310391.82,
-      2201387.53,
-      44027.75,
+      8753979.53,
+      306079.59,
       null
      ]
     ]
@@ -3282,7 +3016,7 @@ window.CRM = {
    },
    {
     "type": "title",
-    "text": "Raise income + brokering income side by side by year · grand total"
+    "text": "Raise income + brokering income side by side by year · one raise commission per year · grand total"
    },
    {
     "type": "title",
@@ -3296,7 +3030,7 @@ window.CRM = {
     "type": "table",
     "header": [
      "YEAR",
-     "RAISE $ (OFFERINGS)",
+     "RAISE $",
      "RAISE COMMISSION",
      "BROKERING COMMISSION",
      "TOTAL INCOME",
@@ -3333,66 +3067,21 @@ window.CRM = {
      ],
      [
       2026,
-      3844591,
-      76891.82,
+      3628979.53,
+      72579.59,
       114857,
-      191748.82,
+      187436.59,
       null,
-      "Sheet basis updated 2026-10-12. Credited raise comm $44,027.75 not in Total Income col."
+      "2026 raise commission = Hassan paid $72,579.59"
      ],
      [
       "GRAND TOTAL",
-      8969591,
-      310391.82,
+      8753979.53,
+      306079.59,
       382307,
-      692698.82,
+      688386.59,
       18035000,
       null
-     ]
-    ]
-   },
-   {
-    "type": "title",
-    "text": "2026 DETAIL"
-   },
-   {
-    "type": "title",
-    "text": "Sheet vs credited raise"
-   },
-   {
-    "type": "table",
-    "header": [
-     "BASIS",
-     "RAISE $",
-     "RAISE COMMISSION",
-     "BROKERING",
-     "TOTAL INCOME",
-     "DIFFERENCE VS SHEET"
-    ],
-    "cols": [
-     0,
-     1,
-     2,
-     3,
-     4,
-     5
-    ],
-    "rows": [
-     [
-      "Shep sheet",
-      3844591,
-      76891.82,
-      114857,
-      4036339.82,
-      null
-     ],
-     [
-      "Credited (screenshot)",
-      2201387.53,
-      44027.75,
-      114857,
-      2360272.28,
-      1676067.54
      ]
     ]
    }
@@ -9043,18 +8732,18 @@ window.CRM = {
       "Elevate",
       "2026 $115K Brokering / $51K Raise",
       null,
-      3844591,
-      76891.82,
+      3628979.53,
+      72579.59,
       114857,
-      "Sheet updated 2026-10-12 (raise ~$3.84M / comm ~$72.9K). Not yet on 'Total Raised' tab. Credited raise = $2,201,387.53"
+      "2026 raise commission = Hassan paid $72,579.59 (Orchard + Oct 12 batch). Not yet on 'Total Raised' tab."
      ],
      [
       "Total",
       null,
       null,
       12820000,
-      18089591,
-      310391.82,
+      17873979.53,
+      306079.59,
       382307,
       null
      ],
@@ -9078,14 +8767,14 @@ window.CRM = {
    },
    {
     "type": "title",
-    "text": "2026 Elevate raise: Shep's investor-based sheet vs. deal-based commission screenshot"
+    "text": "2026 Elevate raise: CRM uses Hassan paid commission; Shep sheet estimates noted below only"
    },
    {
     "type": "table",
     "header": [
      "ITEM",
-     "SHEP SHEET",
-     "SCREENSHOT (CREDITED)",
+     "RAISE $",
+     "RAISE COMMISSION",
      "DIFFERENCE",
      "COMMENT"
     ],
@@ -9098,18 +8787,25 @@ window.CRM = {
     ],
     "rows": [
      [
-      "2026 Elevate raise",
-      3844591,
-      2201387.53,
-      1643203.47,
-      "Sheet updated 2026-10-12: investor-mapped to Frontier&Sequoia, Orchard, Parkview, Riverside; screenshot still deal-based credited amounts"
+      "2026 raise · paid (used in CRM)",
+      3628979.53,
+      72579.59,
+      "#N/A",
+      "Hassan paid: Orchard $1,427,592 / $28,551.84 + Oct 12 batch $2,201,387.53 / $44,027.75 = $72,579.59"
      ],
      [
-      "2026 raise commission (2%)",
+      "Shep sheet line-item estimate (not used)",
+      3844591,
       76891.82,
-      44027.75,
-      32864.07,
-      "Screenshot is exactly 2% on every deal"
+      "#N/A",
+      "Investor-commitment rows on Shep 2026 tab; Dashboard/Combined ignore this"
+     ],
+     [
+      "Shep printed raise-comm total (not used)",
+      null,
+      72891.82,
+      "#N/A",
+      "Printed $72,891.82 is $4,000 under Shep's own line items"
      ]
     ]
    },
@@ -9243,82 +8939,6 @@ window.CRM = {
  "dashboard": {
   "title": "SHEPARD BANKS INVESTMENTS BROKERING & RAISE INCOME",
   "subtitle": "Raise & brokering CRM · Year to date · 2026",
-  "kpis": [
-   {
-    "label": "RAISE · CREDITED",
-    "value": 2201387.53,
-    "caption": "4 deals · commission screenshot"
-   },
-   {
-    "label": "RAISE COMMISSION",
-    "value": 44027.75,
-    "caption": "2% of credited raise"
-   },
-   {
-    "label": "BROKERING INCOME",
-    "value": 114857,
-    "caption": "Dean TN Cox / Lemay · Don DB NNN"
-   },
-   {
-    "label": "TOTAL INCOME",
-    "value": 158884.75,
-    "caption": "Brokering + credited raise comm."
-   },
-   {
-    "label": "MARGIN OF RAISE",
-    "value": 0.0199999997274446,
-    "caption": "Commission ÷ raise"
-   },
-   {
-    "label": "RAISE · SHEP SHEET",
-    "value": 3844591,
-    "caption": "Portland $1.15M + OH $1.4M"
-   },
-   {
-    "label": "SHEET COMMISSION",
-    "value": 76891.82,
-    "caption": "Shep 2026 tab"
-   },
-   {
-    "label": "GAP · SHEET VS CREDITED",
-    "value": 1643203.47,
-    "caption": "See Reconciliation (Don / Cari dup?)"
-   },
-   {
-    "label": "ACTIVE INVESTORS",
-    "value": 4,
-    "caption": "Status = Active 2026"
-   },
-   {
-    "label": "OPEN PIPELINE",
-    "value": 170,
-    "caption": "Follow-ups on Pipeline tab"
-   },
-   {
-    "label": "BEST RAISE YEAR",
-    "value": 2026,
-    "caption": "Highest $ raised per year tab"
-   },
-   {
-    "label": "BEST YEAR RAISED",
-    "value": 3844591,
-    "caption": "Benchmark 100%"
-   },
-   {
-    "label": "2026 VS BEST",
-    "value": 0.572593425412482,
-    "caption": "Credited 2026 ÷ best year"
-   },
-   {
-    "label": "LIFETIME RAISED",
-    "value": 18089591,
-    "caption": "2020–2026 per year tabs"
-   },
-   {
-    "label": "LIFETIME COMMISSION",
-    "value": 692698.82,
-    "caption": "Raise + brokering 2024–26"
-   }
-  ]
+  "kpis": []
  }
 };

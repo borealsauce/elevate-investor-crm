@@ -79,3 +79,31 @@ th.sortable:hover{color:var(--gold)}
 
 .inv-link tbody td:first-child{cursor:pointer;color:var(--gold);text-decoration:underline;text-decoration-color:#93c5fd;text-underline-offset:3px}
 .inv-link tbody tr.total td:first-child{text-decoration:none;cursor:default}
+
+.income-split{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+@media(max-width:1000px){.income-split{grid-template-columns:1fr}}
+.income-panel{padding:0;overflow:hidden}
+.income-panel .panel-head{padding:14px 16px 10px;color:#fff}
+.raise-panel .panel-head{background:#1E3A8A}
+.brok-panel .panel-head{background:#2563EB}
+.income-panel .panel-head h3{color:#fff;margin:2px 0 4px;font-size:20px}
+.income-panel .panel-head .eyebrow{font:700 10px Inter;letter-spacing:.16em;text-transform:uppercase;color:#bfdbfe}
+.income-panel .panel-head .sub{color:#dbeafe;margin:0}
+.income-panel .income-tbl{margin:0;border:none;border-radius:0}
+.income-panel .income-tbl th{background:transparent;color:#1E3A8A}
+.brok-panel .income-tbl th{color:#2563EB}
+.income-panel .income-tbl thead th{background:#eff6ff;color:inherit;position:static}
+.income-panel > .income-tbl, .income-panel > .bars, .income-panel > .sub{padding-left:16px;padding-right:16px}
+.income-panel > .sub{padding-bottom:14px}
+.income-panel > .bars{padding-bottom:8px}
+.raise-fill{background:linear-gradient(90deg,#1e3a8a,#1e40af)!important}
+.brok-fill{background:linear-gradient(90deg,#2563eb,#3b82f6)!important}
+.track.stacked{display:flex;background:#e5e7eb}
+.track.stacked .fill{border-radius:0}
+.track.stacked .fill:first-child{border-radius:999px 0 0 999px}
+.track.stacked .fill:last-child{border-radius:0 999px 999px 0}
+.combined-panel .income-tbl thead th{background:#111827}
+.legend{display:flex;gap:18px;align-items:center;margin:10px 0 0;color:var(--muted);font-size:12px}
+.legend .lg{display:inline-block;width:14px;height:14px;border-radius:4px;margin-right:6px;vertical-align:middle}
+.legend .raise-lg{background:#1E3A8A}
+.legend .brok-lg{background:#2563EB}

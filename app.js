@@ -99,44 +99,79 @@ function kpiGrid(list){ const g=$(`<div class="kpis"></div>`); list.forEach(k=>{
 
 const views={
   'Dashboard'(app){
-    const k=D.dashboard.kpis;
-    app.appendChild(sec('This year · 2026','Raise & commission'));
-    app.appendChild(kpiGrid(k.slice(0,5))); app.appendChild($('<div style="height:12px"></div>')); app.appendChild(kpiGrid(k.slice(5,10)));
-    app.appendChild(sec('Benchmark','Best year')); app.appendChild(kpiGrid(k.slice(10,15)));
-    app.appendChild(sec('Leaderboard','Investors, offerings & follow-ups'));
+    app.appendChild(sec('Income split','Raise vs Brokering · clearly separated'));
+    // Prefer Combined rollup (single raise commission per year). Fall back to Raise Income / Brokering Income tables.
+    const comb=tables('Combined')[0], ch=comb.header, cix=n=>ch.indexOf(n);
+    const years=[2024,2025,2026];
+    const crow=y=>comb.rows.find(r=>r[cix('YEAR')]==y);
+    const raiseComm=y=>{const r=crow(y); return r?r[cix('RAISE COMMISSION')]:0;};
+    const raiseAmt=y=>{const r=crow(y); return r?r[cix('RAISE $')]:0;};
+    const brokComm=y=>{const r=crow(y); return r?r[cix('BROKERING COMMISSION')]:0;};
+    const volAmt=y=>{const r=crow(y); const i=cix('VOLUME TRANSACTED (NO COMM)'); return r&&i>=0?r[i]:null;};
+    const totIncome=y=>{const r=crow(y); return r?r[cix('TOTAL INCOME')]:0;};
+    const sum=(fn)=>years.reduce((a,y)=>a+(fn(y)||0),0);
+
+    const panels=$(`<div class="income-split"></div>`);
+    // RAISE panel
+    const raise=$(`<div class="panel income-panel raise-panel"><div class="panel-head"><div class="eyebrow">Elevate / BoaVida</div><h3>RAISE INCOME</h3><p class="sub">Raise amount &amp; commission by year · 2026 = Hassan paid</p></div>
+      <table class="income-tbl"><thead><tr><th>YEAR</th><th class="num">RAISE $</th><th class="num">COMMISSION</th></tr></thead><tbody></tbody><tfoot></tfoot></table>
+      <div class="bars raise-bars" style="margin-top:14px"></div></div>`);
+    const rt=raise.querySelector('tbody'), rtf=raise.querySelector('tfoot'), rb=raise.querySelector('.raise-bars');
+    const rMax=Math.max(...years.map(raiseComm),1);
+    years.forEach(y=>{
+      rt.appendChild($(`<tr><td>${y}</td><td class="num">${fmtMoney(raiseAmt(y))}</td><td class="num">${fmtMoney(raiseComm(y))}</td></tr>`));
+      rb.appendChild($(`<div class="bar"><div><div class="yr">${y}</div><div class="prog">commission</div></div><div class="track"><div class="fill raise-fill" style="width:${(raiseComm(y)/rMax*100).toFixed(1)}%"></div></div><div class="amt">${fmtMoney(raiseComm(y))}</div></div>`));
+    });
+    rtf.appendChild($(`<tr class="total"><td>TOTAL</td><td class="num">${fmtMoney(sum(raiseAmt))}</td><td class="num">${fmtMoney(sum(raiseComm))}</td></tr>`));
+    panels.appendChild(raise);
+
+    // BROKERING panel
+    const brok=$(`<div class="panel income-panel brok-panel"><div class="panel-head"><div class="eyebrow">Deal commissions</div><h3>BROKERING INCOME</h3><p class="sub">Commission by year · volume noted separately</p></div>
+      <table class="income-tbl"><thead><tr><th>YEAR</th><th class="num">COMMISSION</th><th class="num">VOLUME (NO COMM)</th></tr></thead><tbody></tbody><tfoot></tfoot></table>
+      <div class="bars brok-bars" style="margin-top:14px"></div>
+      <p class="sub" style="margin-top:10px">Volume = deals transacted with no brokering commission (2024 only).</p></div>`);
+    const bt=brok.querySelector('tbody'), btf=brok.querySelector('tfoot'), bb=brok.querySelector('.brok-bars');
+    const bMax=Math.max(...years.map(brokComm),1);
+    years.forEach(y=>{
+      const v=volAmt(y);
+      bt.appendChild($(`<tr><td>${y}</td><td class="num">${fmtMoney(brokComm(y))}</td><td class="num">${v?fmtMoney(v):'—'}</td></tr>`));
+      bb.appendChild($(`<div class="bar"><div><div class="yr">${y}</div><div class="prog">commission</div></div><div class="track"><div class="fill brok-fill" style="width:${(brokComm(y)/bMax*100).toFixed(1)}%"></div></div><div class="amt">${fmtMoney(brokComm(y))}</div></div>`));
+    });
+    btf.appendChild($(`<tr class="total"><td>TOTAL</td><td class="num">${fmtMoney(sum(brokComm))}</td><td class="num">${fmtMoney(sum(y=>volAmt(y)||0))}</td></tr>`));
+    panels.appendChild(brok);
+    app.appendChild(panels);
+
+    // COMBINED
+    app.appendChild(sec('Combined','Total income by year (raise commission + brokering commission)'));
+    const ct=$(`<div class="panel combined-panel"><table class="income-tbl"><thead><tr><th>YEAR</th><th class="num">RAISE COMMISSION</th><th class="num">BROKERING COMMISSION</th><th class="num">TOTAL INCOME</th></tr></thead><tbody></tbody><tfoot></tfoot></table>
+      <div class="bars stacked-bars" style="margin-top:16px"></div></div>`);
+    const ctb=ct.querySelector('tbody'), ctf=ct.querySelector('tfoot'), sb=ct.querySelector('.stacked-bars');
+    const iMax=Math.max(...years.map(totIncome),1);
+    years.forEach(y=>{
+      ctb.appendChild($(`<tr><td>${y}</td><td class="num">${fmtMoney(raiseComm(y))}</td><td class="num">${fmtMoney(brokComm(y))}</td><td class="num">${fmtMoney(totIncome(y))}</td></tr>`));
+      const rc=raiseComm(y)||0, bc=brokComm(y)||0, tot=totIncome(y)||0;
+      sb.appendChild($(`<div class="bar"><div><div class="yr">${y}</div><div class="prog">stacked</div></div><div class="track stacked"><div class="fill raise-fill" style="width:${(rc/iMax*100).toFixed(1)}%"></div><div class="fill brok-fill" style="width:${(bc/iMax*100).toFixed(1)}%"></div></div><div class="amt">${fmtMoney(tot)}</div></div>`));
+    });
+    ctf.appendChild($(`<tr class="total"><td>GRAND TOTAL</td><td class="num">${fmtMoney(sum(raiseComm))}</td><td class="num">${fmtMoney(sum(brokComm))}</td><td class="num">${fmtMoney(sum(totIncome))}</td></tr>`));
+    app.appendChild(ct);
+    app.appendChild($(`<div class="legend"><span class="lg raise-lg"></span> Raise commission &nbsp;&nbsp; <span class="lg brok-lg"></span> Brokering commission</div>`));
+
+    // Leaderboard + pipeline (not mixed income KPIs)
+    app.appendChild(sec('Leaderboard','Investors & follow-ups'));
     const g=$(`<div class="grid2"></div>`); app.appendChild(g);
-    // leaderboard
     const inv=tables('Investors')[0], H=inv.header, li=H.indexOf('LIFETIME $ LISTED'), si=H.indexOf('STATUS');
     const top=inv.rows.filter(r=>r[0]!=='TOTAL'&&typeof r[li]==='number').sort((a,b)=>b[li]-a[li]).slice(0,10);
     const p1=$(`<div class="panel"><h3>TOP INVESTORS · LIFETIME $ LISTED</h3><div class="lb"></div></div>`);
     top.forEach((r,i)=>p1.querySelector('.lb').appendChild($(`<div class="lbrow"><div class="rk">${i+1}</div><div><div class="nm">${esc(r[0])}</div><div class="st">${esc(r[si])}</div></div><div class="amt">${fmtMoney(r[li])}</div></div>`)));
-    if(top[0]) p1.appendChild($(`<div class="callout">🏆 ${esc(top[0][0])} leads lifetime $ listed across Shep's tabs.</div>`));
+    if(top[0]) p1.appendChild($(`<div class="callout">🏆 ${esc(top[0][0])} leads lifetime $ listed.</div>`));
     g.appendChild(p1);
-    // offerings
-    const dl=tables('Deals')[0], dh=dl.header, ix=n=>dh.indexOf(n);
-    const offs=dl.rows.filter(r=>r[ix('TYPE')]==='Raise (offering)');
-    const act=tables('Activity Log')[0], ah=act.header;
-    const p2=$(`<div class="panel"><h3>OFFERINGS</h3><div class="tblwrap" style="max-height:none"><table><thead><tr><th>OFFERING</th><th class="num">YEAR</th><th class="num">RAISED</th><th class="num">COMMISSION</th><th class="num">RATE</th></tr></thead><tbody>${
-      offs.sort((a,b)=>b[ix('GROSS $ (RAISE / PRICE)')]-a[ix('GROSS $ (RAISE / PRICE)')]).map(r=>`<tr><td>${esc(r[ix('DEAL')])}</td><td class="num">${r[ix('YEAR')]}</td><td class="num">${fmtMoney(r[ix('GROSS $ (RAISE / PRICE)')])}</td><td class="num">${fmtMoney(r[ix('COMMISSION $')])}</td><td class="num">${pct(r[ix('COMM. %')])}</td></tr>`).join('')
-    }</tbody></table></div></div>`);
-    const credited=dl.rows.filter(r=>r[ix('STATUS')]==='Credited');
-    p2.appendChild($(`<h3 style="margin-top:16px">2026 CREDITED DEALS · COMMISSION SCREENSHOT</h3>`));
-    p2.appendChild($(`<div class="tblwrap" style="max-height:none"><table><thead><tr><th>DEAL</th><th>ASSET</th><th class="num">RAISE</th><th class="num">COMMISSION</th></tr></thead><tbody>${credited.map(r=>`<tr><td>${esc(r[ix('DEAL')])}</td><td>${esc(r[ix('ASSET')]||'')}</td><td class="num">${fmtMoney(r[ix('GROSS $ (RAISE / PRICE)')])}</td><td class="num">${fmtMoney(r[ix('COMMISSION $')])}</td></tr>`).join('')}</tbody></table></div>`));
-    g.appendChild(p2);
-    // breakdown
-    const g2=$(`<div class="grid2" style="margin-top:16px"></div>`); app.appendChild(g2);
-    const yb=tables('Year by Year')[0], yh=yb.header, yr=yb.rows.filter(r=>typeof r[0]==='number');
-    const ri=yh.indexOf('RAISED PER YEAR TAB'), mx=Math.max(...yr.map(r=>r[ri]||0));
-    const p3=$(`<div class="panel"><h3>RAISED BY YEAR · PER YEAR TAB</h3><div class="bars"></div></div>`);
-    yr.forEach(r=>p3.querySelector('.bars').appendChild($(`<div class="bar"><div><div class="yr">${r[0]}</div><div class="prog">${esc(r[1])}</div></div><div class="track"><div class="fill" style="width:${(r[ri]/mx*100).toFixed(1)}%"></div></div><div class="amt">${fmtMoney(r[ri])}</div></div>`)));
-    g2.appendChild(p3);
     const pl=tables('Pipeline')[0], ph=pl.header, pi=n=>ph.indexOf(n);
     const p4=$(`<div class="panel"><h3>PIPELINE · FOLLOW-UPS</h3><div class="pipe"></div></div>`);
-    const order={'Committed':0,'Re-engage':1,'Brokering':2,'Brokering lead':3};
+    const order={'Committed':0,'Re-engage':1,'Brokering':2,'Brokering lead':3,'Prospect':4};
     pl.rows.filter(r=>r[0]!=='TOTAL').sort((a,b)=>(order[a[1]]??9)-(order[b[1]]??9)||(b[pi('INDICATED $')]||0)-(a[pi('INDICATED $')]||0)).slice(0,10)
       .forEach(r=>p4.querySelector('.pipe').appendChild($(`<div class="it"><b>${esc(r[0])}</b> · ${badge(r[1])}<br><span>${esc(r[pi('SUGGESTED NEXT STEP')]||'')}${r[pi('INDICATED $')]?' · '+fmtMoney(r[pi('INDICATED $')]):''}</span></div>`)));
     p4.appendChild($(`<p class="sub" style="margin-top:10px">Full list on the Pipeline tab.</p>`));
-    g2.appendChild(p4);
+    g.appendChild(p4);
   },
   'Investors'(app){ const t=titles('Investors'); app.appendChild(sec('Investors','Contacts',t[1]));
     app.appendChild($(`<p class="sub">Click an investor's name to open their park positions.</p>`));
