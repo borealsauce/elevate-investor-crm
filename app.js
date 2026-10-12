@@ -102,7 +102,7 @@ const views={
     app.appendChild(sec('Income split','Raise vs Brokering · clearly separated'));
     // Prefer Combined rollup (single raise commission per year). Fall back to Raise Income / Brokering Income tables.
     const comb=tables('Combined')[0], ch=comb.header, cix=n=>ch.indexOf(n);
-    const years=[2024,2025,2026];
+    const years=comb.rows.filter(r=>typeof r[cix('YEAR')]==='number').map(r=>r[cix('YEAR')]).sort((a,b)=>a-b);
     const crow=y=>comb.rows.find(r=>r[cix('YEAR')]==y);
     const raiseComm=y=>{const r=crow(y); return r?r[cix('RAISE COMMISSION')]:0;};
     const raiseAmt=y=>{const r=crow(y); return r?r[cix('RAISE $')]:0;};
@@ -113,7 +113,7 @@ const views={
 
     const panels=$(`<div class="income-split"></div>`);
     // RAISE panel
-    const raise=$(`<div class="panel income-panel raise-panel"><div class="panel-head"><div class="eyebrow">Elevate / BoaVida</div><h3>RAISE INCOME</h3><p class="sub">Raise amount &amp; commission by year · 2026 = Hassan paid</p></div>
+    const raise=$(`<div class="panel income-panel raise-panel"><div class="panel-head"><div class="eyebrow">Elevate / BoaVida</div><h3>RAISE INCOME</h3><p class="sub">Raise amount &amp; commission by year · blank commission = not in source · 2026 = Hassan paid</p></div>
       <table class="income-tbl"><thead><tr><th>YEAR</th><th class="num">RAISE $</th><th class="num">COMMISSION</th></tr></thead><tbody></tbody><tfoot></tfoot></table>
       <div class="bars raise-bars" style="margin-top:14px"></div></div>`);
     const rt=raise.querySelector('tbody'), rtf=raise.querySelector('tfoot'), rb=raise.querySelector('.raise-bars');
@@ -129,7 +129,7 @@ const views={
     const brok=$(`<div class="panel income-panel brok-panel"><div class="panel-head"><div class="eyebrow">Deal commissions</div><h3>BROKERING INCOME</h3><p class="sub">Commission by year · volume noted separately</p></div>
       <table class="income-tbl"><thead><tr><th>YEAR</th><th class="num">COMMISSION</th><th class="num">VOLUME (NO COMM)</th></tr></thead><tbody></tbody><tfoot></tfoot></table>
       <div class="bars brok-bars" style="margin-top:14px"></div>
-      <p class="sub" style="margin-top:10px">Volume = deals transacted with no brokering commission (2024 only).</p></div>`);
+      <p class="sub" style="margin-top:10px">Volume = deals transacted with no brokering commission (2024 only in source). 2020–2023 have raise amounts only.</p></div>`);
     const bt=brok.querySelector('tbody'), btf=brok.querySelector('tfoot'), bb=brok.querySelector('.brok-bars');
     const bMax=Math.max(...years.map(brokComm),1);
     years.forEach(y=>{

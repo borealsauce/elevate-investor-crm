@@ -1748,6 +1748,66 @@ window.CRM = {
     ],
     "rows": [
      [
+      "D-2001",
+      "BoaVida 2020",
+      "Raise (offering)",
+      "BoaVida",
+      null,
+      2020,
+      "Dean, Scott Long",
+      800000,
+      null,
+      null,
+      "Closed",
+      "Shep 2020 tab",
+      "No commission figure in source"
+     ],
+     [
+      "D-2101",
+      "BoaVida 2021",
+      "Raise (offering)",
+      "BoaVida",
+      null,
+      2021,
+      null,
+      2620000,
+      null,
+      null,
+      "Closed",
+      "Shep 2021 tab",
+      "No commission figure in source"
+     ],
+     [
+      "D-2201",
+      "BoaVida 2022",
+      "Raise (offering)",
+      "BoaVida",
+      null,
+      2022,
+      null,
+      3200000,
+      null,
+      null,
+      "Closed",
+      "Shep 2022 tab",
+      "Confirmed block total; no commission figure in source"
+     ],
+     [
+      "D-2301",
+      "BoaVida 2023",
+      "Raise (offering)",
+      "BoaVida",
+      null,
+      2023,
+      "Don Sanford",
+      2500000,
+      null,
+      null,
+      "Closed",
+      "Shep 2023 tab",
+      "No commission figure in source"
+     ],
+     [
       "D-2601",
       "Frontier MHC",
       "Raise",
@@ -2199,13 +2259,13 @@ window.CRM = {
      ],
      [
       "TOTAL",
-      "30 deals",
+      "34 deals",
       null,
       null,
       null,
       null,
       null,
-      38991728.53,
+      48111728.53,
       null,
       736726.57,
       null,
@@ -2415,6 +2475,38 @@ window.CRM = {
     ],
     "rows": [
      [
+      2020,
+      800000,
+      null,
+      null,
+      0,
+      "BoaVida · Dean $300K + Scott Long $500K · no commission figure in source"
+     ],
+     [
+      2021,
+      2620000,
+      null,
+      null,
+      0,
+      "BoaVida · Total Raised / year tab $2.62M · no commission figure in source"
+     ],
+     [
+      2022,
+      3200000,
+      null,
+      null,
+      0,
+      "BoaVida · Confirmed block $3.2M · no commission figure in source"
+     ],
+     [
+      2023,
+      2500000,
+      null,
+      null,
+      0,
+      "BoaVida · Don Sanford $2.5M · no commission figure in source"
+     ],
+     [
       2024,
       3275000,
       196500,
@@ -2440,7 +2532,7 @@ window.CRM = {
      ],
      [
       "Total",
-      8753979.53,
+      17873979.53,
       306079.59,
       382307,
       688386.59,
@@ -2553,11 +2645,11 @@ window.CRM = {
    },
    {
     "type": "title",
-    "text": "PRIOR YEARS · ELEVATE OFFERINGS"
+    "text": "PRIOR YEARS · BOAVIDA + ELEVATE OFFERINGS"
    },
    {
     "type": "title",
-    "text": "Raise by year (closed offerings)"
+    "text": "Raise by offering (closed)"
    },
    {
     "type": "table",
@@ -2583,24 +2675,44 @@ window.CRM = {
     ],
     "rows": [
      [
-      "Elevate Eagle, ID",
-      "Elevate",
-      2025,
-      550000,
-      0.02,
-      11000,
+      "BoaVida 2020",
+      "BoaVida",
+      2020,
+      800000,
+      null,
+      null,
       "Closed",
-      "Shep 2025 tab"
+      "Shep 2020 tab · no commission in source"
      ],
      [
-      "Elevate Pocatello, ID",
-      "Elevate",
-      2025,
-      1300000,
-      0.02,
-      26000,
+      "BoaVida 2021",
+      "BoaVida",
+      2021,
+      2620000,
+      null,
+      null,
       "Closed",
-      "Shep 2025 tab"
+      "Shep 2021 tab · no commission in source"
+     ],
+     [
+      "BoaVida 2022",
+      "BoaVida",
+      2022,
+      3200000,
+      null,
+      null,
+      "Closed",
+      "Shep 2022 tab · no commission in source"
+     ],
+     [
+      "BoaVida 2023",
+      "BoaVida",
+      2023,
+      2500000,
+      null,
+      null,
+      "Closed",
+      "Shep 2023 tab · no commission in source"
      ],
      [
       "Elevate OH (Columbus)",
@@ -2623,10 +2735,30 @@ window.CRM = {
       "Shep 2024 tab"
      ],
      [
+      "Elevate Eagle, ID",
+      "Elevate",
+      2025,
+      550000,
+      0.02,
+      11000,
+      "Closed",
+      "Shep 2025 tab"
+     ],
+     [
+      "Elevate Pocatello, ID",
+      "Elevate",
+      2025,
+      1300000,
+      0.02,
+      26000,
+      "Closed",
+      "Shep 2025 tab"
+     ],
+     [
       "TOTAL PRIOR YEARS",
       null,
       null,
-      5125000,
+      14245000,
       null,
       233500,
       null,
@@ -2640,7 +2772,7 @@ window.CRM = {
    },
    {
     "type": "title",
-    "text": "Raise income by year · single commission column"
+    "text": "Raise income by year · single commission column (blank = not in source)"
    },
    {
     "type": "table",
@@ -2658,26 +2790,50 @@ window.CRM = {
     ],
     "rows": [
      [
+      2020,
+      800000,
+      null,
+      "BoaVida · no commission figure in source"
+     ],
+     [
+      2021,
+      2620000,
+      null,
+      "BoaVida · no commission figure in source"
+     ],
+     [
+      2022,
+      3200000,
+      null,
+      "BoaVida · no commission figure in source"
+     ],
+     [
+      2023,
+      2500000,
+      null,
+      "BoaVida · no commission figure in source"
+     ],
+     [
       2024,
       3275000,
       196500,
-      "Columbus + Flamingo"
+      "Elevate · Columbus + Flamingo"
      ],
      [
       2025,
       1850000,
       37000,
-      "Eagle + Pocatello"
+      "Elevate · Eagle + Pocatello"
      ],
      [
       2026,
       3628979.53,
       72579.59,
-      "Hassan paid: Orchard $28,551.84 + Oct 12 $44,027.75"
+      "Elevate · Hassan paid: Orchard $28,551.84 + Oct 12 $44,027.75"
      ],
      [
       "TOTAL",
-      8753979.53,
+      17873979.53,
       306079.59,
       null
      ]
@@ -2852,7 +3008,7 @@ window.CRM = {
    },
    {
     "type": "title",
-    "text": "Brokering commission totals"
+    "text": "Brokering commission totals (blank = not in source)"
    },
    {
     "type": "table",
@@ -2869,6 +3025,30 @@ window.CRM = {
      3
     ],
     "rows": [
+     [
+      2020,
+      null,
+      null,
+      "No brokering commission in source"
+     ],
+     [
+      2021,
+      null,
+      null,
+      "No brokering commission in source"
+     ],
+     [
+      2022,
+      null,
+      null,
+      "No brokering commission in source"
+     ],
+     [
+      2023,
+      null,
+      null,
+      "No brokering commission in source"
+     ],
      [
       2024,
       83500,
@@ -3048,13 +3228,49 @@ window.CRM = {
     ],
     "rows": [
      [
+      2020,
+      800000,
+      null,
+      null,
+      null,
+      null,
+      "BoaVida raise · commission not in source"
+     ],
+     [
+      2021,
+      2620000,
+      null,
+      null,
+      null,
+      null,
+      "BoaVida raise · commission not in source"
+     ],
+     [
+      2022,
+      3200000,
+      null,
+      null,
+      null,
+      null,
+      "BoaVida raise · commission not in source"
+     ],
+     [
+      2023,
+      2500000,
+      null,
+      null,
+      null,
+      null,
+      "BoaVida raise · commission not in source"
+     ],
+     [
       2024,
       3275000,
       196500,
       83500,
       280000,
       18035000,
-      "Raise: Columbus+Flamingo; Brokering $83.5K; Volume 7 deals"
+      "Elevate · Columbus+Flamingo; Brokering $83.5K; Volume 7 deals"
      ],
      [
       2025,
@@ -3063,7 +3279,7 @@ window.CRM = {
       183950,
       220950,
       null,
-      "Raise: Eagle+Pocatello; Brokering 5 deals"
+      "Elevate · Eagle+Pocatello; Brokering 5 deals"
      ],
      [
       2026,
@@ -3072,11 +3288,11 @@ window.CRM = {
       114857,
       187436.59,
       null,
-      "2026 raise commission = Hassan paid $72,579.59"
+      "Elevate · Hassan paid raise comm $72,579.59"
      ],
      [
       "GRAND TOTAL",
-      8753979.53,
+      17873979.53,
       306079.59,
       382307,
       688386.59,
