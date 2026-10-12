@@ -6,6 +6,27 @@ const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 const money = (v,dec) => (v<0?'-':'')+'$'+Math.abs(v).toLocaleString('en-US',{minimumFractionDigits:dec?2:0,maximumFractionDigits:dec?2:0});
 const fmtMoney = v => money(v, Math.round(v)!==v);
 const moneyOrDash = v => (v==null||v===''||(typeof v==='number'&&!Number.isFinite(v))) ? '—' : fmtMoney(v);
+/** Count-up like Shep's site: easeOutCubic 1-(1-t)^3 via rAF. Default 1200ms (Shep KPIs use ~3s; panel heroes stay snappy). */
+function prefersReducedMotion(){ try{ return matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){ return false; } }
+function countUp(el, target, {duration=1200, decimals=false, prefix='$'}={}){
+  if(!el) return;
+  const end = Number(target)||0;
+  const fmt = v => {
+    if(prefix==='$') return money(v, decimals || Math.round(v)!==v);
+    return String(Math.round(v));
+  };
+  if(prefersReducedMotion() || end===0){ el.textContent = fmt(end); return; }
+  const t0 = performance.now();
+  const ease = t => 1 - Math.pow(1-t, 3);
+  const tick = now => {
+    const p = Math.min(1, (now-t0)/duration);
+    el.textContent = fmt(end * ease(p));
+    if(p<1) requestAnimationFrame(tick); else el.textContent = fmt(end);
+  };
+  el.textContent = fmt(0);
+  requestAnimationFrame(tick);
+}
+
 const pct = v => (v*100).toLocaleString('en-US',{maximumFractionDigits:2})+'%';
 const isPct = h => /RATE|COMM\. %|MARGIN|VS BEST/.test(h);
 const isMoney = h => /\$|RAISE|COMMISSION|AMOUNT|INCOME|GAP|BASIS|DIFFERENCE|SHEP SHEET|SCREENSHOT|^20\d\d$|TOTAL RAISED|LIFETIME|INVESTED/.test(h) && !/YEAR|YR|TAB NAME|NOTE|STATUS|COMMENT|OFFERING\(S\)/.test(h);
@@ -112,9 +133,20 @@ const views={
     const totIncome=y=>{const r=crow(y); return r?r[cix('TOTAL INCOME')]:0;};
     const sum=(fn)=>years.reduce((a,y)=>a+(fn(y)||0),0);
 
+    const totRaiseAmt=sum(raiseAmt), totRaiseComm=sum(y=>raiseComm(y)||0), totBrok=sum(y=>brokComm(y)||0), totCombined=sum(y=>totIncome(y)||0);
+
+    // Combined grand total banner (counts up)
+    const grand=$(`<div class="grand-total panel"><div class="eyebrow">Combined · raise commission + brokering commission</div><div class="grand-label">GRAND TOTAL INCOME</div><div class="grand-value" data-count="${totCombined}">$0</div></div>`);
+    app.appendChild(grand);
+
     const panels=$(`<div class="income-split"></div>`);
     // RAISE panel
-    const raise=$(`<div class="panel income-panel raise-panel"><div class="panel-head"><div class="eyebrow">Elevate / BoaVida</div><h3>RAISE INCOME</h3><p class="sub">Raise amount &amp; commission by year · blank commission = not in source · 2026 = Hassan paid</p></div>
+    const raise=$(`<div class="panel income-panel raise-panel"><div class="panel-head"><div class="eyebrow">Elevate / BoaVida</div><h3>RAISE INCOME</h3><p class="sub">Raise amount &amp; commission by year · blank commission = not in source · 2026 = Hassan paid</p>
+      <div class="hero-kpis">
+        <div class="hero"><div class="hl">TOTAL RAISED</div><div class="hv" data-count="${totRaiseAmt}" data-dec="1">$0</div></div>
+        <div class="hero"><div class="hl">RAISE COMMISSION</div><div class="hv" data-count="${totRaiseComm}" data-dec="1">$0</div></div>
+      </div>
+    </div>
       <table class="income-tbl"><thead><tr><th>YEAR</th><th class="num">RAISE $</th><th class="num">COMMISSION</th></tr></thead><tbody></tbody><tfoot></tfoot></table>
       <div class="bars raise-bars" style="margin-top:14px"></div></div>`);
     const rt=raise.querySelector('tbody'), rtf=raise.querySelector('tfoot'), rb=raise.querySelector('.raise-bars');
@@ -127,7 +159,11 @@ const views={
     panels.appendChild(raise);
 
     // BROKERING panel
-    const brok=$(`<div class="panel income-panel brok-panel"><div class="panel-head"><div class="eyebrow">Deal commissions</div><h3>BROKERING INCOME</h3><p class="sub">Commission by year · volume noted separately</p></div>
+    const brok=$(`<div class="panel income-panel brok-panel"><div class="panel-head"><div class="eyebrow">Deal commissions</div><h3>BROKERING INCOME</h3><p class="sub">Commission by year · volume noted separately</p>
+      <div class="hero-kpis">
+        <div class="hero"><div class="hl">BROKERING COMMISSION</div><div class="hv" data-count="${totBrok}" data-dec="0">$0</div></div>
+      </div>
+    </div>
       <table class="income-tbl"><thead><tr><th>YEAR</th><th class="num">COMMISSION</th><th class="num">VOLUME (NO COMM)</th></tr></thead><tbody></tbody><tfoot></tfoot></table>
       <div class="bars brok-bars" style="margin-top:14px"></div>
       <p class="sub" style="margin-top:10px">Volume = deals transacted with no brokering commission (2024 only in source). 2020–2023 have raise amounts only.</p></div>`);
@@ -141,6 +177,12 @@ const views={
     btf.appendChild($(`<tr class="total"><td>TOTAL</td><td class="num">${fmtMoney(sum(y=>brokComm(y)||0))}</td><td class="num">${fmtMoney(sum(y=>volAmt(y)||0))}</td></tr>`));
     panels.appendChild(brok);
     app.appendChild(panels);
+    // Count-up heroes (Shep-style easeOutCubic); skip if reduced motion
+    app.querySelectorAll('[data-count]').forEach(el=>{
+      const target = Number(el.getAttribute('data-count'));
+      const dec = el.getAttribute('data-dec') === '1';
+      countUp(el, target, {duration:1200, decimals:dec});
+    });
 
     // COMBINED
     app.appendChild(sec('Combined','Total income by year (raise commission + brokering commission)'));

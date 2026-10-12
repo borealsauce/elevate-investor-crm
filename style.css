@@ -107,3 +107,16 @@ th.sortable:hover{color:var(--gold)}
 .legend .lg{display:inline-block;width:14px;height:14px;border-radius:4px;margin-right:6px;vertical-align:middle}
 .legend .raise-lg{background:#1E3A8A}
 .legend .brok-lg{background:#2563EB}
+
+.grand-total{margin:8px 0 16px;padding:18px 20px;text-align:center;background:linear-gradient(135deg,#111827,#1e3a8a);border:none;color:#fff}
+.grand-total .eyebrow{font:700 10px Inter;letter-spacing:.16em;text-transform:uppercase;color:#93c5fd}
+.grand-total .grand-label{font:700 13px Inter;letter-spacing:.12em;color:#bfdbfe;margin:4px 0 2px}
+.grand-total .grand-value{font:700 42px Oswald,Inter,sans-serif;color:#fff;letter-spacing:.02em;line-height:1.1}
+.hero-kpis{display:flex;flex-wrap:wrap;gap:18px;margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.22)}
+.hero{min-width:140px}
+.hero .hl{font:700 10px Inter;letter-spacing:.14em;color:#bfdbfe}
+.hero .hv{font:700 30px Oswald,Inter,sans-serif;color:#fff;margin-top:2px;letter-spacing:.02em}
+.brok-panel .hero-kpis{border-top-color:rgba(255,255,255,.25)}
+@media (prefers-reduced-motion: reduce){
+  .grand-total .grand-value,.hero .hv{transition:none}
+}
