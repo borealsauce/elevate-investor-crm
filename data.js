@@ -1686,175 +1686,77 @@ window.CRM = {
     ],
     "rows": [
      [
-      "D-2001",
-      "BoaVida 2020",
-      "Raise (offering)",
-      "BoaVida",
-      null,
-      2020,
-      "Dean, Scott Long",
-      800000,
-      0.1,
-      80000,
-      "Closed",
-      "Commission paid in B shares (non-cash)"
-     ],
-     [
-      "D-2101",
-      "BoaVida 2021",
-      "Raise (offering)",
-      "BoaVida",
-      null,
-      2021,
-      null,
-      2620000,
-      0.1,
-      262000,
-      "Closed",
-      "Commission paid in B shares (non-cash)"
-     ],
-     [
-      "D-2201",
-      "BoaVida 2022",
-      "Raise (offering)",
-      "BoaVida",
-      null,
-      2022,
-      null,
-      3200000,
-      0.1,
-      320000,
-      "Closed",
-      "Confirmed $3.2M; commission paid in B shares (non-cash)"
-     ],
-     [
-      "D-2301",
-      "BoaVida 2023",
-      "Raise (offering)",
-      "BoaVida",
-      null,
-      2023,
-      "Don Sanford",
-      2500000,
-      0.1,
-      250000,
-      "Closed",
-      "Commission paid in B shares (non-cash)"
-     ],
-     [
       "D-2601",
+      "Orchard MHC & Self-Storage",
+      "Raise",
+      "Elevate",
+      null,
+      2026,
+      null,
+      1427592,
+      0.02,
+      28551.84,
+      "Paid",
+      null
+     ],
+     [
+      "D-2602",
       "Frontier MHC",
       "Raise",
       "Elevate",
-      "MHC",
+      null,
       2026,
       null,
       537034.99,
       0.0200000003724152,
       10740.7,
-      "Credited",
+      "Paid",
       null
      ],
      [
-      "D-2602",
+      "D-2603",
       "Sequoia MHC",
       "Raise",
       "Elevate",
-      "MHC",
+      null,
       2026,
       null,
       997352.54,
       0.0199999991978764,
       19947.05,
-      "Credited",
+      "Paid",
       null
      ],
      [
-      "D-2603",
+      "D-2604",
       "Parkview RV",
       "Raise",
       "Elevate",
-      "RV",
+      null,
       2026,
       null,
       450000,
       0.02,
       9000,
-      "Credited",
+      "Paid",
       null
      ],
      [
-      "D-2604",
-      "Riverside RV",
+      "D-2605",
+      "Riverside RV Park",
       "Raise",
       "Elevate",
-      "RV",
+      null,
       2026,
       null,
       217000,
       0.02,
       4340,
-      "Credited",
+      "Paid",
       null
      ],
      [
-      "D-2605",
-      "Elevate Portland - Frontier & Sequoia (investor total)",
-      "Raise (offering)",
-      "Elevate",
-      "MHC",
-      2026,
-      "Don Sanford (401k), Hayden, Don / Cari",
-      1449999,
-      0.02,
-      28999.98,
-      "Committed (Shep sheet)",
-      "Investor-mapped to Frontier & Sequoia"
-     ],
-     [
       "D-2606",
-      "Elevate OH - Orchard (investor total)",
-      "Raise (offering)",
-      "Elevate",
-      "MHC",
-      2026,
-      "Don / Cari, Hayden, Don Sanford (401k)",
-      1527592,
-      0.02,
-      30551.84,
-      "Committed (Shep sheet)",
-      "Includes Don / Cari $1.1M — see duplicate flag"
-     ],
-     [
-      "D-2610",
-      "Parkview RV OR (investor total)",
-      "Raise (offering)",
-      "Elevate",
-      "RV",
-      2026,
-      "Don Sanford, Scott Long",
-      450000,
-      0.02,
-      9000,
-      "Committed (Shep sheet)",
-      "Matches credited Parkview $450K"
-     ],
-     [
-      "D-2611",
-      "Bellevue Idaho Riverside RV (investor total)",
-      "Raise (offering)",
-      "Elevate",
-      "RV",
-      2026,
-      "Scott Long, Don Sanford (401k)",
-      417000,
-      0.02,
-      8340,
-      "Committed (Shep sheet)",
-      "Sheet $417K vs credited Riverside $217K"
-     ],
-     [
-      "D-2607",
       "Dean TN – Cox Deal",
       "Brokering",
       "Brokering",
@@ -1868,7 +1770,7 @@ window.CRM = {
       "Sale price not in source"
      ],
      [
-      "D-2608",
+      "D-2607",
       "Dean TN – Lemay",
       "Brokering",
       "Brokering",
@@ -1882,11 +1784,11 @@ window.CRM = {
       "Sale price not in source"
      ],
      [
-      "D-2609",
+      "D-2608",
       "Don DB NNN",
       "Brokering",
       "Brokering",
-      "NNN",
+      null,
       2026,
       "Don Sanford",
       null,
@@ -1897,8 +1799,8 @@ window.CRM = {
      ],
      [
       "D-2501",
-      "Elevate Eagle, ID",
-      "Raise (offering)",
+      "Elevate Eagle",
+      "Raise",
       "Elevate",
       null,
       2025,
@@ -1911,8 +1813,8 @@ window.CRM = {
      ],
      [
       "D-2502",
-      "Elevate Pocatello, ID",
-      "Raise (offering)",
+      "Pocatello MHC Portfolio",
+      "Raise",
       "Elevate",
       null,
       2025,
@@ -1935,14 +1837,14 @@ window.CRM = {
       0.2,
       45950,
       "Closed",
-      "Amounts as listed by Shep"
+      null
      ],
      [
       "D-2504",
       "Don OR MHP",
       "Brokering",
       "Brokering",
-      "MHP",
+      null,
       2025,
       "Don Sanford",
       2256000,
@@ -1970,7 +1872,7 @@ window.CRM = {
       "Nick/Sam Knoxville Apt",
       "Brokering",
       "Brokering",
-      "Apartment",
+      null,
       2025,
       "Nick / Sam",
       1950000,
@@ -1995,10 +1897,10 @@ window.CRM = {
      ],
      [
       "D-2401",
-      "Elevate OH (Columbus)",
-      "Raise (offering)",
+      "Elevate Columbus",
+      "Raise",
       "Elevate",
-      "MHP",
+      null,
       2024,
       null,
       2100000,
@@ -2009,10 +1911,10 @@ window.CRM = {
      ],
      [
       "D-2402",
-      "Elevate Flamingo, MI",
-      "Raise (offering)",
+      "Flamingo",
+      "Raise",
       "Elevate",
-      "MHP",
+      null,
       2024,
       null,
       1175000,
@@ -2033,7 +1935,7 @@ window.CRM = {
       null,
       30750,
       "Closed",
-      null
+      "Sale price not in source"
      ],
      [
       "D-2404",
@@ -2047,21 +1949,21 @@ window.CRM = {
       null,
       45750,
       "Closed",
-      "Likely = Rons 508 N Myers ($2.1M)"
+      "Sale price not in source"
      ],
      [
       "D-2405",
       "Steph Lease",
       "Brokering",
       "Brokering",
-      "Lease",
+      null,
       2024,
       "Steph",
       null,
       null,
       7000,
       "Closed",
-      null
+      "Sale price not in source"
      ],
      [
       "D-2406",
@@ -2096,7 +1998,7 @@ window.CRM = {
       "Dean Popeyes",
       "Transaction",
       "Deals transacted",
-      "NNN",
+      null,
       2024,
       "Dean",
       2100000,
@@ -2162,16 +2064,72 @@ window.CRM = {
       "Volume only"
      ],
      [
+      "D-2301",
+      "BoaVida 2023",
+      "Raise (offering)",
+      "BoaVida",
+      null,
+      2023,
+      null,
+      2500000,
+      0.1,
+      250000,
+      "Closed",
+      "Don Sanford $2.5M · B-share $250K"
+     ],
+     [
+      "D-2201",
+      "BoaVida 2022",
+      "Raise (offering)",
+      "BoaVida",
+      null,
+      2022,
+      null,
+      3200000,
+      0.1,
+      320000,
+      "Closed",
+      "Confirmed block · B-share total"
+     ],
+     [
+      "D-2101",
+      "BoaVida 2021",
+      "Raise (offering)",
+      "BoaVida",
+      null,
+      2021,
+      null,
+      2620000,
+      0.1,
+      262000,
+      "Closed",
+      "Shep 2021 tab · B-share total"
+     ],
+     [
+      "D-2001",
+      "BoaVida 2020",
+      "Raise (offering)",
+      "BoaVida",
+      null,
+      2020,
+      null,
+      800000,
+      0.1,
+      80000,
+      "Closed",
+      "Dean $30K + Scott Long $50K B shares"
+     ],
+     [
       "TOTAL",
-      "34 deals",
+      "31 deals",
       null,
       null,
       null,
       null,
       null,
-      48111728.53,
+      45694729.53,
       null,
-      1648726.57,
+      1600386.59,
       null,
       null
      ]
@@ -2211,13 +2169,13 @@ window.CRM = {
     ],
     "rows": [
      [
-      "DEAN TN Cox Deal",
+      "Dean TN – Cox Deal",
       "Dean",
       50000,
       "Closed"
      ],
      [
-      "Dean TN Lemay",
+      "Dean TN – Lemay",
       "Dean",
       22657,
       "Closed"
@@ -2265,7 +2223,7 @@ window.CRM = {
     "rows": [
      [
       "Orchard MHC",
-      "MHC",
+      null,
       1427592,
       0.02,
       28551.84,
@@ -2273,7 +2231,7 @@ window.CRM = {
      ],
      [
       "Frontier MHC",
-      "MHC",
+      null,
       537034.99,
       0.0200000003724152,
       10740.7,
@@ -2281,7 +2239,7 @@ window.CRM = {
      ],
      [
       "Sequoia MHC",
-      "MHC",
+      null,
       997352.54,
       0.0199999991978764,
       19947.05,
@@ -2289,7 +2247,7 @@ window.CRM = {
      ],
      [
       "Parkview RV",
-      "RV",
+      null,
       450000,
       0.02,
       9000,
@@ -2297,7 +2255,7 @@ window.CRM = {
      ],
      [
       "Riverside RV",
-      "RV",
+      null,
       217000,
       0.02,
       4340,
@@ -2363,7 +2321,7 @@ window.CRM = {
      800000,
      80000,
      0,
-     "Boa Vida Group · B-share commission (non-cash) · Dean $30K + Scott Long $50K"
+     "Boa Vida Group · B-share commission (non-cash)"
     ]
    },
    {
@@ -2373,7 +2331,7 @@ window.CRM = {
      2620000,
      262000,
      0,
-     "Boa Vida Group · B-share commission (non-cash) $262K"
+     "Boa Vida Group · B-share commission (non-cash)"
     ]
    },
    {
@@ -2383,7 +2341,7 @@ window.CRM = {
      3200000,
      320000,
      0,
-     "Boa Vida Group · B-share commission (non-cash) $320K on Confirmed $3.2M"
+     "Boa Vida Group · B-share commission (non-cash)"
     ]
    },
    {
@@ -2393,7 +2351,7 @@ window.CRM = {
      2500000,
      250000,
      0,
-     "Boa Vida Group · B-share commission (non-cash) $250K · Don Sanford"
+     "Boa Vida Group · B-share commission (non-cash)"
     ]
    },
    {
@@ -2404,7 +2362,7 @@ window.CRM = {
      196500,
      83500,
      280000,
-     "Elevate cash raise + brokering · Columbus + Flamingo"
+     "Elevate cash raise + brokering"
     ]
    },
    {
@@ -2415,7 +2373,7 @@ window.CRM = {
      37000,
      183950,
      220950,
-     "Elevate cash raise + brokering · Eagle + Pocatello"
+     "Elevate cash raise + brokering"
     ]
    },
    {
@@ -2426,7 +2384,7 @@ window.CRM = {
      72579.59,
      114857,
      187436.59,
-     "Elevate cash · Hassan paid $72,579.59"
+     "Elevate cash raise + brokering"
     ]
    },
    {
@@ -2737,7 +2695,7 @@ window.CRM = {
       null,
       null,
       3275000,
-      "Elevate cash · Columbus + Flamingo"
+      "Elevate cash"
      ],
      [
       2025,
@@ -2746,7 +2704,7 @@ window.CRM = {
       null,
       null,
       1850000,
-      "Elevate cash · Eagle + Pocatello"
+      "Elevate cash"
      ],
      [
       2026,
@@ -2755,7 +2713,7 @@ window.CRM = {
       null,
       null,
       3628979.53,
-      "Elevate cash · Hassan paid"
+      "Elevate cash"
      ],
      [
       "TOTAL",
@@ -2968,19 +2926,19 @@ window.CRM = {
       2024,
       83500,
       3,
-      "Ditmar + Ron's place + Steph Lease"
+      "Ditmar Buy Side, Ron's place, Steph Lease"
      ],
      [
       2025,
       183950,
       5,
-      "Don's DB, Don OR MHP, Mack, Nick/Sam, Donna Ct."
+      "Don's DB, Don OR MHP, Mack Sale, Nick/Sam Knoxville Apt, Donna Ct."
      ],
      [
       2026,
       114857,
       3,
-      "Dean Cox, Dean Lemay, Don DB NNN"
+      "Dean TN – Cox Deal, Dean TN – Lemay, Don DB NNN"
      ],
      [
       "TOTAL",
@@ -3558,7 +3516,7 @@ window.CRM = {
       187436.59,
       187436.59,
       null,
-      "Elevate cash · Hassan paid"
+      "Elevate cash + brokering"
      ],
      [
       "GRAND TOTAL",
@@ -8491,7 +8449,7 @@ window.CRM = {
       null,
       80000,
       null,
-      "BVG · B-share $80K (non-cash)"
+      null
      ],
      [
       2021,
@@ -8502,7 +8460,7 @@ window.CRM = {
       null,
       262000,
       null,
-      "BVG · B-share $262K (non-cash)"
+      null
      ],
      [
       2022,
@@ -8513,7 +8471,7 @@ window.CRM = {
       null,
       320000,
       null,
-      "BVG · B-share $320K (non-cash)"
+      null
      ],
      [
       2023,
@@ -8524,7 +8482,7 @@ window.CRM = {
       null,
       250000,
       null,
-      "BVG · B-share $250K (non-cash) · Don Sanford"
+      null
      ],
      [
       2024,
@@ -8535,7 +8493,7 @@ window.CRM = {
       196500,
       null,
       83500,
-      "Elevate cash raise + brokering"
+      null
      ],
      [
       2025,
@@ -8546,7 +8504,7 @@ window.CRM = {
       37000,
       null,
       183950,
-      "Elevate cash raise + brokering"
+      null
      ],
      [
       2026,
@@ -8557,7 +8515,7 @@ window.CRM = {
       72579.59,
       null,
       114857,
-      "Elevate cash · Hassan paid $72,579.59"
+      null
      ],
      [
       "Total",
@@ -8615,21 +8573,14 @@ window.CRM = {
       3628979.53,
       72579.59,
       3556399.94,
-      "Hassan paid: Orchard $1,427,592 / $28,551.84 + Oct 12 batch $2,201,387.53 / $44,027.75 = $72,579.59"
+      "Elevate offering rows on the MAIN file's year tab"
      ],
      [
-      "Shep sheet line-item estimate (not used)",
+      "Investor list on same tab (not used)",
       3844591,
       76891.82,
       3767699.18,
-      "Investor-commitment rows on Shep 2026 tab; Dashboard/Combined ignore this"
-     ],
-     [
-      "Shep printed raise-comm total (not used)",
-      null,
-      72891.82,
-      null,
-      "Printed $72,891.82 is $4,000 under Shep's own line items"
+      "Investor amounts × 2%; gap 215,611.47 raise / 4,312.23 commission vs paid"
      ]
     ]
    },
@@ -8699,7 +8650,7 @@ window.CRM = {
     "type": "line",
     "cells": [
      "Sources",
-     "Shep's Numbers file updated 2026-10-12 (source_updated_2026-10-12.numbers; year tabs 2020–2026 + 'Total Raised'), Elevate 2026 commission screenshot (Frontier, Sequoia, Parkview, Riverside), brokered_re_deals.csv (closing / commission docs), compare.md reconciliation."
+     "MAIN by-year workbook (Shepard Banks Investments MAIN.numbers → source_main.numbers, parsed by build/parse_main.py). Legacy: Shep's Numbers file 2026-10-12 (archive; year tabs 2020–2026 + 'Total Raised'), Elevate 2026 commission screenshot (Frontier, Sequoia, Parkview, Riverside), brokered_re_deals.csv (closing / commission docs), compare.md reconciliation."
     ]
    },
    {
