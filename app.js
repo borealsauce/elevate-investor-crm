@@ -141,6 +141,9 @@ const views={
 
     const totElevRaise=sum(elevRaise), totElevCash=sum(elevCash), totBvgRaise=sum(bvgRaise), totBvgShare=sum(bvgShare);
     const totBrok=sum(brokComm), totCash=sum(cashTot), totGrand=sum(grandTot);
+    const totRaised=totElevRaise+totBvgRaise;
+    const brt=(tables('Brokered RE Transactions')||[]).find(t=>t.header.includes('SALE PRICE'));
+    const totSales=brt?brt.rows.filter(r=>r[0]&&String(r[0]).toUpperCase()!=='TOTAL').reduce((a,r)=>a+(typeof r[brt.header.indexOf('SALE PRICE')]==='number'?r[brt.header.indexOf('SALE PRICE')]:0),0):0;
 
     const grand=$(`<div class="grand-split">
       <div class="grand-card cash"><div class="eyebrow">Elevate commissions · cash</div><div class="grand-label">ELEVATE RAISE INCOME</div><div class="grand-value" data-count="${totElevCash}" data-dec="1">$0</div></div>
@@ -152,7 +155,7 @@ const views={
 
     const panels=$(`<div class="income-split"></div>`);
     const raise=$(`<div class="panel income-panel raise-panel"><div class="panel-head">
-      <div class="eyebrow">Raise commissions</div><h3>RAISE INCOME</h3>
+      <div class="eyebrow">Raise commissions</div><h3>RAISE INCOME <span class="h3-total">· <span data-count="${totRaised}" data-dec="1">$0</span> raised</span></h3>
       <p class="sub">Elevate = cash (2024+) · Boa Vida Group = B shares, non-cash (2020–2023)</p>
       <div class="hero-kpis twin">
         <div class="hero-block elev">
@@ -180,7 +183,7 @@ const views={
     rtf.appendChild($(`<tr class="total"><td>TOTAL</td><td class="num">${fmtMoney(totElevRaise)}</td><td class="num">${fmtMoney(totElevCash)}</td><td class="num">${fmtMoney(totBvgRaise)}</td><td class="num">${fmtMoney(totBvgShare)}</td></tr>`));
     panels.appendChild(raise);
 
-    const brok=$(`<div class="panel income-panel brok-panel"><div class="panel-head"><div class="eyebrow">Deal commissions · cash</div><h3>BROKERING INCOME</h3><p class="sub">Commission by year · volume noted separately</p>
+    const brok=$(`<div class="panel income-panel brok-panel"><div class="panel-head"><div class="eyebrow">Deal commissions · cash</div><h3>BROKERING INCOME <span class="h3-total">· <span data-count="${totSales}" data-dec="1">$0</span> in sales</span></h3><p class="sub">Commission by year · volume noted separately</p>
       <div class="hero-kpis">
         <div class="hero"><div class="hl">BROKERING COMMISSION</div><div class="hv" data-count="${totBrok}" data-dec="0">$0</div></div>
       </div>

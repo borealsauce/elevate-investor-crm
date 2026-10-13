@@ -152,3 +152,5 @@ tr.row-warn-soft td{background:#FFFBEB!important}
 th.sortable:hover{color:var(--gold,#2563EB)}
 
 .grand-card.brok{background:linear-gradient(135deg,#2563eb,#3b82f6)}
+
+.h3-total{font-weight:600;color:#2563EB;font-size:.8em;white-space:nowrap}
