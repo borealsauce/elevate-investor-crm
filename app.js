@@ -304,7 +304,7 @@ const views={
     const conflict=/misprint|does not match|misstates|conflict|not match|duplicate|possible duplicate/i;
     const noteI=ix('NOTES');
     app.appendChild(renderTable({header:H, rows}, {
-      search:'brokered deals', filterCol:'CONFIDENCE', splitTotal:true, noMax:true, wide:/NOTE|^SOURCE$|ADDRESS|CLIENT$/,
+      search:'brokered deals', filterCol:'CONFIDENCE', splitTotal:true, noMax:true, wide:/NOTE|ADDRESS|CLIENT$/,
       rowClass: r=>{
         const c=String(r[confI]||'').toLowerCase();
         const n=String(r[noteI]||'');

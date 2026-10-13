@@ -1,6 +1,6 @@
 // Generated from Elevate_Investor_CRM.xlsx — do not edit by hand
 window.CRM = {
- "generated": "2026-10-12",
+ "generated": "2026-10-13",
  "source": "Elevate_Investor_CRM.xlsx",
  "contactsIncluded": false,
  "sheets": {
@@ -3291,7 +3291,6 @@ window.CRM = {
      "GROSS COMMISSION",
      "RYAN'S COMMISSION",
      "CONFIDENCE",
-     "SOURCE",
      "NOTES"
     ],
     "cols": [
@@ -3307,8 +3306,7 @@ window.CRM = {
      9,
      10,
      11,
-     12,
-     13
+     12
     ],
     "rows": [
      [
@@ -3324,7 +3322,6 @@ window.CRM = {
       46000,
       42200,
       "high",
-      "Commission Invoice - Dutch Bros, Nashville, TN (InvestCore).pdf",
       "Buyer was Expansion LLC. Invoice split: Ryan $42,200, IC $2,300, Bockman $1,500. The revised CDA says Ryan $43,700 and misstates the price as $3M. The folder says $2.35M. Close date is the estimated one."
      ],
      [
@@ -3340,7 +3337,6 @@ window.CRM = {
       26500,
       22657.5,
       "high",
-      "CDA Lemay.pdf",
       "HUD T25-27911: $26,500 to Investcore. CDA split: Ryan $22,657.50, Ed $1,192.50, Angela Zion $2,650. Contract date is the LOI counter date."
      ],
      [
@@ -3356,7 +3352,6 @@ window.CRM = {
       50000,
       50000,
       "high",
-      "160 Cox Road revised HUD.PDF",
       "HUD line 702: $50,000 to Investcore. Referral agreement (12/18/25) gives the full $50,000 to Ryan."
      ],
      [
@@ -3372,7 +3367,6 @@ window.CRM = {
       22990,
       null,
       "high",
-      "Final Seller's Closing Statement 3721 donna ct Certfied.pdf",
       "Listing commission to InvestCore $22,990. The CRM shows $22,950 and $2,295,000; the statement price is $2,218,070.96 (loan assumption). Ryan's split not documented."
      ],
      [
@@ -3388,7 +3382,6 @@ window.CRM = {
       null,
       null,
       "medium",
-      "ALTA Settlement Statements - Seller's - 25LT07580.pdf",
       "ALTA shows commissions only to RE/MAX Results ($76,250, listing) and KW St. Louis ($45,750). No Investcore line. The CRM's $42,000 'Mack Sale' is not on the statement and may have been paid outside closing. Has a note 'Ryan Reichlyn $23,499.79 in account add back'."
      ],
      [
@@ -3404,7 +3397,6 @@ window.CRM = {
       45600,
       43320,
       "high",
-      "commission_disbursement_authorization_form.pdf",
       "CDA: Investcore $2,280 and agent $43,320. Close date is the anticipated one. The CRM's 'Don's DB $45,950' does not match the $45,600 gross."
      ],
      [
@@ -3420,7 +3412,6 @@ window.CRM = {
       null,
       45750,
       "medium",
-      "BuyerSettlementStatement.pdf",
       "Estimated buyer statement (cash sale). Commission is not shown there. $45,750 comes from the CRM's 'Ron's place'. SAME DEAL as sheet's 'Rons 508 N Myers'."
      ],
      [
@@ -3436,7 +3427,6 @@ window.CRM = {
       null,
       7000,
       "low",
-      "Parker and Posies LLC - Lease Final Copy3.25.2024.pdf",
       "38-month lease. $215K is the lease value from the folder name, not a sale price. Commission from CRM. Which side Ryan represented is not documented."
      ],
      [
@@ -3452,7 +3442,6 @@ window.CRM = {
       56250,
       null,
       "medium",
-      "Commission Confirmation - Selling Agent_.pdf",
       "Buyer's broker commission confirmation $56,250 (escrow 320-872-LL, dated 6/27/23). Price from folder name only. Close date is the estimated closing statement date, not confirmed final."
      ],
      [
@@ -3468,7 +3457,6 @@ window.CRM = {
       91700,
       null,
       "high",
-      "Certified Final Seller's Settlement Statement.pdf",
       "4% total; $91,700 to Investcore, $91,700 to eXp. Commission invoice misprints price as $4,850,000. Ryan's split not documented."
      ],
      [
@@ -3484,7 +3472,6 @@ window.CRM = {
       null,
       45120,
       "medium",
-      "EXECUTED Drafter Valley MHC 4.8.25.pdf",
       "PSA executed 4/8/25 (earlier PSA and counter 1/30/25). Price and commission are from the CRM. Folder names say $2.25M and $2.45M. No closing statement found."
      ],
      [
@@ -3500,7 +3487,6 @@ window.CRM = {
       null,
       27930,
       "low",
-      "Nick Layon and Sam Debaets $1.97M",
       "Folder name says $1.97M. Price and commission are from the CRM. No closing doc found in the folder listing."
      ],
      [
@@ -3516,7 +3502,6 @@ window.CRM = {
       null,
       30750,
       "low",
-      "421 Ditmar RPA .pdf",
       "Price from folder name. Commission from CRM 'Ditmar Buy Side'. Not in the sheet's $18.04M list."
      ],
      [
@@ -3532,7 +3517,6 @@ window.CRM = {
       null,
       null,
       "low",
-      "Assignment of PSA - InvestCore Commercial (final).pdf",
       "Folder name says Mack $2.95M; user's sheet says $3,025,000. PSA was assigned from InvestCore. No closing or commission doc found. Possible duplicate of the sheet's 'Mack $3,025,000'."
      ],
      [
@@ -3548,7 +3532,6 @@ window.CRM = {
       null,
       null,
       "low",
-      "1515 Whaley 829 Updated RPA FE buy side.pdf",
       "Buy-side RPA dated 8/29 shows $1,160,000 (likely the loan or an earlier offer). $1.45M is from the folder name. No closing statement or commission doc found."
      ],
      [
@@ -3564,7 +3547,6 @@ window.CRM = {
       null,
       null,
       "low",
-      "Fully Executed PSA Popeyes Americus, GA .pdf",
       "Price from folder name; 2nd PSA amendment dated 9/27/22. Executed PSA too large to read (13MB). No commission doc found."
      ],
      [
@@ -3579,7 +3561,6 @@ window.CRM = {
       32489070.96,
       339040,
       314727.5,
-      null,
       null,
       null
      ]
@@ -9256,7 +9237,7 @@ window.CRM = {
     "type": "line",
     "cells": [
      "Generated",
-     "Oct 12, 2026"
+     "Oct 13, 2026"
     ]
    }
   ]
