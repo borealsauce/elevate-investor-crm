@@ -501,7 +501,6 @@ window.CRM = {
      "DEAL STATUS",
      "BASIS",
      "CHECK",
-     "SOURCE",
      "NOTE"
     ],
     "cols": [
@@ -517,8 +516,7 @@ window.CRM = {
      9,
      10,
      11,
-     12,
-     13
+     12
     ],
     "rows": [
      [
@@ -534,7 +532,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2022 $3.2M row 77 (\"Adam Glickman\")",
       null
      ],
      [
@@ -550,7 +547,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       "CHECK",
-      "Sheet: 2022 $3.2M row 80 (\"Ali Invested 2021\")",
       "Written on the 2022 tab as 'Ali Invested 2021' ($800K) and counted in the 2022 $3.2M total; the 2021 tab separately shows Ali $500K INVESTED. Confirm whether this is a separate 2022 investment."
      ],
      [
@@ -566,7 +562,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2021 $2.62M row 67 (\"Ali Mostafavi\")",
       null
      ],
      [
@@ -582,7 +577,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2022 $3.2M row 73 (\"Casey Miller\")",
       null
      ],
      [
@@ -598,7 +592,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2022 $3.2M row 78 (\"Craig Napoliello\")",
       null
      ],
      [
@@ -614,7 +607,6 @@ window.CRM = {
       "Closed Oct 31, 2025",
       "Sheet",
       null,
-      "Sheet: 2025 $184K Brokering $37K Raise row 18 (\"Daniel\")",
       "Sheet total $1.3M; Hassan Fall payout (2025-11-05) cites $1,500,000 raised – $200K not attributed to an investor in the sources."
      ],
      [
@@ -630,7 +622,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 39 (\"Daniel\")",
       null
      ],
      [
@@ -646,7 +637,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2026 tab 'Brokering Commissions'",
       "Sale price not in source."
      ],
      [
@@ -662,7 +652,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2026 tab 'Brokering Commissions'",
       "Sale price not in source."
      ],
      [
@@ -678,7 +667,6 @@ window.CRM = {
       "Closed Oct 31, 2025",
       "Sheet",
       null,
-      "Sheet: 2025 $184K Brokering $37K Raise row 35 (\"Dean\")",
       "Sheet total $1.3M; Hassan Fall payout (2025-11-05) cites $1,500,000 raised – $200K not attributed to an investor in the sources."
      ],
      [
@@ -694,7 +682,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 tab 'Deals transacted'",
       null
      ],
      [
@@ -710,7 +697,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2020 $800K row 2 (\"Dean\")",
       null
      ],
      [
@@ -726,7 +712,6 @@ window.CRM = {
       "Closed Oct 6, 2026",
       "Sheet + email",
       null,
-      "Sheet: 2026 $115K Brokering / $51K Raise row 11 (\"Don / Cari\"); Natalie King 2026-05-18: Don earmarked for OR and OH at $1.1M each",
       "Joint entry (Don & Cari Sanford). Emails also show a $1.2M TIC reservation (2026-05-22) and a proposed split of a $1.188M 1031 amount: Sequoia $769,814 / Frontier $414,515 (2026-06-05). Final per-park split not confirmed; sheet amount used. Sheet total $1,449,999 vs credited $1,534,387.53 (Frontier $537,034.99 + Sequoia $997,352.54, Hassan Fall 2026-10-12)."
      ],
      [
@@ -742,7 +727,6 @@ window.CRM = {
       "Closed Aug 17, 2026",
       "Sheet + email",
       "CHECK",
-      "Sheet: 2026 $115K Brokering / $51K Raise row 14 (\"Don / Cari\"); Natalie King 2026-05-18 ($1.1M each OR/OH); 2026-05-22 ('allocated for $1M in the Orchard MHC deal')",
       "Joint entry (Don & Cari Sanford). INFERRED CHECK: Hassan Fall's Orchard payout (2026-10-06) is based on $1,427,592 of equity; Hayden $300,000 + Don 401k $127,592 + $1,000,000 = $1,427,592, which suggests $1.0M funded here rather than the $1.1M on the sheet. Confirm."
      ],
      [
@@ -758,7 +742,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2026 tab 'Brokering Commissions'",
       "Sale price not in source."
      ],
      [
@@ -774,7 +757,6 @@ window.CRM = {
       "Closed Oct 6, 2026",
       "Sheet",
       null,
-      "Sheet: 2026 $115K Brokering / $51K Raise row 9 (\"Don 401k\")",
       "Sheet lists under 'Don 401k'. Split between Frontier and Sequoia not shown in sources. Sheet total $1,449,999 vs credited $1,534,387.53 (Frontier $537,034.99 + Sequoia $997,352.54, Hassan Fall 2026-10-12)."
      ],
      [
@@ -790,7 +772,6 @@ window.CRM = {
       "Closed Aug 17, 2026",
       "Sheet",
       null,
-      "Sheet: 2026 $115K Brokering / $51K Raise row 16 (\"Don 401k\")",
       null
      ],
      [
@@ -806,7 +787,6 @@ window.CRM = {
       "Closed Sep 29, 2026",
       "Sheet + payout",
       null,
-      "Sheet: 2026 $115K Brokering / $51K Raise row 19 (\"Don Sanford\"); Hassan Fall 2026-10-12: Parkview credited $450,000 (= Don $200K + Scott $250K)",
       null
      ],
      [
@@ -822,7 +802,6 @@ window.CRM = {
       "Acquired May 2026; raise open Sep 2026",
       "Sheet",
       "CHECK",
-      "Sheet: 2026 $115K Brokering / $51K Raise row 24 (\"Don 401K\")",
       "Not in Elevate's 2026-10-12 payout (Riverside credited $217,000 = Scott Long only). May be pending or unfunded; confirm."
      ],
      [
@@ -838,7 +817,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2025 tab '2025 Commission Income'",
       "Possibly the 15-unit Oregon park Don mentions buying 'last year' (email to Hassan Fall 2026-02-16) – inferred."
      ],
      [
@@ -854,7 +832,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       "CHECK",
-      "Sheet: 2025 tab '2025 Commission Income'",
       "Sheet shows $229,750 next to a $45,950 commission (2% of $2,297,500), so the price may be missing a digit; likely the same Nashville Dutch Bros deal closed Jan 2025. Not shown on investor report to avoid double counting."
      ],
      [
@@ -870,7 +847,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2025 $184K Brokering $37K Raise row 10 (\"Don\")",
       null
      ],
      [
@@ -886,7 +862,6 @@ window.CRM = {
       "Closed Oct 31, 2025",
       "Sheet",
       null,
-      "Sheet: 2025 $184K Brokering $37K Raise row 17 (\"Don\")",
       "Sheet total $1.3M; Hassan Fall payout (2025-11-05) cites $1,500,000 raised – $200K not attributed to an investor in the sources."
      ],
      [
@@ -902,7 +877,6 @@ window.CRM = {
       "Closed",
       "Sheet + email",
       null,
-      "Sheet: 2024 tab 'Deals transacted'",
       "Location from email (Dutch Bros lease TN0204, new ownership effective Jan 17, 2025). 'DB' = Dutch Bros is inferred from that email."
      ],
      [
@@ -918,7 +892,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 42 (\"Don Sanford\")",
       null
      ],
      [
@@ -934,7 +907,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 60 (\"Don Sanford\")",
       null
      ],
      [
@@ -950,7 +922,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2023 $2.5M row 11 (\"Don Sanford\")",
       null
      ],
      [
@@ -966,7 +937,6 @@ window.CRM = {
       "Closed Oct 31, 2025",
       "Sheet",
       null,
-      "Sheet: 2025 $184K Brokering $37K Raise row 19 (\"Dr Joe\")",
       "Sheet total $1.3M; Hassan Fall payout (2025-11-05) cites $1,500,000 raised – $200K not attributed to an investor in the sources."
      ],
      [
@@ -982,7 +952,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 40 (\"Dr Joe Calendra\")",
       null
      ],
      [
@@ -998,7 +967,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       "CHECK",
-      "Sheet: 2024 $3.15M row 58 (\"Dr Joe Calendra\")",
       "Sheet note says 'Call Today' (not 'CONFIRMED'), but the amount is counted in the $1.175M Flamingo total."
      ],
      [
@@ -1014,7 +982,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2021 $2.62M row 68 (\"Garett Backman\")",
       null
      ],
      [
@@ -1030,7 +997,6 @@ window.CRM = {
       "Closed Oct 6, 2026",
       "Sheet + email",
       null,
-      "Sheet: 2026 $115K Brokering / $51K Raise row 10 (\"Hayden\"); Natalie King 2026-07-13: 'added Hayden for $50k for our OR fundraise'",
       "Sheet total $1,449,999 vs credited $1,534,387.53 (Frontier $537,034.99 + Sequoia $997,352.54, Hassan Fall 2026-10-12)."
      ],
      [
@@ -1046,7 +1012,6 @@ window.CRM = {
       "Closed Aug 17, 2026",
       "Sheet + email",
       null,
-      "Sheet: 2026 $115K Brokering / $51K Raise row 15 (\"Hayden\"); Natalie King 2026-07-06: 'Hayden down for a $300,000 TIC investment in Orchard MHC'",
       null
      ],
      [
@@ -1062,7 +1027,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2025 $184K Brokering $37K Raise row 3 (\"Hayden\")",
       null
      ],
      [
@@ -1078,7 +1042,6 @@ window.CRM = {
       "Closed Oct 31, 2025",
       "Sheet",
       null,
-      "Sheet: 2025 $184K Brokering $37K Raise row 26 (\"Hayden\")",
       "Sheet total $1.3M; Hassan Fall payout (2025-11-05) cites $1,500,000 raised – $200K not attributed to an investor in the sources."
      ],
      [
@@ -1094,7 +1057,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 38 (\"Hayden\")",
       null
      ],
      [
@@ -1110,7 +1072,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 59 (\"Hayden\")",
       null
      ],
      [
@@ -1126,7 +1087,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2022 $3.2M row 74 (\"Hayden\")",
       null
      ],
      [
@@ -1142,7 +1102,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2021 $2.62M row 71 (\"Hayden\")",
       null
      ],
      [
@@ -1158,7 +1117,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2021 $2.62M row 70 (\"Jeff Gates\")",
       null
      ],
      [
@@ -1174,7 +1132,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2022 $3.2M row 75 (\"Kevin Serafini\")",
       null
      ],
      [
@@ -1190,7 +1147,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2021 $2.62M row 69 (\"Kevin Serafini\")",
       null
      ],
      [
@@ -1206,7 +1162,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 37 (\"Mike Folb\")",
       null
      ],
      [
@@ -1222,7 +1177,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2021 $2.62M row 72 (\"Mike Folb\")",
       null
      ],
      [
@@ -1238,7 +1192,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       "CHECK",
-      "Sheet: 2024 $3.15M row 56 (\"Mike Wood\")",
       "Sheet note: 'More likely to do next deal' – counted in the $1.175M Flamingo total; confirm funded."
      ],
      [
@@ -1254,7 +1207,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2022 $3.2M row 76 (\"Mitch Adam Glickmans Guy\")",
       null
      ],
      [
@@ -1270,7 +1222,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2022 $3.2M row 79 (\"Patrick Shea\")",
       null
      ],
      [
@@ -1286,7 +1237,6 @@ window.CRM = {
       "Closed Oct 31, 2025",
       "Sheet",
       null,
-      "Sheet: 2025 $184K Brokering $37K Raise row 37 (\"Paul Clata\")",
       "Sheet total $1.3M; Hassan Fall payout (2025-11-05) cites $1,500,000 raised – $200K not attributed to an investor in the sources."
      ],
      [
@@ -1302,7 +1252,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 41 (\"Paul Clata\")",
       null
      ],
      [
@@ -1318,7 +1267,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 36 (\"Renee\")",
       null
      ],
      [
@@ -1334,7 +1282,6 @@ window.CRM = {
       "Closed Sep 29, 2026",
       "Sheet + payout",
       null,
-      "Sheet: 2026 $115K Brokering / $51K Raise row 20 (\"Scott Long\"); Hassan Fall 2026-10-12: Parkview credited $450,000",
       null
      ],
      [
@@ -1350,7 +1297,6 @@ window.CRM = {
       "Acquired May 2026; raise open Sep 2026",
       "Sheet + payout",
       null,
-      "Sheet: 2026 $115K Brokering / $51K Raise row 23 (\"Scott Long\"); Hassan Fall 2026-10-12: Riverside credited $217,000",
       null
      ],
      [
@@ -1366,7 +1312,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2025 $184K Brokering $37K Raise row 7 (\"Scott Long\")",
       null
      ],
      [
@@ -1382,7 +1327,6 @@ window.CRM = {
       "Closed Oct 31, 2025",
       "Sheet",
       null,
-      "Sheet: 2025 $184K Brokering $37K Raise row 25 (\"Scott Long\")",
       "Sheet total $1.3M; Hassan Fall payout (2025-11-05) cites $1,500,000 raised – $200K not attributed to an investor in the sources."
      ],
      [
@@ -1398,7 +1342,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2024 $3.15M row 57 (\"Scott Long Airbnb tenant did $500K\")",
       null
      ],
      [
@@ -1414,7 +1357,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2020 $800K row 3 (\"Scott long\")",
       null
      ],
      [
@@ -1430,7 +1372,6 @@ window.CRM = {
       "Closed",
       "Sheet",
       null,
-      "Sheet: 2022 $3.2M row 72 (\"Solomon Short\")",
       null
      ],
      [
@@ -1441,7 +1382,6 @@ window.CRM = {
       null,
       18089591,
       6865750,
-      null,
       null,
       null,
       null,
@@ -1728,7 +1668,6 @@ window.CRM = {
      "COMM. %",
      "COMMISSION $",
      "STATUS",
-     "SOURCE",
      "NOTES"
     ],
     "cols": [
@@ -1743,8 +1682,7 @@ window.CRM = {
      8,
      9,
      10,
-     11,
-     12
+     11
     ],
     "rows": [
      [
@@ -1759,7 +1697,6 @@ window.CRM = {
       0.1,
       80000,
       "Closed",
-      "Shep 2020 tab",
       "Commission paid in B shares (non-cash)"
      ],
      [
@@ -1774,7 +1711,6 @@ window.CRM = {
       0.1,
       262000,
       "Closed",
-      "Shep 2021 tab",
       "Commission paid in B shares (non-cash)"
      ],
      [
@@ -1789,7 +1725,6 @@ window.CRM = {
       0.1,
       320000,
       "Closed",
-      "Shep 2022 tab",
       "Confirmed $3.2M; commission paid in B shares (non-cash)"
      ],
      [
@@ -1804,7 +1739,6 @@ window.CRM = {
       0.1,
       250000,
       "Closed",
-      "Shep 2023 tab",
       "Commission paid in B shares (non-cash)"
      ],
      [
@@ -1819,7 +1753,6 @@ window.CRM = {
       0.0200000003724152,
       10740.7,
       "Credited",
-      "Commission screenshot",
       null
      ],
      [
@@ -1834,7 +1767,6 @@ window.CRM = {
       0.0199999991978764,
       19947.05,
       "Credited",
-      "Commission screenshot",
       null
      ],
      [
@@ -1849,7 +1781,6 @@ window.CRM = {
       0.02,
       9000,
       "Credited",
-      "Commission screenshot",
       null
      ],
      [
@@ -1864,7 +1795,6 @@ window.CRM = {
       0.02,
       4340,
       "Credited",
-      "Commission screenshot",
       null
      ],
      [
@@ -1879,7 +1809,6 @@ window.CRM = {
       0.02,
       28999.98,
       "Committed (Shep sheet)",
-      "Shep 2026 tab updated 2026-10-12",
       "Investor-mapped to Frontier & Sequoia"
      ],
      [
@@ -1894,7 +1823,6 @@ window.CRM = {
       0.02,
       30551.84,
       "Committed (Shep sheet)",
-      "Shep 2026 tab updated 2026-10-12",
       "Includes Don / Cari $1.1M — see duplicate flag"
      ],
      [
@@ -1909,7 +1837,6 @@ window.CRM = {
       0.02,
       9000,
       "Committed (Shep sheet)",
-      "Shep 2026 tab updated 2026-10-12",
       "Matches credited Parkview $450K"
      ],
      [
@@ -1924,7 +1851,6 @@ window.CRM = {
       0.02,
       8340,
       "Committed (Shep sheet)",
-      "Shep 2026 tab updated 2026-10-12",
       "Sheet $417K vs credited Riverside $217K"
      ],
      [
@@ -1939,7 +1865,6 @@ window.CRM = {
       null,
       50000,
       "Closed",
-      "Shep 2026 tab",
       "Sale price not in source"
      ],
      [
@@ -1954,7 +1879,6 @@ window.CRM = {
       null,
       22657,
       "Closed",
-      "Shep 2026 tab",
       "Sale price not in source"
      ],
      [
@@ -1969,7 +1893,6 @@ window.CRM = {
       null,
       42200,
       "Closed",
-      "Shep 2026 tab",
       "Sale price not in source"
      ],
      [
@@ -1984,7 +1907,6 @@ window.CRM = {
       0.02,
       11000,
       "Closed",
-      "Shep 2025 tab",
       null
      ],
      [
@@ -1999,7 +1921,6 @@ window.CRM = {
       0.02,
       26000,
       "Closed",
-      "Shep 2025 tab",
       null
      ],
      [
@@ -2014,7 +1935,6 @@ window.CRM = {
       0.2,
       45950,
       "Closed",
-      "Shep 2025 tab",
       "Amounts as listed by Shep"
      ],
      [
@@ -2029,7 +1949,6 @@ window.CRM = {
       0.02,
       45120,
       "Closed",
-      "Shep 2025 tab",
       null
      ],
      [
@@ -2044,7 +1963,6 @@ window.CRM = {
       0.0137704918032787,
       42000,
       "Closed",
-      "Shep 2025 tab",
       null
      ],
      [
@@ -2059,7 +1977,6 @@ window.CRM = {
       0.0143230769230769,
       27930,
       "Closed",
-      "Shep 2025 tab",
       null
      ],
      [
@@ -2074,7 +1991,6 @@ window.CRM = {
       0.01,
       22950,
       "Closed",
-      "Shep 2025 tab",
       null
      ],
      [
@@ -2089,7 +2005,6 @@ window.CRM = {
       0.06,
       126000,
       "Closed",
-      "Shep 2024 tab",
       null
      ],
      [
@@ -2104,7 +2019,6 @@ window.CRM = {
       0.06,
       70500,
       "Closed",
-      "Shep 2024 tab",
       null
      ],
      [
@@ -2119,7 +2033,6 @@ window.CRM = {
       null,
       30750,
       "Closed",
-      "Shep 2024 tab",
       null
      ],
      [
@@ -2134,7 +2047,6 @@ window.CRM = {
       null,
       45750,
       "Closed",
-      "Shep 2024 tab",
       "Likely = Rons 508 N Myers ($2.1M)"
      ],
      [
@@ -2149,7 +2061,6 @@ window.CRM = {
       null,
       7000,
       "Closed",
-      "Shep 2024 tab",
       null
      ],
      [
@@ -2164,7 +2075,6 @@ window.CRM = {
       null,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -2179,7 +2089,6 @@ window.CRM = {
       null,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -2194,7 +2103,6 @@ window.CRM = {
       null,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -2209,7 +2117,6 @@ window.CRM = {
       null,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -2224,7 +2131,6 @@ window.CRM = {
       null,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -2239,7 +2145,6 @@ window.CRM = {
       null,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -2254,7 +2159,6 @@ window.CRM = {
       null,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -2268,7 +2172,6 @@ window.CRM = {
       48111728.53,
       null,
       1648726.57,
-      null,
       null,
       null
      ]
@@ -2298,43 +2201,37 @@ window.CRM = {
      "DEAL",
      "COUNTERPARTY",
      "AMOUNT",
-     "STATUS",
-     "SOURCE"
+     "STATUS"
     ],
     "cols": [
      0,
      1,
      2,
-     5,
-     6
+     5
     ],
     "rows": [
      [
       "DEAN TN Cox Deal",
       "Dean",
       50000,
-      "Closed",
-      "Shep 2026 tab"
+      "Closed"
      ],
      [
       "Dean TN Lemay",
       "Dean",
       22657,
-      "Closed",
-      "Shep 2026 tab"
+      "Closed"
      ],
      [
       "Don DB NNN",
       "Don Sanford",
       42200,
-      "Closed",
-      "Shep 2026 tab"
+      "Closed"
      ],
      [
       "Total Brokering Income",
       null,
       114857,
-      null,
       null
      ]
     ]
@@ -2355,8 +2252,7 @@ window.CRM = {
      "RAISE",
      "RATE",
      "RAISE COMMISSION",
-     "STATUS",
-     "SOURCE"
+     "STATUS"
     ],
     "cols": [
      0,
@@ -2364,8 +2260,7 @@ window.CRM = {
      2,
      3,
      4,
-     5,
-     6
+     5
     ],
     "rows": [
      [
@@ -2374,8 +2269,7 @@ window.CRM = {
       1427592,
       0.02,
       28551.84,
-      "Paid",
-      "Hassan Fall · Oct 6 email · ACH"
+      "Paid"
      ],
      [
       "Frontier MHC",
@@ -2383,8 +2277,7 @@ window.CRM = {
       537034.99,
       0.0200000003724152,
       10740.7,
-      "Paid",
-      "Hassan Fall · Oct 12 batch"
+      "Paid"
      ],
      [
       "Sequoia MHC",
@@ -2392,8 +2285,7 @@ window.CRM = {
       997352.54,
       0.0199999991978764,
       19947.05,
-      "Paid",
-      "Hassan Fall · Oct 12 batch"
+      "Paid"
      ],
      [
       "Parkview RV",
@@ -2401,8 +2293,7 @@ window.CRM = {
       450000,
       0.02,
       9000,
-      "Paid",
-      "Hassan Fall · Oct 12 batch"
+      "Paid"
      ],
      [
       "Riverside RV",
@@ -2410,8 +2301,7 @@ window.CRM = {
       217000,
       0.02,
       4340,
-      "Paid",
-      "Hassan Fall · Oct 12 batch"
+      "Paid"
      ],
      [
       "Total Raise (paid)",
@@ -2419,7 +2309,6 @@ window.CRM = {
       3628979.53,
       0.0199999998346643,
       72579.59,
-      null,
       null
      ]
     ]
@@ -2456,98 +2345,99 @@ window.CRM = {
     "text": "Income by Year · Elevate cash vs Boa Vida B-share commissions"
    },
    {
-    "type": "table",
-    "header": [
+    "type": "line",
+    "cells": [
      "YEAR",
      "RAISE TOTAL",
      "ELEVATE CASH RAISE COMM",
      "BVG B-SHARE COMM",
      "BROKERING COMMISSION",
      "CASH INCOME (ELEVATE+BROKERING)",
-     "SOURCE / NOTE"
-    ],
-    "cols": [
+     "Note"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     2020,
+     800000,
+     80000,
      0,
-     1,
-     2,
-     3,
-     4,
-     5,
-     6
-    ],
-    "rows": [
-     [
-      2020,
-      800000,
-      null,
-      80000,
-      null,
-      0,
-      "Boa Vida Group · B-share commission (non-cash) · Dean $30K + Scott Long $50K"
-     ],
-     [
-      2021,
-      2620000,
-      null,
-      262000,
-      null,
-      0,
-      "Boa Vida Group · B-share commission (non-cash) $262K"
-     ],
-     [
-      2022,
-      3200000,
-      null,
-      320000,
-      null,
-      0,
-      "Boa Vida Group · B-share commission (non-cash) $320K on Confirmed $3.2M"
-     ],
-     [
-      2023,
-      2500000,
-      null,
-      250000,
-      null,
-      0,
-      "Boa Vida Group · B-share commission (non-cash) $250K · Don Sanford"
-     ],
-     [
-      2024,
-      3275000,
-      196500,
-      null,
-      83500,
-      280000,
-      "Elevate cash raise + brokering · Columbus + Flamingo"
-     ],
-     [
-      2025,
-      1850000,
-      37000,
-      null,
-      183950,
-      220950,
-      "Elevate cash raise + brokering · Eagle + Pocatello"
-     ],
-     [
-      2026,
-      3628979.53,
-      72579.59,
-      null,
-      114857,
-      187436.59,
-      "Elevate cash · Hassan paid $72,579.59"
-     ],
-     [
-      "Total",
-      17873979.53,
-      306079.59,
-      912000,
-      382307,
-      688386.59,
-      null
-     ]
+     "Boa Vida Group · B-share commission (non-cash) · Dean $30K + Scott Long $50K"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     2021,
+     2620000,
+     262000,
+     0,
+     "Boa Vida Group · B-share commission (non-cash) $262K"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     2022,
+     3200000,
+     320000,
+     0,
+     "Boa Vida Group · B-share commission (non-cash) $320K on Confirmed $3.2M"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     2023,
+     2500000,
+     250000,
+     0,
+     "Boa Vida Group · B-share commission (non-cash) $250K · Don Sanford"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     2024,
+     3275000,
+     196500,
+     83500,
+     280000,
+     "Elevate cash raise + brokering · Columbus + Flamingo"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     2025,
+     1850000,
+     37000,
+     183950,
+     220950,
+     "Elevate cash raise + brokering · Eagle + Pocatello"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     2026,
+     3628979.53,
+     72579.59,
+     114857,
+     187436.59,
+     "Elevate cash · Hassan paid $72,579.59"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Total",
+     17873979.53,
+     306079.59,
+     912000,
+     382307,
+     688386.59
     ]
    }
   ],
@@ -2577,8 +2467,7 @@ window.CRM = {
      "RAISE $",
      "COMM. %",
      "CASH COMMISSION $",
-     "STATUS",
-     "SOURCE"
+     "STATUS"
     ],
     "cols": [
      0,
@@ -2587,8 +2476,7 @@ window.CRM = {
      3,
      4,
      5,
-     6,
-     7
+     6
     ],
     "rows": [
      [
@@ -2598,8 +2486,7 @@ window.CRM = {
       1427592,
       0.02,
       28551.84,
-      "Paid",
-      "Hassan Fall · Oct 6"
+      "Paid"
      ],
      [
       "Frontier MHC",
@@ -2608,8 +2495,7 @@ window.CRM = {
       537034.99,
       0.0200000003724152,
       10740.7,
-      "Paid",
-      "Hassan Fall · Oct 12"
+      "Paid"
      ],
      [
       "Sequoia MHC",
@@ -2618,8 +2504,7 @@ window.CRM = {
       997352.54,
       0.0199999991978764,
       19947.05,
-      "Paid",
-      "Hassan Fall · Oct 12"
+      "Paid"
      ],
      [
       "Parkview RV",
@@ -2628,8 +2513,7 @@ window.CRM = {
       450000,
       0.02,
       9000,
-      "Paid",
-      "Hassan Fall · Oct 12"
+      "Paid"
      ],
      [
       "Riverside RV",
@@ -2638,8 +2522,7 @@ window.CRM = {
       217000,
       0.02,
       4340,
-      "Paid",
-      "Hassan Fall · Oct 12"
+      "Paid"
      ],
      [
       "Elevate Eagle, ID",
@@ -2648,8 +2531,7 @@ window.CRM = {
       550000,
       0.02,
       11000,
-      "Closed",
-      "Shep 2025 tab"
+      "Closed"
      ],
      [
       "Elevate Pocatello, ID",
@@ -2658,8 +2540,7 @@ window.CRM = {
       1300000,
       0.02,
       26000,
-      "Closed",
-      "Shep 2025 tab"
+      "Closed"
      ],
      [
       "Elevate OH (Columbus)",
@@ -2668,8 +2549,7 @@ window.CRM = {
       2100000,
       0.06,
       126000,
-      "Closed",
-      "Shep 2024 tab"
+      "Closed"
      ],
      [
       "Elevate Flamingo, MI",
@@ -2678,8 +2558,7 @@ window.CRM = {
       1175000,
       0.06,
       70500,
-      "Closed",
-      "Shep 2024 tab"
+      "Closed"
      ],
      [
       "TOTAL ELEVATE",
@@ -2688,7 +2567,6 @@ window.CRM = {
       8753979.53,
       null,
       306079.59,
-      null,
       null
      ]
     ]
@@ -2702,8 +2580,8 @@ window.CRM = {
     "text": "2020–2023 · every raise is BVG · paid in B shares, not cash"
    },
    {
-    "type": "table",
-    "header": [
+    "type": "line",
+    "cells": [
      "DEAL / OFFERING",
      "PROGRAM",
      "YEAR",
@@ -2711,69 +2589,67 @@ window.CRM = {
      "COMM. %",
      "B-SHARE COMMISSION $",
      "STATUS",
-     "SOURCE / NOTE"
-    ],
-    "cols": [
-     0,
-     1,
-     2,
-     3,
-     4,
-     5,
-     6,
-     7
-    ],
-    "rows": [
-     [
-      "BoaVida 2020",
-      "BoaVida",
-      2020,
-      800000,
-      0.1,
-      80000,
-      "Closed",
-      "Dean $30K + Scott Long $50K B shares"
-     ],
-     [
-      "BoaVida 2021",
-      "BoaVida",
-      2021,
-      2620000,
-      0.1,
-      262000,
-      "Closed",
-      "Shep 2021 tab · B-share total"
-     ],
-     [
-      "BoaVida 2022",
-      "BoaVida",
-      2022,
-      3200000,
-      0.1,
-      320000,
-      "Closed",
-      "Confirmed block · B-share total"
-     ],
-     [
-      "BoaVida 2023",
-      "BoaVida",
-      2023,
-      2500000,
-      0.1,
-      250000,
-      "Closed",
-      "Don Sanford $2.5M · B-share $250K"
-     ],
-     [
-      "TOTAL BOA VIDA GROUP",
-      null,
-      null,
-      9120000,
-      null,
-      912000,
-      null,
-      null
-     ]
+     "Note"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "BoaVida 2020",
+     "BoaVida",
+     2020,
+     800000,
+     0.1,
+     80000,
+     "Closed",
+     "Dean $30K + Scott Long $50K B shares"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "BoaVida 2021",
+     "BoaVida",
+     2021,
+     2620000,
+     0.1,
+     262000,
+     "Closed",
+     "Shep 2021 tab · B-share total"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "BoaVida 2022",
+     "BoaVida",
+     2022,
+     3200000,
+     0.1,
+     320000,
+     "Closed",
+     "Confirmed block · B-share total"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "BoaVida 2023",
+     "BoaVida",
+     2023,
+     2500000,
+     0.1,
+     250000,
+     "Closed",
+     "Don Sanford $2.5M · B-share $250K"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "TOTAL BOA VIDA GROUP",
+     9120000,
+     912000
     ]
    },
    {
@@ -2906,8 +2782,7 @@ window.CRM = {
      "GROSS / PRICE",
      "COMM. %",
      "COMMISSION $",
-     "STATUS",
-     "SOURCE"
+     "STATUS"
     ],
     "cols": [
      0,
@@ -2916,8 +2791,7 @@ window.CRM = {
      3,
      4,
      5,
-     6,
-     7
+     6
     ],
     "rows": [
      [
@@ -2927,8 +2801,7 @@ window.CRM = {
       null,
       null,
       50000,
-      "Closed",
-      "Shep 2026 tab"
+      "Closed"
      ],
      [
       "Dean TN – Lemay",
@@ -2937,8 +2810,7 @@ window.CRM = {
       null,
       null,
       22657,
-      "Closed",
-      "Shep 2026 tab"
+      "Closed"
      ],
      [
       "Don DB NNN",
@@ -2947,8 +2819,7 @@ window.CRM = {
       null,
       null,
       42200,
-      "Closed",
-      "Shep 2026 tab"
+      "Closed"
      ],
      [
       "Don's DB",
@@ -2957,8 +2828,7 @@ window.CRM = {
       229750,
       0.2,
       45950,
-      "Closed",
-      "Shep 2025 tab"
+      "Closed"
      ],
      [
       "Don OR MHP",
@@ -2967,8 +2837,7 @@ window.CRM = {
       2256000,
       0.02,
       45120,
-      "Closed",
-      "Shep 2025 tab"
+      "Closed"
      ],
      [
       "Mack Sale",
@@ -2977,8 +2846,7 @@ window.CRM = {
       3050000,
       0.0137704918032787,
       42000,
-      "Closed",
-      "Shep 2025 tab"
+      "Closed"
      ],
      [
       "Nick/Sam Knoxville Apt",
@@ -2987,8 +2855,7 @@ window.CRM = {
       1950000,
       0.0143230769230769,
       27930,
-      "Closed",
-      "Shep 2025 tab"
+      "Closed"
      ],
      [
       "Donna Ct.",
@@ -2997,8 +2864,7 @@ window.CRM = {
       2295000,
       0.01,
       22950,
-      "Closed",
-      "Shep 2025 tab"
+      "Closed"
      ],
      [
       "Ditmar Buy Side",
@@ -3007,8 +2873,7 @@ window.CRM = {
       null,
       null,
       30750,
-      "Closed",
-      "Shep 2024 tab"
+      "Closed"
      ],
      [
       "Ron's place",
@@ -3017,8 +2882,7 @@ window.CRM = {
       null,
       null,
       45750,
-      "Closed",
-      "Shep 2024 tab"
+      "Closed"
      ],
      [
       "Steph Lease",
@@ -3027,8 +2891,7 @@ window.CRM = {
       null,
       null,
       7000,
-      "Closed",
-      "Shep 2024 tab"
+      "Closed"
      ],
      [
       "TOTAL BROKERING COMMISSION",
@@ -3037,7 +2900,6 @@ window.CRM = {
       9780750,
       null,
       382307,
-      null,
       null
      ]
     ]
@@ -3132,7 +2994,6 @@ window.CRM = {
      "VOLUME $",
      "COMMISSION $",
      "STATUS",
-     "SOURCE",
      "NOTES"
     ],
     "cols": [
@@ -3142,8 +3003,7 @@ window.CRM = {
      3,
      4,
      5,
-     6,
-     7
+     6
     ],
     "rows": [
      [
@@ -3153,7 +3013,6 @@ window.CRM = {
       4585000,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -3163,7 +3022,6 @@ window.CRM = {
       2500000,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -3173,7 +3031,6 @@ window.CRM = {
       2100000,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -3183,7 +3040,6 @@ window.CRM = {
       3025000,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -3193,7 +3049,6 @@ window.CRM = {
       1450000,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -3203,7 +3058,6 @@ window.CRM = {
       2100000,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -3213,7 +3067,6 @@ window.CRM = {
       2280000,
       null,
       "Transacted",
-      "Shep 2024 tab",
       "Volume only"
      ],
      [
@@ -3221,7 +3074,6 @@ window.CRM = {
       null,
       null,
       18040000,
-      null,
       null,
       null,
       null
@@ -3720,1790 +3572,1967 @@ window.CRM = {
     "text": "Follow-ups · who to work for the next Elevate offering / brokering · stages derived from Shep's notes"
    },
    {
-    "type": "table",
-    "header": [
+    "type": "line",
+    "cells": [
      "CONTACT",
      "STAGE",
      "TARGET / OFFERING",
      "INDICATED $",
      "LAST TOUCH",
-     "SOURCE NOTE",
+     "Note",
      "SUGGESTED NEXT STEP",
      "OWNER",
      "STATUS"
-    ],
-    "cols": [
-     0,
-     1,
-     2,
-     3,
-     4,
-     5,
-     6,
-     7,
-     8
-    ],
-    "rows": [
-     [
-      "Don / Cari",
-      "Committed",
-      "Elevate Portland - Frontier & Sequoia + Elevate OH - Orchard (2026)",
-      2200000,
-      null,
-      "2026 tab: $1.1M Portland, $1.1M OH",
-      "Confirm whether $1.1M is one commitment or two (see Reconciliation)",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Hayden",
-      "Committed",
-      "Elevate Portland - Frontier & Sequoia + Elevate OH - Orchard (2026)",
-      350000,
-      null,
-      "2026 tab: $50K Portland, $300K OH",
-      "Confirm funded amounts vs. screenshot credits",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Mike Wood",
-      "Re-engage",
-      "Next Elevate offering",
-      700000,
-      null,
-      "Removed from 2026 raise sheet; 2024 soft next-deal interest",
-      "Re-engage on next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Scott Long",
-      "Committed",
-      "Parkview RV + Riverside RV (2026)",
-      467000,
-      null,
-      "2026: Parkview $250K + Riverside $217K; 2025 Pocatello $500K",
-      "Confirm funded vs credited",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Dean",
-      "Brokering",
-      "TN deals (Cox / Lemay)",
-      null,
-      null,
-      "2026 brokering commissions $50,000 + $22,657",
-      "Track next TN brokering deal",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Don Sanford",
-      "Brokering",
-      "DB NNN",
-      null,
-      null,
-      "2026 Don DB NNN commission $42,200",
-      "Track next NNN deal",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Nick Steiner / Mack Buyer",
-      "Brokering lead",
-      "Oregon Deals",
-      null,
-      null,
-      "2025 tab 'Oregon Deals'",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Cory's dad",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: follow up after UC",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "David Lee",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2022: Follow up email sent 1/19",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jim Realtor",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested sent OM",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "John Tenant",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested sent OM",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Afshan",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested sent OM",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Ian and Roger",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested sent OM",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Kenny G / Dounya",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested sent OM",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Matt Ryan",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested sent OM",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jena Realtor Cali",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested sent OM",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Andy Boes / Landons Dad",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested sent OM",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Liz Kenny / Mckenna Mom (realtor)",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested sent OM",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Clint HVAC CHS",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested sent OM",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Erik Loesch",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested sent OM  / may not have the cash made other investments this year already",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Ed's Dad",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Interested, sent OM and intro Eli",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Sololomons Partner",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2021: Might be out check back in october",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Steve Defalco (Nate referal)",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2022: land developer, RE professional higher net worth, long call lots of good questions",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Dennis Cory's Dad",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2022: Spoke 2/5 high interest level",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Debbie and lisa MHU site",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2022: Interested",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Travis Chmelka (ali's buddy)",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2022: Try again next year",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Travis Hawthorne MHP forum",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2022: Interested follow up 10/21",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jenn (josh's sister/chelsea)",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2022: Interested",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Darlene Streit",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2022: followed up, she was interested high revenue RE pro",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Mike Morris",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2022: Interested for next year, follow up Q1",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Connor Oleary",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      null,
-      "2023: Interested / Apt flipper/owner in MO lead from Mimi, holds around 1k doors in that market",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Bill Nicks father in law",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      "2024-05-08",
-      "2024: Interested for next deal",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Camille",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      "2024-05-01",
-      "2024: $230K exchange possible speaking Monday",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Yasmine",
-      "Warm",
-      "Next Elevate offering",
-      null,
-      "2024-05-09",
-      "2024: Her brother has NNN’s and uncle for next deal",
-      "Follow up",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "A B Mohamad",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Reach out after popeye's deal",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Abid (popeyes operator)",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: sent email",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Angel Lopez / Swell Realty agent",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Anthony Coronna / Hardee's buyers",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Touch base after close",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Brad and Emily",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-05-18",
-      "2024: He’s a developer and does his work in San Fran his dad may be involved too",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Brenna Agent O side",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Brian Shawns dad & leads, partner on 5 flexes and oracle guy",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Casey",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Interested but may wait til next year",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Casey Sols partner",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-25",
-      "2024: Sent email",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Cathy McCall/ Ian Buyer",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Chris Adams",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Chris Sands",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Clint Gaskins",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2023: emailed offering",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Clint Micahs Partner",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Cory Detmer / Popeyes Developer",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Spoke 1/19",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "David (Nate referal)",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: He also has a fund looking at those details",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "David Dworkin / Sailormen",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Touch base after close FL site",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Denis / Brians Referal",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-29",
-      "2024: Sent email",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Deon Travers",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-26",
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Drew Duncan",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Ed Colson",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-05-09",
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Emily Palmer / Lender Ed's friend",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2023: Spoke, she has portfolio of MF spread out MT, FL a few others, Mortgage broker",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Eric Iantorno",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2025-05-29",
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Fredrik Elkund",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Sent email",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Graham and Kelly amand tennis friends",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: $200k is too high",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "heather iantorno",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jason Oppenheimer",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jeff Cook / CHS broker",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jeff F45 Owner",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Texted",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jessie Cory's Lead",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Spoke with jesse for over an hour 1/19, has self storage worth around 12m with 4m debt and a partner and flea market worth around $1m he's selling by May",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Joe Poker",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-05-03",
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "John Dang",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-28",
-      "2024: Left vm",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "John Flanagan",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2023: texted to send offering need his email",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jordan Klink / M&M",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Coreys buddy, referal",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Josh / Brians referal",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-19",
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Josh Chestnut",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Josh Flagg",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Sent email",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Josh K",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Josh Neighbor",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-05-03",
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Joshua Mack lofts buyer owns park MO",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Justin Cory's Lead",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Spoke 1/20 need to send email with OM",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Justin Zahn",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Kellens Firm",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Kenny Micah's buddy",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Micah going to discuss this w/e 1/22",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Kevin Gioia",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Left VM",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Klara",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-05-03",
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Kristen and Pete (she's RE Pro)",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: no response",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Matt and Josh Altman",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Sent email",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Melody (rebecca reidy friend)",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: sent text",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Mike Olivia",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Mikkie Ramey / CHS Broker",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Nick Karnazes (phenix buyers broker)",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Spoke 1/19",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Nick Layon",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Paul Jaden's Friend",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: $6M fund looking to place cash",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Phil Sambazis",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-07-31",
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Robert / Brians referal",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-23",
-      "2024: Sent email",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Rustin",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Texted",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Sam Debaets",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Sam Moore",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2025-05-29",
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Sandro Dazzan",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: sent text",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Smilowitz Family",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Solomon",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-19",
-      "2024: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Stephanie",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-23",
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Stephanie kendras flip partner",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Steve Gold",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Sent email",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Taylor Gillespie",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: no response",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Tejas",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-05-01",
-      "2024: Unable to use money from Fund",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Tenisha (compass with Josh)",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Tides Founders",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "No invested total on raise tabs",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Tracy Mclughlin",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: sent text",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Victor Adam Glickman Guy",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: no response",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Zeke Daniels Friend",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: no response",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Alan Prohaska",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Andre",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-26",
-      "2024: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Andre mikes Neighbor",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Andy Branton",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-23",
-      "2024: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Anthony Verma",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Ben Strock",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2023: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Brad and Audra",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-29",
-      "2024: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Brett Jones",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Brian Cepalak",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-08-12",
-      "2024: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Brian Whitsit",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Byrum Kens Buddy",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Chamberlain Kellens Contact",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-23",
-      "2024: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Chase / Phenix",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Crystal Joshlin San Diego Realtors Gym",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Dad",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "David Airbnb 4/5",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Dean Pearce",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Diane Pergrossi",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2023: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Eric and heather Iatorno",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Evan Flip",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Frank Mikes connections",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Harvey Daniels",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Said no, emailed",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Ian BJJ",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jennifer Martin / Attorney MEX",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jenny (amy's sister)",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jim AMC founder",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Jon Holt",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Kellen",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-19",
-      "2024: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Ken Levine AMC",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Kimberly Lease (renee's friend, big broker in CHS)",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Kristy Martindel",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-07-31",
-      "2024: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Lindsey Accu friend",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Macon Rudisil",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Marty Myers Boss",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Matt Coltons Dad",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Megan Dons Friend",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2025: No",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Mike Mccay",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-04-25",
-      "2024: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Mitch Dayan",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-07-31",
-      "2024: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Nathan Krill",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Nick Sellick",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Oscar V.",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      "2024-05-01",
-      "2024: Not interested but maybe future deals",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Pat Callahan",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Phenix Buyer",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Pierce Mom",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2025: No",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Sam Pinto",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2024: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Sam Santi mom",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Stacy Jennings",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Stephen Na / Tesla",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Talmadge Price",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Thomas Ladt Claudia husband",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Tim Fueling",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Trip Rudisil / Macons brother and dad interested",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2021: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "Turjo",
-      "Prospect",
-      "Prospect (no $ listed yet)",
-      null,
-      null,
-      "2022: Not Interested",
-      "Qualify / add to next offering",
-      "Ryan",
-      "Open"
-     ],
-     [
-      "TOTAL",
-      "159 open",
-      null,
-      3717000,
-      null,
-      null,
-      null,
-      null,
-      null
-     ]
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Don / Cari",
+     "Committed",
+     "Elevate Portland - Frontier & Sequoia + Elevate OH - Orchard (2026)",
+     2200000,
+     "2026 tab: $1.1M Portland, $1.1M OH",
+     "Confirm whether $1.1M is one commitment or two (see Reconciliation)",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Hayden",
+     "Committed",
+     "Elevate Portland - Frontier & Sequoia + Elevate OH - Orchard (2026)",
+     350000,
+     "2026 tab: $50K Portland, $300K OH",
+     "Confirm funded amounts vs. screenshot credits",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Mike Wood",
+     "Re-engage",
+     "Next Elevate offering",
+     700000,
+     "Removed from 2026 raise sheet; 2024 soft next-deal interest",
+     "Re-engage on next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Scott Long",
+     "Committed",
+     "Parkview RV + Riverside RV (2026)",
+     467000,
+     "2026: Parkview $250K + Riverside $217K; 2025 Pocatello $500K",
+     "Confirm funded vs credited",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Dean",
+     "Brokering",
+     "TN deals (Cox / Lemay)",
+     "2026 brokering commissions $50,000 + $22,657",
+     "Track next TN brokering deal",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Don Sanford",
+     "Brokering",
+     "DB NNN",
+     "2026 Don DB NNN commission $42,200",
+     "Track next NNN deal",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Nick Steiner / Mack Buyer",
+     "Brokering lead",
+     "Oregon Deals",
+     "2025 tab 'Oregon Deals'",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Cory's dad",
+     "Warm",
+     "Next Elevate offering",
+     "2021: follow up after UC",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "David Lee",
+     "Warm",
+     "Next Elevate offering",
+     "2022: Follow up email sent 1/19",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jim Realtor",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested sent OM",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "John Tenant",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested sent OM",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Afshan",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested sent OM",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Ian and Roger",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested sent OM",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Kenny G / Dounya",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested sent OM",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Matt Ryan",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested sent OM",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jena Realtor Cali",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested sent OM",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Andy Boes / Landons Dad",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested sent OM",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Liz Kenny / Mckenna Mom (realtor)",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested sent OM",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Clint HVAC CHS",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested sent OM",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Erik Loesch",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested sent OM  / may not have the cash made other investments this year already",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Ed's Dad",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Interested, sent OM and intro Eli",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Sololomons Partner",
+     "Warm",
+     "Next Elevate offering",
+     "2021: Might be out check back in october",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Steve Defalco (Nate referal)",
+     "Warm",
+     "Next Elevate offering",
+     "2022: land developer, RE professional higher net worth, long call lots of good questions",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Dennis Cory's Dad",
+     "Warm",
+     "Next Elevate offering",
+     "2022: Spoke 2/5 high interest level",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Debbie and lisa MHU site",
+     "Warm",
+     "Next Elevate offering",
+     "2022: Interested",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Travis Chmelka (ali's buddy)",
+     "Warm",
+     "Next Elevate offering",
+     "2022: Try again next year",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Travis Hawthorne MHP forum",
+     "Warm",
+     "Next Elevate offering",
+     "2022: Interested follow up 10/21",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jenn (josh's sister/chelsea)",
+     "Warm",
+     "Next Elevate offering",
+     "2022: Interested",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Darlene Streit",
+     "Warm",
+     "Next Elevate offering",
+     "2022: followed up, she was interested high revenue RE pro",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Mike Morris",
+     "Warm",
+     "Next Elevate offering",
+     "2022: Interested for next year, follow up Q1",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Connor Oleary",
+     "Warm",
+     "Next Elevate offering",
+     "2023: Interested / Apt flipper/owner in MO lead from Mimi, holds around 1k doors in that market",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Bill Nicks father in law",
+     "Warm",
+     "Next Elevate offering",
+     "2024-05-08",
+     "2024: Interested for next deal",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Camille",
+     "Warm",
+     "Next Elevate offering",
+     "2024-05-01",
+     "2024: $230K exchange possible speaking Monday",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Yasmine",
+     "Warm",
+     "Next Elevate offering",
+     "2024-05-09",
+     "2024: Her brother has NNN’s and uncle for next deal",
+     "Follow up",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "A B Mohamad",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Reach out after popeye's deal",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Abid (popeyes operator)",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: sent email",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Angel Lopez / Swell Realty agent",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Anthony Coronna / Hardee's buyers",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Touch base after close",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Brad and Emily",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-05-18",
+     "2024: He’s a developer and does his work in San Fran his dad may be involved too",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Brenna Agent O side",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Brian Shawns dad & leads, partner on 5 flexes and oracle guy",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Casey",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Interested but may wait til next year",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Casey Sols partner",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-25",
+     "2024: Sent email",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Cathy McCall/ Ian Buyer",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Chris Adams",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Chris Sands",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Clint Gaskins",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2023: emailed offering",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Clint Micahs Partner",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Cory Detmer / Popeyes Developer",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Spoke 1/19",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "David (Nate referal)",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: He also has a fund looking at those details",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "David Dworkin / Sailormen",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Touch base after close FL site",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Denis / Brians Referal",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-29",
+     "2024: Sent email",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Deon Travers",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-26",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Drew Duncan",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Ed Colson",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-05-09",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Emily Palmer / Lender Ed's friend",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2023: Spoke, she has portfolio of MF spread out MT, FL a few others, Mortgage broker",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Eric Iantorno",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2025-05-29",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Fredrik Elkund",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Sent email",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Graham and Kelly amand tennis friends",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: $200k is too high",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "heather iantorno",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jason Oppenheimer",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jeff Cook / CHS broker",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jeff F45 Owner",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Texted",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jessie Cory's Lead",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Spoke with jesse for over an hour 1/19, has self storage worth around 12m with 4m debt and a partner and flea market worth around $1m he's selling by May",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Joe Poker",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-05-03",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "John Dang",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-28",
+     "2024: Left vm",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "John Flanagan",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2023: texted to send offering need his email",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jordan Klink / M&M",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Coreys buddy, referal",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Josh / Brians referal",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-19",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Josh Chestnut",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Josh Flagg",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Sent email",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Josh K",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Josh Neighbor",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-05-03",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Joshua Mack lofts buyer owns park MO",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Justin Cory's Lead",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Spoke 1/20 need to send email with OM",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Justin Zahn",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Kellens Firm",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Kenny Micah's buddy",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Micah going to discuss this w/e 1/22",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Kevin Gioia",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Left VM",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Klara",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-05-03",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Kristen and Pete (she's RE Pro)",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: no response",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Matt and Josh Altman",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Sent email",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Melody (rebecca reidy friend)",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: sent text",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Mike Olivia",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Mikkie Ramey / CHS Broker",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Nick Karnazes (phenix buyers broker)",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Spoke 1/19",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Nick Layon",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Paul Jaden's Friend",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: $6M fund looking to place cash",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Phil Sambazis",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-07-31",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Robert / Brians referal",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-23",
+     "2024: Sent email",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Rustin",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Texted",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Sam Debaets",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Sam Moore",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2025-05-29",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Sandro Dazzan",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: sent text",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Smilowitz Family",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Solomon",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-19",
+     "2024: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Stephanie",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-23",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Stephanie kendras flip partner",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Steve Gold",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Sent email",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Taylor Gillespie",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: no response",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Tejas",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-05-01",
+     "2024: Unable to use money from Fund",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Tenisha (compass with Josh)",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Tides Founders",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "No invested total on raise tabs",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Tracy Mclughlin",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: sent text",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Victor Adam Glickman Guy",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: no response",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Zeke Daniels Friend",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: no response",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Alan Prohaska",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Andre",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-26",
+     "2024: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Andre mikes Neighbor",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Andy Branton",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-23",
+     "2024: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Anthony Verma",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Ben Strock",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2023: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Brad and Audra",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-29",
+     "2024: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Brett Jones",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Brian Cepalak",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-08-12",
+     "2024: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Brian Whitsit",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Byrum Kens Buddy",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Chamberlain Kellens Contact",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-23",
+     "2024: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Chase / Phenix",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Crystal Joshlin San Diego Realtors Gym",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Dad",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "David Airbnb 4/5",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Dean Pearce",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Diane Pergrossi",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2023: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Eric and heather Iatorno",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Evan Flip",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Frank Mikes connections",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Harvey Daniels",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Said no, emailed",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Ian BJJ",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jennifer Martin / Attorney MEX",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jenny (amy's sister)",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jim AMC founder",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Jon Holt",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Kellen",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-19",
+     "2024: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Ken Levine AMC",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Kimberly Lease (renee's friend, big broker in CHS)",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Kristy Martindel",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-07-31",
+     "2024: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Lindsey Accu friend",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Macon Rudisil",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Marty Myers Boss",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Matt Coltons Dad",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Megan Dons Friend",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2025: No",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Mike Mccay",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-04-25",
+     "2024: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Mitch Dayan",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-07-31",
+     "2024: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Nathan Krill",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Nick Sellick",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Oscar V.",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024-05-01",
+     "2024: Not interested but maybe future deals",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Pat Callahan",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Phenix Buyer",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Pierce Mom",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2025: No",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Sam Pinto",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2024: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Sam Santi mom",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Stacy Jennings",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Stephen Na / Tesla",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Talmadge Price",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Thomas Ladt Claudia husband",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Tim Fueling",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Trip Rudisil / Macons brother and dad interested",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2021: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Turjo",
+     "Prospect",
+     "Prospect (no $ listed yet)",
+     "2022: Not Interested",
+     "Qualify / add to next offering",
+     "Ryan",
+     "Open"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     "TOTAL",
+     "159 open",
+     3717000
     ]
    }
   ],
@@ -5527,9 +5556,7 @@ window.CRM = {
      "AMOUNT",
      "DATE CONTACTED",
      "OUTCOME",
-     "NOTES",
-     "SOURCE TAB",
-     "SRC ROW"
+     "NOTES"
     ],
     "cols": [
      0,
@@ -5542,9 +5569,7 @@ window.CRM = {
      7,
      8,
      9,
-     10,
-     11,
-     12
+     10
     ],
     "rows": [
      [
@@ -5556,9 +5581,7 @@ window.CRM = {
       217000,
       null,
       "Committed",
-      null,
-      "2026 $115K Brokering / $51K Raise",
-      23
+      null
      ],
      [
       2026,
@@ -5569,9 +5592,7 @@ window.CRM = {
       200000,
       null,
       "Committed",
-      null,
-      "2026 $115K Brokering / $51K Raise",
-      24
+      null
      ],
      [
       2026,
@@ -5582,9 +5603,7 @@ window.CRM = {
       1100000,
       null,
       "Committed",
-      null,
-      "2026 $115K Brokering / $51K Raise",
-      14
+      null
      ],
      [
       2026,
@@ -5595,9 +5614,7 @@ window.CRM = {
       300000,
       null,
       "Committed",
-      null,
-      "2026 $115K Brokering / $51K Raise",
-      15
+      null
      ],
      [
       2026,
@@ -5608,9 +5625,7 @@ window.CRM = {
       127592,
       null,
       "Committed",
-      null,
-      "2026 $115K Brokering / $51K Raise",
-      16
+      null
      ],
      [
       2026,
@@ -5621,9 +5636,7 @@ window.CRM = {
       299999,
       null,
       "Committed",
-      null,
-      "2026 $115K Brokering / $51K Raise",
-      9
+      null
      ],
      [
       2026,
@@ -5634,9 +5647,7 @@ window.CRM = {
       50000,
       null,
       "Committed",
-      null,
-      "2026 $115K Brokering / $51K Raise",
-      10
+      null
      ],
      [
       2026,
@@ -5647,9 +5658,7 @@ window.CRM = {
       1100000,
       null,
       "Committed",
-      null,
-      "2026 $115K Brokering / $51K Raise",
-      11
+      null
      ],
      [
       2026,
@@ -5660,9 +5669,7 @@ window.CRM = {
       200000,
       null,
       "Committed",
-      null,
-      "2026 $115K Brokering / $51K Raise",
-      19
+      null
      ],
      [
       2026,
@@ -5673,9 +5680,7 @@ window.CRM = {
       250000,
       null,
       "Committed",
-      null,
-      "2026 $115K Brokering / $51K Raise",
-      20
+      null
      ],
      [
       2025,
@@ -5686,9 +5691,7 @@ window.CRM = {
       null,
       "2025-05-29",
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      2
+      null
      ],
      [
       2025,
@@ -5699,9 +5702,7 @@ window.CRM = {
       50000,
       "2025-05-29",
       "Committed",
-      "Wanted to do 100k",
-      "2025 $184K Brokering $37K Raise",
-      3
+      "Wanted to do 100k"
      ],
      [
       2025,
@@ -5712,9 +5713,7 @@ window.CRM = {
       null,
       "2025-05-28",
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      4
+      null
      ],
      [
       2025,
@@ -5725,9 +5724,7 @@ window.CRM = {
       null,
       "2025-05-28",
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      5
+      null
      ],
      [
       2025,
@@ -5738,9 +5735,7 @@ window.CRM = {
       null,
       "2025-05-29",
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      6
+      null
      ],
      [
       2025,
@@ -5751,9 +5746,7 @@ window.CRM = {
       100000,
       "2025-05-29",
       "Committed",
-      "Wanted to do 200k",
-      "2025 $184K Brokering $37K Raise",
-      7
+      "Wanted to do 200k"
      ],
      [
       2025,
@@ -5764,9 +5757,7 @@ window.CRM = {
       null,
       "2025-05-29",
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      8
+      null
      ],
      [
       2025,
@@ -5777,9 +5768,7 @@ window.CRM = {
       null,
       "2025-05-29",
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      9
+      null
      ],
      [
       2025,
@@ -5790,9 +5779,7 @@ window.CRM = {
       400000,
       "2025-06-05",
       "Committed",
-      "Wanted to do 500k",
-      "2025 $184K Brokering $37K Raise",
-      10
+      "Wanted to do 500k"
      ],
      [
       2025,
@@ -5803,9 +5790,7 @@ window.CRM = {
       500000,
       null,
       "Committed",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      17
+      null
      ],
      [
       2025,
@@ -5816,9 +5801,7 @@ window.CRM = {
       50000,
       null,
       "Committed",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      18
+      null
      ],
      [
       2025,
@@ -5829,9 +5812,7 @@ window.CRM = {
       50000,
       null,
       "Committed",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      19
+      null
      ],
      [
       2025,
@@ -5842,9 +5823,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      20
+      null
      ],
      [
       2025,
@@ -5855,9 +5834,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      21
+      null
      ],
      [
       2025,
@@ -5868,9 +5845,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      22
+      null
      ],
      [
       2025,
@@ -5881,9 +5856,7 @@ window.CRM = {
       0,
       null,
       "Not interested",
-      "No",
-      "2025 $184K Brokering $37K Raise",
-      23
+      "No"
      ],
      [
       2025,
@@ -5894,9 +5867,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      24
+      null
      ],
      [
       2025,
@@ -5907,9 +5878,7 @@ window.CRM = {
       500000,
       null,
       "Committed",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      25
+      null
      ],
      [
       2025,
@@ -5920,9 +5889,7 @@ window.CRM = {
       50000,
       null,
       "Committed",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      26
+      null
      ],
      [
       2025,
@@ -5933,9 +5900,7 @@ window.CRM = {
       0,
       null,
       "Not interested",
-      "No",
-      "2025 $184K Brokering $37K Raise",
-      27
+      "No"
      ],
      [
       2025,
@@ -5946,9 +5911,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      28
+      null
      ],
      [
       2025,
@@ -5959,9 +5922,7 @@ window.CRM = {
       0,
       null,
       "Not interested",
-      "No",
-      "2025 $184K Brokering $37K Raise",
-      29
+      "No"
      ],
      [
       2025,
@@ -5972,9 +5933,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      30
+      null
      ],
      [
       2025,
@@ -5985,9 +5944,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      31
+      null
      ],
      [
       2025,
@@ -5998,9 +5955,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      32
+      null
      ],
      [
       2025,
@@ -6011,9 +5966,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      33
+      null
      ],
      [
       2025,
@@ -6024,9 +5977,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      34
+      null
      ],
      [
       2025,
@@ -6037,9 +5988,7 @@ window.CRM = {
       100000,
       null,
       "Committed",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      35
+      null
      ],
      [
       2025,
@@ -6050,9 +5999,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      36
+      null
      ],
      [
       2025,
@@ -6063,9 +6010,7 @@ window.CRM = {
       50000,
       null,
       "Committed",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      37
+      null
      ],
      [
       2025,
@@ -6076,9 +6021,7 @@ window.CRM = {
       null,
       null,
       "Brokering lead",
-      null,
-      "2025 $184K Brokering $37K Raise",
-      50
+      null
      ],
      [
       2024,
@@ -6089,9 +6032,7 @@ window.CRM = {
       0,
       "2024-07-25",
       "Contacted",
-      "Texted didn’t respond much will send printed offering",
-      "2024 $3.15M",
-      46
+      "Texted didn’t respond much will send printed offering"
      ],
      [
       2024,
@@ -6102,9 +6043,7 @@ window.CRM = {
       0,
       "2024-07-31",
       "Warm",
-      "Emailed he’s calling tomorrow",
-      "2024 $3.15M",
-      47
+      "Emailed he’s calling tomorrow"
      ],
      [
       2024,
@@ -6115,9 +6054,7 @@ window.CRM = {
       0,
       "2024-08-12",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      48
+      "Not interested"
      ],
      [
       2024,
@@ -6128,9 +6065,7 @@ window.CRM = {
       0,
       "2024-07-31",
       "Contacted",
-      null,
-      "2024 $3.15M",
-      49
+      null
      ],
      [
       2024,
@@ -6141,9 +6076,7 @@ window.CRM = {
       0,
       "2024-07-31",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      50
+      "Not interested"
      ],
      [
       2024,
@@ -6154,9 +6087,7 @@ window.CRM = {
       0,
       "2024-07-31",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      51
+      "Not interested"
      ],
      [
       2024,
@@ -6167,9 +6098,7 @@ window.CRM = {
       0,
       "2024-07-31",
       "Not interested",
-      "Not interested doing his own deals.",
-      "2024 $3.15M",
-      52
+      "Not interested doing his own deals."
      ],
      [
       2024,
@@ -6180,9 +6109,7 @@ window.CRM = {
       0,
       "2024-07-31",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      53
+      "Not interested"
      ],
      [
       2024,
@@ -6193,9 +6120,7 @@ window.CRM = {
       0,
       "2024-07-31",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      54
+      "Not interested"
      ],
      [
       2024,
@@ -6206,9 +6131,7 @@ window.CRM = {
       0,
       "2024-07-31",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      55
+      "Not interested"
      ],
      [
       2024,
@@ -6219,9 +6142,7 @@ window.CRM = {
       50000,
       "2024-08-12",
       "Committed",
-      "More likely to do next deal has $1.5M exchange open",
-      "2024 $3.15M",
-      56
+      "More likely to do next deal has $1.5M exchange open"
      ],
      [
       2024,
@@ -6232,9 +6153,7 @@ window.CRM = {
       500000,
       "2024-07-26",
       "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      57
+      "CONFIRMED"
      ],
      [
       2024,
@@ -6245,9 +6164,7 @@ window.CRM = {
       75000,
       "2024-08-16",
       "Committed",
-      "Call Today",
-      "2024 $3.15M",
-      58
+      "Call Today"
      ],
      [
       2024,
@@ -6258,9 +6175,7 @@ window.CRM = {
       50000,
       "2024-07-26",
       "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      59
+      "CONFIRMED"
      ],
      [
       2024,
@@ -6271,9 +6186,7 @@ window.CRM = {
       500000,
       "2024-07-26",
       "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      60
+      "CONFIRMED"
      ],
      [
       2024,
@@ -6284,9 +6197,7 @@ window.CRM = {
       0,
       "2024-05-08",
       "Warm",
-      "Interested for next deal",
-      "2024 $3.15M",
-      2
+      "Interested for next deal"
      ],
      [
       2024,
@@ -6297,9 +6208,7 @@ window.CRM = {
       0,
       "2024-04-23",
       "Contacted",
-      "Sent email",
-      "2024 $3.15M",
-      3
+      "Sent email"
      ],
      [
       2024,
@@ -6310,9 +6219,7 @@ window.CRM = {
       0,
       "2024-04-29",
       "Contacted",
-      "Sent email",
-      "2024 $3.15M",
-      4
+      "Sent email"
      ],
      [
       2024,
@@ -6323,9 +6230,7 @@ window.CRM = {
       0,
       "2024-04-25",
       "Contacted",
-      "Sent email",
-      "2024 $3.15M",
-      5
+      "Sent email"
      ],
      [
       2024,
@@ -6336,9 +6241,7 @@ window.CRM = {
       0,
       "2024-04-23",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      6
+      "Not interested"
      ],
      [
       2024,
@@ -6349,9 +6252,7 @@ window.CRM = {
       0,
       "2024-04-23",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      7
+      "Not interested"
      ],
      [
       2024,
@@ -6362,9 +6263,7 @@ window.CRM = {
       0,
       "2024-04-23",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      8
+      "Not interested"
      ],
      [
       2024,
@@ -6375,9 +6274,7 @@ window.CRM = {
       0,
       "2024-04-23",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      9
+      "Not interested"
      ],
      [
       2024,
@@ -6388,9 +6285,7 @@ window.CRM = {
       0,
       "2024-05-03",
       "Confirmed",
-      "Hasn’t confirmed 100k??",
-      "2024 $3.15M",
-      10
+      "Hasn’t confirmed 100k??"
      ],
      [
       2024,
@@ -6401,9 +6296,7 @@ window.CRM = {
       0,
       "2024-05-01",
       "Warm",
-      "$230K exchange possible speaking Monday",
-      "2024 $3.15M",
-      11
+      "$230K exchange possible speaking Monday"
      ],
      [
       2024,
@@ -6414,9 +6307,7 @@ window.CRM = {
       0,
       "2024-04-29",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      12
+      "Not interested"
      ],
      [
       2024,
@@ -6427,9 +6318,7 @@ window.CRM = {
       0,
       "2024-04-29",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      13
+      "Not interested"
      ],
      [
       2024,
@@ -6440,9 +6329,7 @@ window.CRM = {
       0,
       "2024-04-23",
       "Contacted",
-      null,
-      "2024 $3.15M",
-      14
+      null
      ],
      [
       2024,
@@ -6453,9 +6340,7 @@ window.CRM = {
       0,
       "2024-04-19",
       "Contacted",
-      null,
-      "2024 $3.15M",
-      15
+      null
      ],
      [
       2024,
@@ -6466,9 +6351,7 @@ window.CRM = {
       0,
       "2024-04-25",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      16
+      "Not interested"
      ],
      [
       2024,
@@ -6479,9 +6362,7 @@ window.CRM = {
       0,
       "2024-04-26",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      17
+      "Not interested"
      ],
      [
       2024,
@@ -6492,9 +6373,7 @@ window.CRM = {
       0,
       "2024-04-29",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      18
+      "Not interested"
      ],
      [
       2024,
@@ -6505,9 +6384,7 @@ window.CRM = {
       0,
       "2024-04-26",
       "Contacted",
-      null,
-      "2024 $3.15M",
-      19
+      null
      ],
      [
       2024,
@@ -6518,9 +6395,7 @@ window.CRM = {
       0,
       "2024-05-01",
       "Not interested",
-      "Not interested but maybe future deals",
-      "2024 $3.15M",
-      20
+      "Not interested but maybe future deals"
      ],
      [
       2024,
@@ -6531,9 +6406,7 @@ window.CRM = {
       0,
       "2024-05-03",
       "Contacted",
-      null,
-      "2024 $3.15M",
-      21
+      null
      ],
      [
       2024,
@@ -6544,9 +6417,7 @@ window.CRM = {
       0,
       "2024-05-03",
       "Contacted",
-      null,
-      "2024 $3.15M",
-      22
+      null
      ],
      [
       2024,
@@ -6557,9 +6428,7 @@ window.CRM = {
       0,
       "2024-05-09",
       "Warm",
-      "Her brother has NNN’s and uncle for next deal",
-      "2024 $3.15M",
-      23
+      "Her brother has NNN’s and uncle for next deal"
      ],
      [
       2024,
@@ -6570,9 +6439,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2024 $3.15M",
-      24
+      null
      ],
      [
       2024,
@@ -6583,9 +6450,7 @@ window.CRM = {
       0,
       "2024-05-09",
       "Contacted",
-      null,
-      "2024 $3.15M",
-      25
+      null
      ],
      [
       2024,
@@ -6596,9 +6461,7 @@ window.CRM = {
       0,
       "2024-05-03",
       "Contacted",
-      null,
-      "2024 $3.15M",
-      26
+      null
      ],
      [
       2024,
@@ -6609,9 +6472,7 @@ window.CRM = {
       0,
       "2024-05-13",
       "Warm",
-      "Had rental Ron looked at maybe exchange later",
-      "2024 $3.15M",
-      27
+      "Had rental Ron looked at maybe exchange later"
      ],
      [
       2024,
@@ -6622,9 +6483,7 @@ window.CRM = {
       0,
       "2024-05-18",
       "Contacted",
-      "He’s a developer and does his work in San Fran his dad may be involved too",
-      "2024 $3.15M",
-      28
+      "He’s a developer and does his work in San Fran his dad may be involved too"
      ],
      [
       2024,
@@ -6635,9 +6494,7 @@ window.CRM = {
       0,
       "2024-05-01",
       "Contacted",
-      "Unable to use money from Fund",
-      "2024 $3.15M",
-      29
+      "Unable to use money from Fund"
      ],
      [
       2024,
@@ -6648,9 +6505,7 @@ window.CRM = {
       0,
       null,
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      30
+      "Not interested"
      ],
      [
       2024,
@@ -6661,9 +6516,7 @@ window.CRM = {
       0,
       null,
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      31
+      "Not interested"
      ],
      [
       2024,
@@ -6674,9 +6527,7 @@ window.CRM = {
       0,
       "2024-04-19",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      32
+      "Not interested"
      ],
      [
       2024,
@@ -6687,9 +6538,7 @@ window.CRM = {
       0,
       "2024-04-23",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      33
+      "Not interested"
      ],
      [
       2024,
@@ -6700,9 +6549,7 @@ window.CRM = {
       0,
       "2024-04-19",
       "Not interested",
-      "Not interested",
-      "2024 $3.15M",
-      34
+      "Not interested"
      ],
      [
       2024,
@@ -6713,9 +6560,7 @@ window.CRM = {
       0,
       "2024-04-28",
       "Contacted",
-      "Left vm",
-      "2024 $3.15M",
-      35
+      "Left vm"
      ],
      [
       2024,
@@ -6726,9 +6571,7 @@ window.CRM = {
       200000,
       "2024-04-24",
       "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      36
+      "CONFIRMED"
      ],
      [
       2024,
@@ -6739,9 +6582,7 @@ window.CRM = {
       100000,
       "2024-04-23",
       "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      37
+      "CONFIRMED"
      ],
      [
       2024,
@@ -6752,9 +6593,7 @@ window.CRM = {
       100000,
       "2024-04-19",
       "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      38
+      "CONFIRMED"
      ],
      [
       2024,
@@ -6765,9 +6604,7 @@ window.CRM = {
       50000,
       "2024-04-19",
       "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      39
+      "CONFIRMED"
      ],
      [
       2024,
@@ -6778,9 +6615,7 @@ window.CRM = {
       100000,
       "2024-04-23",
       "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      40
+      "CONFIRMED"
      ],
      [
       2024,
@@ -6791,9 +6626,7 @@ window.CRM = {
       50000,
       "2024-05-03",
       "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      41
+      "CONFIRMED"
      ],
      [
       2024,
@@ -6804,9 +6637,7 @@ window.CRM = {
       1500000,
       "2024-04-19",
       "Confirmed",
-      "CONFIRMED",
-      "2024 $3.15M",
-      42
+      "CONFIRMED"
      ],
      [
       2023,
@@ -6817,9 +6648,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested / Apt flipper/owner in MO lead from Mimi, holds around 1k doors in that market",
-      "2023 $2.5M",
-      2
+      "Interested / Apt flipper/owner in MO lead from Mimi, holds around 1k doors in that market"
      ],
      [
       2023,
@@ -6830,9 +6659,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2023 $2.5M",
-      3
+      "Not Interested"
      ],
      [
       2023,
@@ -6843,9 +6670,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2023 $2.5M",
-      4
+      "Not Interested"
      ],
      [
       2023,
@@ -6856,9 +6681,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "emailed offering",
-      "2023 $2.5M",
-      5
+      "emailed offering"
      ],
      [
       2023,
@@ -6869,9 +6692,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "texted to send offering need his email",
-      "2023 $2.5M",
-      6
+      "texted to send offering need his email"
      ],
      [
       2023,
@@ -6882,9 +6703,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2023 $2.5M",
-      7
+      null
      ],
      [
       2023,
@@ -6895,9 +6714,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2023 $2.5M",
-      8
+      null
      ],
      [
       2023,
@@ -6908,9 +6725,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2023 $2.5M",
-      9
+      null
      ],
      [
       2023,
@@ -6921,9 +6736,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Spoke, she has portfolio of MF spread out MT, FL a few others, Mortgage broker",
-      "2023 $2.5M",
-      10
+      "Spoke, she has portfolio of MF spread out MT, FL a few others, Mortgage broker"
      ],
      [
       2023,
@@ -6934,9 +6747,7 @@ window.CRM = {
       2500000,
       null,
       "Committed",
-      null,
-      "2023 $2.5M",
-      11
+      null
      ],
      [
       2022,
@@ -6947,9 +6758,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2022 $3.2M",
-      2
+      "Not interested"
      ],
      [
       2022,
@@ -6960,9 +6769,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2022 $3.2M",
-      3
+      "Not interested"
      ],
      [
       2022,
@@ -6973,9 +6780,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2022 $3.2M",
-      4
+      "Not interested"
      ],
      [
       2022,
@@ -6986,9 +6791,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2022 $3.2M",
-      5
+      "Not interested"
      ],
      [
       2022,
@@ -6999,9 +6802,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2022 $3.2M",
-      6
+      "Not interested"
      ],
      [
       2022,
@@ -7012,9 +6813,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2022 $3.2M",
-      7
+      "Not interested"
      ],
      [
       2022,
@@ -7025,9 +6824,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "not interested",
-      "2022 $3.2M",
-      8
+      "not interested"
      ],
      [
       2022,
@@ -7038,9 +6835,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "$200k is too high",
-      "2022 $3.2M",
-      9
+      "$200k is too high"
      ],
      [
       2022,
@@ -7051,9 +6846,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      10
+      null
      ],
      [
       2022,
@@ -7064,9 +6857,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "sent email",
-      "2022 $3.2M",
-      11
+      "sent email"
      ],
      [
       2022,
@@ -7077,9 +6868,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Spoke 1/19",
-      "2022 $3.2M",
-      12
+      "Spoke 1/19"
      ],
      [
       2022,
@@ -7090,9 +6879,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2022 $3.2M",
-      13
+      "Not interested"
      ],
      [
       2022,
@@ -7103,9 +6890,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      14
+      "Not Interested"
      ],
      [
       2022,
@@ -7116,9 +6901,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      15
+      null
      ],
      [
       2022,
@@ -7129,9 +6912,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      16
+      "Not Interested"
      ],
      [
       2022,
@@ -7142,9 +6923,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      17
+      "Not Interested"
      ],
      [
       2022,
@@ -7155,9 +6934,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      "He also has a fund looking at those details",
-      "2022 $3.2M",
-      18
+      "He also has a fund looking at those details"
      ],
      [
       2022,
@@ -7168,9 +6945,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      19
+      "Not Interested"
      ],
      [
       2022,
@@ -7181,9 +6956,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      20
+      "Not Interested"
      ],
      [
       2022,
@@ -7194,9 +6967,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "land developer, RE professional higher net worth, long call lots of good questions",
-      "2022 $3.2M",
-      21
+      "land developer, RE professional higher net worth, long call lots of good questions"
      ],
      [
       2022,
@@ -7207,9 +6978,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      22
+      "Not Interested"
      ],
      [
       2022,
@@ -7220,9 +6989,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      23
+      "Not Interested"
      ],
      [
       2022,
@@ -7233,9 +7000,7 @@ window.CRM = {
       0,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      24
+      "Not Interested"
      ],
      [
       2022,
@@ -7246,9 +7011,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      25
+      null
      ],
      [
       2022,
@@ -7259,9 +7022,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      26
+      null
      ],
      [
       2022,
@@ -7272,9 +7033,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      27
+      null
      ],
      [
       2022,
@@ -7285,9 +7044,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      28
+      null
      ],
      [
       2022,
@@ -7298,9 +7055,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      29
+      null
      ],
      [
       2022,
@@ -7311,9 +7066,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Follow up email sent 1/19",
-      "2022 $3.2M",
-      30
+      "Follow up email sent 1/19"
      ],
      [
       2022,
@@ -7324,9 +7077,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Spoke 1/19",
-      "2022 $3.2M",
-      31
+      "Spoke 1/19"
      ],
      [
       2022,
@@ -7337,9 +7088,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Spoke with jesse for over an hour 1/19, has self storage worth around 12m with 4m debt and a partner and flea market worth around $1m he's selling by May",
-      "2022 $3.2M",
-      32
+      "Spoke with jesse for over an hour 1/19, has self storage worth around 12m with 4m debt and a partner and flea market worth around $1m he's selling by May"
      ],
      [
       2022,
@@ -7350,9 +7099,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Spoke 1/20 need to send email with OM",
-      "2022 $3.2M",
-      33
+      "Spoke 1/20 need to send email with OM"
      ],
      [
       2022,
@@ -7363,9 +7110,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Spoke 2/5 high interest level",
-      "2022 $3.2M",
-      34
+      "Spoke 2/5 high interest level"
      ],
      [
       2022,
@@ -7376,9 +7121,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "sent text to checkin",
-      "2022 $3.2M",
-      35
+      "sent text to checkin"
      ],
      [
       2022,
@@ -7389,9 +7132,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      36
+      null
      ],
      [
       2022,
@@ -7402,9 +7143,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      37
+      null
      ],
      [
       2022,
@@ -7415,9 +7154,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      38
+      null
      ],
      [
       2022,
@@ -7428,9 +7165,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      39
+      null
      ],
      [
       2022,
@@ -7441,9 +7176,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2022 $3.2M",
-      40
+      "Not interested"
      ],
      [
       2022,
@@ -7454,9 +7187,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      41
+      null
      ],
      [
       2022,
@@ -7467,9 +7198,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      42
+      "Not Interested"
      ],
      [
       2022,
@@ -7480,9 +7209,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "no response",
-      "2022 $3.2M",
-      43
+      "no response"
      ],
      [
       2022,
@@ -7493,9 +7220,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      44
+      "Not Interested"
      ],
      [
       2022,
@@ -7506,9 +7231,7 @@ window.CRM = {
       0,
       null,
       "Warm",
-      "Interested",
-      "2022 $3.2M",
-      45
+      "Interested"
      ],
      [
       2022,
@@ -7519,9 +7242,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      46
+      "Not Interested"
      ],
      [
       2022,
@@ -7532,9 +7253,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      47
+      "Not Interested"
      ],
      [
       2022,
@@ -7545,9 +7264,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      48
+      "Not Interested"
      ],
      [
       2022,
@@ -7558,9 +7275,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      49
+      "Not Interested"
      ],
      [
       2022,
@@ -7571,9 +7286,7 @@ window.CRM = {
       0,
       null,
       "Not interested",
-      "Not Interested",
-      "2022 $3.2M",
-      50
+      "Not Interested"
      ],
      [
       2022,
@@ -7584,9 +7297,7 @@ window.CRM = {
       0,
       null,
       "Warm",
-      "Interested but may wait til next year",
-      "2022 $3.2M",
-      51
+      "Interested but may wait til next year"
      ],
      [
       2022,
@@ -7597,9 +7308,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Sent email",
-      "2022 $3.2M",
-      52
+      "Sent email"
      ],
      [
       2022,
@@ -7610,9 +7319,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Sent email",
-      "2022 $3.2M",
-      53
+      "Sent email"
      ],
      [
       2022,
@@ -7623,9 +7330,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Sent email",
-      "2022 $3.2M",
-      54
+      "Sent email"
      ],
      [
       2022,
@@ -7636,9 +7341,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Sent email",
-      "2022 $3.2M",
-      55
+      "Sent email"
      ],
      [
       2022,
@@ -7649,9 +7352,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Left VM",
-      "2022 $3.2M",
-      56
+      "Left VM"
      ],
      [
       2022,
@@ -7662,9 +7363,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Said no, emailed",
-      "2022 $3.2M",
-      57
+      "Said no, emailed"
      ],
      [
       2022,
@@ -7675,9 +7374,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "sent text",
-      "2022 $3.2M",
-      58
+      "sent text"
      ],
      [
       2022,
@@ -7688,9 +7385,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "sent text",
-      "2022 $3.2M",
-      59
+      "sent text"
      ],
      [
       2022,
@@ -7701,9 +7396,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Try again next year",
-      "2022 $3.2M",
-      60
+      "Try again next year"
      ],
      [
       2022,
@@ -7714,9 +7407,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      61
+      null
      ],
      [
       2022,
@@ -7727,9 +7418,7 @@ window.CRM = {
       0,
       null,
       "Warm",
-      "Interested follow up 10/21",
-      "2022 $3.2M",
-      62
+      "Interested follow up 10/21"
      ],
      [
       2022,
@@ -7740,9 +7429,7 @@ window.CRM = {
       0,
       null,
       "Warm",
-      "Interested",
-      "2022 $3.2M",
-      63
+      "Interested"
      ],
      [
       2022,
@@ -7753,9 +7440,7 @@ window.CRM = {
       0,
       null,
       "Warm",
-      "followed up, she was interested high revenue RE pro",
-      "2022 $3.2M",
-      64
+      "followed up, she was interested high revenue RE pro"
      ],
      [
       2022,
@@ -7766,9 +7451,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      "Texted",
-      "2022 $3.2M",
-      65
+      "Texted"
      ],
      [
       2022,
@@ -7779,9 +7462,7 @@ window.CRM = {
       0,
       null,
       "Warm",
-      "Interested for next year, follow up Q1",
-      "2022 $3.2M",
-      66
+      "Interested for next year, follow up Q1"
      ],
      [
       2022,
@@ -7792,9 +7473,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      "sent text",
-      "2022 $3.2M",
-      67
+      "sent text"
      ],
      [
       2022,
@@ -7805,9 +7484,7 @@ window.CRM = {
       0,
       null,
       "Warm",
-      "will do when deal seals",
-      "2022 $3.2M",
-      68
+      "will do when deal seals"
      ],
      [
       2022,
@@ -7818,9 +7495,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      69
+      null
      ],
      [
       2022,
@@ -7831,9 +7506,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      70
+      null
      ],
      [
       2022,
@@ -7844,9 +7517,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2022 $3.2M",
-      71
+      null
      ],
      [
       2022,
@@ -7857,9 +7528,7 @@ window.CRM = {
       100000,
       null,
       "Committed",
-      null,
-      "2022 $3.2M",
-      72
+      null
      ],
      [
       2022,
@@ -7870,9 +7539,7 @@ window.CRM = {
       100000,
       null,
       "Committed",
-      null,
-      "2022 $3.2M",
-      73
+      null
      ],
      [
       2022,
@@ -7883,9 +7550,7 @@ window.CRM = {
       200000,
       null,
       "Committed",
-      "Done for year added another 100k",
-      "2022 $3.2M",
-      74
+      "Done for year added another 100k"
      ],
      [
       2022,
@@ -7896,9 +7561,7 @@ window.CRM = {
       200000,
       null,
       "Committed",
-      "putting another 100k in",
-      "2022 $3.2M",
-      75
+      "putting another 100k in"
      ],
      [
       2022,
@@ -7909,9 +7572,7 @@ window.CRM = {
       800000,
       null,
       "Committed",
-      "sent email about increase for year",
-      "2022 $3.2M",
-      76
+      "sent email about increase for year"
      ],
      [
       2022,
@@ -7922,9 +7583,7 @@ window.CRM = {
       500000,
       null,
       "Committed",
-      "sent email about increase for year",
-      "2022 $3.2M",
-      77
+      "sent email about increase for year"
      ],
      [
       2022,
@@ -7935,9 +7594,7 @@ window.CRM = {
       200000,
       null,
       "Committed",
-      "Done for year",
-      "2022 $3.2M",
-      78
+      "Done for year"
      ],
      [
       2022,
@@ -7948,9 +7605,7 @@ window.CRM = {
       300000,
       null,
       "Committed",
-      "sent email about increase for year",
-      "2022 $3.2M",
-      79
+      "sent email about increase for year"
      ],
      [
       2022,
@@ -7961,9 +7616,7 @@ window.CRM = {
       800000,
       null,
       "Committed",
-      null,
-      "2022 $3.2M",
-      80
+      null
      ],
      [
       2021,
@@ -7974,9 +7627,7 @@ window.CRM = {
       0,
       null,
       "Contacted",
-      null,
-      "2021 $2.62M",
-      2
+      null
      ],
      [
       2021,
@@ -7987,9 +7638,7 @@ window.CRM = {
       0,
       null,
       "Warm",
-      "$1.5M in cash by June, check back in a few months still interested",
-      "2021 $2.62M",
-      3
+      "$1.5M in cash by June, check back in a few months still interested"
      ],
      [
       2021,
@@ -8000,9 +7649,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "$6M fund looking to place cash",
-      "2021 $2.62M",
-      4
+      "$6M fund looking to place cash"
      ],
      [
       2021,
@@ -8013,9 +7660,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Coreys buddy, referal",
-      "2021 $2.62M",
-      5
+      "Coreys buddy, referal"
      ],
      [
       2021,
@@ -8026,9 +7671,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "follow up after UC",
-      "2021 $2.62M",
-      6
+      "follow up after UC"
      ],
      [
       2021,
@@ -8039,9 +7682,7 @@ window.CRM = {
       0,
       null,
       "Warm",
-      "Follow up in 2wks.",
-      "2021 $2.62M",
-      7
+      "Follow up in 2wks."
      ],
      [
       2021,
@@ -8052,9 +7693,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "interested",
-      "2021 $2.62M",
-      8
+      "interested"
      ],
      [
       2021,
@@ -8065,9 +7704,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      9
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8078,9 +7715,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      10
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8091,9 +7726,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      11
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8104,9 +7737,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      12
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8117,9 +7748,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      13
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8130,9 +7759,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      14
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8143,9 +7770,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      15
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8156,9 +7781,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      16
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8169,9 +7792,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      17
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8182,9 +7803,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      18
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8195,9 +7814,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      19
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8208,9 +7825,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      20
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8221,9 +7836,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM",
-      "2021 $2.62M",
-      21
+      "Interested sent OM"
      ],
      [
       2021,
@@ -8234,9 +7847,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested sent OM  / may not have the cash made other investments this year already",
-      "2021 $2.62M",
-      22
+      "Interested sent OM  / may not have the cash made other investments this year already"
      ],
      [
       2021,
@@ -8247,9 +7858,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Interested, sent OM and intro Eli",
-      "2021 $2.62M",
-      23
+      "Interested, sent OM and intro Eli"
      ],
      [
       2021,
@@ -8260,9 +7869,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Kinda Interested",
-      "2021 $2.62M",
-      24
+      "Kinda Interested"
      ],
      [
       2021,
@@ -8273,9 +7880,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "May hold off this year",
-      "2021 $2.62M",
-      25
+      "May hold off this year"
      ],
      [
       2021,
@@ -8286,9 +7891,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Maybe interested",
-      "2021 $2.62M",
-      26
+      "Maybe interested"
      ],
      [
       2021,
@@ -8299,9 +7902,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Micah going to discuss this w/e 1/22",
-      "2021 $2.62M",
-      27
+      "Micah going to discuss this w/e 1/22"
      ],
      [
       2021,
@@ -8312,9 +7913,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Might be out check back in october",
-      "2021 $2.62M",
-      28
+      "Might be out check back in october"
      ],
      [
       2021,
@@ -8325,9 +7924,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Might be out check back in october",
-      "2021 $2.62M",
-      29
+      "Might be out check back in october"
      ],
      [
       2021,
@@ -8338,9 +7935,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "no response",
-      "2021 $2.62M",
-      30
+      "no response"
      ],
      [
       2021,
@@ -8351,9 +7946,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "no response",
-      "2021 $2.62M",
-      31
+      "no response"
      ],
      [
       2021,
@@ -8364,9 +7957,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "no response",
-      "2021 $2.62M",
-      32
+      "no response"
      ],
      [
       2021,
@@ -8377,9 +7968,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2021 $2.62M",
-      33
+      "Not interested"
      ],
      [
       2021,
@@ -8390,9 +7979,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "not interested",
-      "2021 $2.62M",
-      34
+      "not interested"
      ],
      [
       2021,
@@ -8403,9 +7990,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "not interested",
-      "2021 $2.62M",
-      35
+      "not interested"
      ],
      [
       2021,
@@ -8416,9 +8001,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2021 $2.62M",
-      36
+      "Not Interested"
      ],
      [
       2021,
@@ -8429,9 +8012,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2021 $2.62M",
-      37
+      "Not Interested"
      ],
      [
       2021,
@@ -8442,9 +8023,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2021 $2.62M",
-      38
+      "Not Interested"
      ],
      [
       2021,
@@ -8455,9 +8034,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "not interested",
-      "2021 $2.62M",
-      39
+      "not interested"
      ],
      [
       2021,
@@ -8468,9 +8045,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "not interested",
-      "2021 $2.62M",
-      40
+      "not interested"
      ],
      [
       2021,
@@ -8481,9 +8056,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "not interested",
-      "2021 $2.62M",
-      41
+      "not interested"
      ],
      [
       2021,
@@ -8494,9 +8067,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "not interested",
-      "2021 $2.62M",
-      42
+      "not interested"
      ],
      [
       2021,
@@ -8507,9 +8078,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "not interested",
-      "2021 $2.62M",
-      43
+      "not interested"
      ],
      [
       2021,
@@ -8520,9 +8089,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2021 $2.62M",
-      44
+      "Not interested"
      ],
      [
       2021,
@@ -8533,9 +8100,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2021 $2.62M",
-      45
+      "Not interested"
      ],
      [
       2021,
@@ -8546,9 +8111,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2021 $2.62M",
-      46
+      "Not interested"
      ],
      [
       2021,
@@ -8559,9 +8122,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2021 $2.62M",
-      47
+      "Not interested"
      ],
      [
       2021,
@@ -8572,9 +8133,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2021 $2.62M",
-      48
+      "Not interested"
      ],
      [
       2021,
@@ -8585,9 +8144,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2021 $2.62M",
-      49
+      "Not interested"
      ],
      [
       2021,
@@ -8598,9 +8155,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested",
-      "2021 $2.62M",
-      50
+      "Not interested"
      ],
      [
       2021,
@@ -8611,9 +8166,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2021 $2.62M",
-      51
+      "Not Interested"
      ],
      [
       2021,
@@ -8624,9 +8177,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2021 $2.62M",
-      52
+      "Not Interested"
      ],
      [
       2021,
@@ -8637,9 +8188,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2021 $2.62M",
-      53
+      "Not Interested"
      ],
      [
       2021,
@@ -8650,9 +8199,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not Interested",
-      "2021 $2.62M",
-      54
+      "Not Interested"
      ],
      [
       2021,
@@ -8663,9 +8210,7 @@ window.CRM = {
       null,
       null,
       "Not interested",
-      "Not interested, has another invester just had $50M exit",
-      "2021 $2.62M",
-      55
+      "Not interested, has another invester just had $50M exit"
      ],
      [
       2021,
@@ -8676,9 +8221,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Reach out after popeye's deal",
-      "2021 $2.62M",
-      56
+      "Reach out after popeye's deal"
      ],
      [
       2021,
@@ -8689,9 +8232,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "saw at beach needs 2021 OM",
-      "2021 $2.62M",
-      57
+      "saw at beach needs 2021 OM"
      ],
      [
       2021,
@@ -8702,9 +8243,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Texted",
-      "2021 $2.62M",
-      58
+      "Texted"
      ],
      [
       2021,
@@ -8715,9 +8254,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Texted",
-      "2021 $2.62M",
-      59
+      "Texted"
      ],
      [
       2021,
@@ -8728,9 +8265,7 @@ window.CRM = {
       0,
       null,
       "Warm",
-      "Touch base after close",
-      "2021 $2.62M",
-      60
+      "Touch base after close"
      ],
      [
       2021,
@@ -8741,9 +8276,7 @@ window.CRM = {
       null,
       null,
       "Warm",
-      "Touch base after close FL site",
-      "2021 $2.62M",
-      61
+      "Touch base after close FL site"
      ],
      [
       2021,
@@ -8754,9 +8287,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      "Won't invest this year",
-      "2021 $2.62M",
-      62
+      "Won't invest this year"
      ],
      [
       2021,
@@ -8767,9 +8298,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2021 $2.62M",
-      63
+      null
      ],
      [
       2021,
@@ -8780,9 +8309,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2021 $2.62M",
-      64
+      null
      ],
      [
       2021,
@@ -8793,9 +8320,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2021 $2.62M",
-      65
+      null
      ],
      [
       2021,
@@ -8806,9 +8331,7 @@ window.CRM = {
       null,
       null,
       "Contacted",
-      null,
-      "2021 $2.62M",
-      66
+      null
      ],
      [
       2021,
@@ -8819,9 +8342,7 @@ window.CRM = {
       500000,
       null,
       "Confirmed",
-      "INVESTED",
-      "2021 $2.62M",
-      67
+      "INVESTED"
      ],
      [
       2021,
@@ -8832,9 +8353,7 @@ window.CRM = {
       1200000,
       null,
       "Confirmed",
-      "INVESTED",
-      "2021 $2.62M",
-      68
+      "INVESTED"
      ],
      [
       2021,
@@ -8845,9 +8364,7 @@ window.CRM = {
       100000,
       null,
       "Confirmed",
-      "INVESTED",
-      "2021 $2.62M",
-      69
+      "INVESTED"
      ],
      [
       2021,
@@ -8858,9 +8375,7 @@ window.CRM = {
       500000,
       null,
       "Confirmed",
-      "INVESTED",
-      "2021 $2.62M",
-      70
+      "INVESTED"
      ],
      [
       2021,
@@ -8871,9 +8386,7 @@ window.CRM = {
       120000,
       null,
       "Committed",
-      null,
-      "2021 $2.62M",
-      71
+      null
      ],
      [
       2021,
@@ -8884,9 +8397,7 @@ window.CRM = {
       200000,
       null,
       "Committed",
-      null,
-      "2021 $2.62M",
-      72
+      null
      ],
      [
       2020,
@@ -8897,9 +8408,7 @@ window.CRM = {
       300000,
       null,
       "Committed",
-      null,
-      "2020 $800K",
-      2
+      null
      ],
      [
       2020,
@@ -8910,9 +8419,7 @@ window.CRM = {
       500000,
       null,
       "Committed",
-      null,
-      "2020 $800K",
-      3
+      null
      ],
      [
       "TOTAL",
@@ -8921,8 +8428,6 @@ window.CRM = {
       null,
       null,
       18089591,
-      null,
-      null,
       null,
       null,
       null
