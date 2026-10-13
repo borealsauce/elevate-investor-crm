@@ -155,4 +155,4 @@ th.sortable:hover{color:var(--gold,#2563EB)}
 
 
 .income-panel .panel-head h3{font:700 32px Oswald,Inter,sans-serif;letter-spacing:.02em;line-height:1.15;overflow-wrap:anywhere}
-.income-panel h3 .h3-total{color:#fff !important;font-size:1em;font-weight:inherit;margin-left:.35em;display:inline-block;max-width:100%}
+.income-panel h3 .h3-total{color:#fff !important;font-size:1em;font-weight:inherit;margin-left:0;display:inline}
