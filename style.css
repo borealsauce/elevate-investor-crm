@@ -139,3 +139,14 @@ th.sortable:hover{color:var(--gold)}
 .hero-block .hb-note{font:600 10px Inter;color:#cbd5e1;margin-top:6px}
 .bshare-fill{background:linear-gradient(90deg,#64748b,#94a3b8)!important}
 .legend .bshare-lg{background:#64748b}
+
+/* Brokered RE warning rows */
+tr.row-warn td{background:#FEF3C7!important}
+tr.row-warn-soft td{background:#FFFBEB!important}
+.badge.b-warn{background:#F59E0B;color:#111}
+.badge.b-amber{background:#FDE68A;color:#78350F}
+.brokered-heroes{grid-template-columns:repeat(4,1fr)}
+@media(max-width:1100px){.brokered-heroes{grid-template-columns:1fr 1fr}}
+.brokered-heroes .grand-value{font-size:26px}
+.th.sortable, th.sortable{cursor:pointer;user-select:none}
+th.sortable:hover{color:var(--gold,#2563EB)}

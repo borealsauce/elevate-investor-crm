@@ -3229,6 +3229,363 @@ window.CRM = {
     ]
    }
   ],
+  "Brokered RE Transactions": [
+   {
+    "type": "title",
+    "text": "BROKERED RE TRANSACTIONS"
+   },
+   {
+    "type": "title",
+    "text": "Documented brokered RE closings · from brokered_re_deals.csv · no bank numbers / SSNs"
+   },
+   {
+    "type": "title",
+    "text": "TOTALS"
+   },
+   {
+    "type": "title",
+    "text": "All deals vs documented by closing / commission docs (confidence = high)"
+   },
+   {
+    "type": "line",
+    "cells": [
+     "Deals",
+     "Total volume",
+     "Ryan commission",
+     "Documented · Ryan comm"
+    ]
+   },
+   {
+    "type": "line",
+    "cells": [
+     16,
+     32489070.96,
+     314727.5,
+     158177.5
+    ]
+   },
+   {
+    "type": "title",
+    "text": "Documented (high confidence / closing or commission docs): 6 deals · volume $15,568,071 · Ryan commission $158,177.50. Low/medium or conflicting rows highlighted in amber."
+   },
+   {
+    "type": "title",
+    "text": "TRANSACTIONS"
+   },
+   {
+    "type": "title",
+    "text": "Sorted by closing date · newest first"
+   },
+   {
+    "type": "table",
+    "header": [
+     "DEAL / PROPERTY",
+     "ADDRESS",
+     "CITY / STATE",
+     "PROPERTY TYPE",
+     "CLIENT",
+     "CLIENT SIDE",
+     "CONTRACT DATE",
+     "CLOSING DATE",
+     "SALE PRICE",
+     "GROSS COMMISSION",
+     "RYAN'S COMMISSION",
+     "CONFIDENCE",
+     "SOURCE",
+     "NOTES"
+    ],
+    "cols": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "rows": [
+     [
+      "Don DB NNN sale",
+      "2381 Elm Hill Pike",
+      "Nashville, TN",
+      "NNN retail (Dutch Bros)",
+      "Donald and Cari Sanford",
+      "sell",
+      null,
+      "2026-04-16",
+      2300000,
+      46000,
+      42200,
+      "high",
+      "Commission Invoice - Dutch Bros, Nashville, TN (InvestCore).pdf",
+      "Buyer was Expansion LLC. Invoice split: Ryan $42,200, IC $2,300, Bockman $1,500. The revised CDA says Ryan $43,700 and misstates the price as $3M. The folder says $2.35M. Close date is the estimated one."
+     ],
+     [
+      "Dean TN Lemay",
+      "105 Lemay Drive (12 units)",
+      "Kingsport, TN",
+      "apartment",
+      "Dean O'Malley (exchange)",
+      "buy",
+      "2025-12-06",
+      "2026-02-27",
+      1060000,
+      26500,
+      22657.5,
+      "high",
+      "CDA Lemay.pdf",
+      "HUD T25-27911: $26,500 to Investcore. CDA split: Ryan $22,657.50, Ed $1,192.50, Angela Zion $2,650. Contract date is the LOI counter date."
+     ],
+     [
+      "Dean TN Cox",
+      "160 Cox Road",
+      "Johnson City, TN",
+      "commercial",
+      "Dean O'Malley (exchange)",
+      "buy",
+      "2025-12-18",
+      "2026-02-13",
+      3125000,
+      50000,
+      50000,
+      "high",
+      "160 Cox Road revised HUD.PDF",
+      "HUD line 702: $50,000 to Investcore. Referral agreement (12/18/25) gives the full $50,000 to Ryan."
+     ],
+     [
+      "Donna Ct listing",
+      "3721 Donna Court (APN 205-260-36-00)",
+      "Carlsbad, CA",
+      "SFR",
+      "Brian and Jaclyn Heatherman",
+      "sell",
+      null,
+      "2025-12-24",
+      2218070.96,
+      22990,
+      null,
+      "high",
+      "Final Seller's Closing Statement 3721 donna ct Certfied.pdf",
+      "Listing commission to InvestCore $22,990. The CRM shows $22,950 and $2,295,000; the statement price is $2,218,070.96 (loan assumption). Ryan's split not documented."
+     ],
+     [
+      "Mack Lofts sale (2025)",
+      "5320 Brannon Ave + 5214 Walsh St",
+      "St. Louis, MO",
+      "apartment",
+      "Brannon Mack LLC (Dean J. O'Malley, Trustee)",
+      "sell",
+      null,
+      "2025-11-17",
+      3050000,
+      null,
+      null,
+      "medium",
+      "ALTA Settlement Statements - Seller's - 25LT07580.pdf",
+      "ALTA shows commissions only to RE/MAX Results ($76,250, listing) and KW St. Louis ($45,750). No Investcore line. The CRM's $42,000 'Mack Sale' is not on the statement and may have been paid outside closing. Has a note 'Ryan Reichlyn $23,499.79 in account add back'."
+     ],
+     [
+      "Don DB Nashville (purchase)",
+      "2381 Elm Hill Pike",
+      "Nashville, TN",
+      "NNN retail (Dutch Bros)",
+      "Don and Cari Sanford",
+      "buy",
+      null,
+      "2025-01-13",
+      2280000,
+      45600,
+      43320,
+      "high",
+      "commission_disbursement_authorization_form.pdf",
+      "CDA: Investcore $2,280 and agent $43,320. Close date is the anticipated one. The CRM's 'Don's DB $45,950' does not match the $45,600 gross."
+     ],
+     [
+      "Ron's place / 508 N Myers",
+      "508 North Myers Street (Crystal Sands unit 508)",
+      "Oceanside, CA",
+      "condo",
+      "Ronald D Brown II and Linda M Brown (Trust)",
+      "buy",
+      null,
+      "2024-06-11",
+      2100000,
+      null,
+      45750,
+      "medium",
+      "BuyerSettlementStatement.pdf",
+      "Estimated buyer statement (cash sale). Commission is not shown there. $45,750 comes from the CRM's 'Ron's place'. SAME DEAL as sheet's 'Rons 508 N Myers'."
+     ],
+     [
+      "Steph Lease",
+      "Unit B, Del Cedro (2,982 RSF retail)",
+      "Carlsbad, CA",
+      "retail lease",
+      "Parker and Posies LLC (tenant, per lease) / landlord unclear",
+      "lease",
+      "2024-03-25",
+      "2024-04-15",
+      215000,
+      null,
+      7000,
+      "low",
+      "Parker and Posies LLC - Lease Final Copy3.25.2024.pdf",
+      "38-month lease. $215K is the lease value from the folder name, not a sale price. Commission from CRM. Which side Ryan represented is not documented."
+     ],
+     [
+      "Sitio Lima Carlsbad",
+      "7261 Sitio Lima",
+      "Carlsbad, CA",
+      "residential",
+      "Diane Pergrossi (per folder name)",
+      "buy",
+      null,
+      "2023-06-29",
+      2500000,
+      56250,
+      null,
+      "medium",
+      "Commission Confirmation - Selling Agent_.pdf",
+      "Buyer's broker commission confirmation $56,250 (escrow 320-872-LL, dated 6/27/23). Price from folder name only. Close date is the estimated closing statement date, not confirmed final."
+     ],
+     [
+      "Santa Cruz / 600 Bayview",
+      "600 Bayview Drive",
+      "Aptos, CA",
+      "residential",
+      "Diane S. Pergrossi (Trust, via 1031 QI)",
+      "sell",
+      null,
+      "2023-06-15",
+      4585000,
+      91700,
+      null,
+      "high",
+      "Certified Final Seller's Settlement Statement.pdf",
+      "4% total; $91,700 to Investcore, $91,700 to eXp. Commission invoice misprints price as $4,850,000. Ryan's split not documented."
+     ],
+     [
+      "Don OR MHP / La Pine (Drafter Valley MHC)",
+      "Drafter Valley MHC",
+      "La Pine, OR",
+      "MHP",
+      "Don Sanford",
+      "buy",
+      "2025-04-08",
+      null,
+      2256000,
+      null,
+      45120,
+      "medium",
+      "EXECUTED Drafter Valley MHC 4.8.25.pdf",
+      "PSA executed 4/8/25 (earlier PSA and counter 1/30/25). Price and commission are from the CRM. Folder names say $2.25M and $2.45M. No closing statement found."
+     ],
+     [
+      "Nick/Sam Knoxville Apt",
+      "838-840 N 4th Ave",
+      "Knoxville, TN",
+      "apartment",
+      "Nick Layon and Sam Debaets",
+      "buy",
+      null,
+      null,
+      1950000,
+      null,
+      27930,
+      "low",
+      "Nick Layon and Sam Debaets $1.97M",
+      "Folder name says $1.97M. Price and commission are from the CRM. No closing doc found in the folder listing."
+     ],
+     [
+      "Ditmar 421 S Ditmar",
+      "421 S Ditmar St",
+      "Oceanside, CA",
+      "residential",
+      "Suhadolnik (Erin and Nick, per folder)",
+      "buy",
+      null,
+      null,
+      1300000,
+      null,
+      30750,
+      "low",
+      "421 Ditmar RPA .pdf",
+      "Price from folder name. Commission from CRM 'Ditmar Buy Side'. Not in the sheet's $18.04M list."
+     ],
+     [
+      "Mack Lofts purchase (2023)",
+      "5320 Brannon Ave + 5214 Walsh St",
+      "St. Louis, MO",
+      "apartment",
+      "Dean O'Malley / Brannon Mack LLC (likely)",
+      "buy",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "low",
+      "Assignment of PSA - InvestCore Commercial (final).pdf",
+      "Folder name says Mack $2.95M; user's sheet says $3,025,000. PSA was assigned from InvestCore. No closing or commission doc found. Possible duplicate of the sheet's 'Mack $3,025,000'."
+     ],
+     [
+      "Watt 1515 Whaley",
+      "1515 Whaley St",
+      "Oceanside, CA",
+      "residential",
+      "Andrew and Alex Watt",
+      "buy",
+      "2023-08-29",
+      null,
+      1450000,
+      null,
+      null,
+      "low",
+      "1515 Whaley 829 Updated RPA FE buy side.pdf",
+      "Buy-side RPA dated 8/29 shows $1,160,000 (likely the loan or an earlier offer). $1.45M is from the folder name. No closing statement or commission doc found."
+     ],
+     [
+      "Dean Popeyes Americus GA",
+      "Popeyes, Tripp St",
+      "Americus, GA",
+      "NNN retail",
+      "Dean O'Malley",
+      "buy",
+      null,
+      null,
+      2100000,
+      null,
+      null,
+      "low",
+      "Fully Executed PSA Popeyes Americus, GA .pdf",
+      "Price from folder name; 2nd PSA amendment dated 9/27/22. Executed PSA too large to read (13MB). No commission doc found."
+     ],
+     [
+      "TOTAL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      32489070.96,
+      339040,
+      314727.5,
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  ],
   "Combined": [
    {
     "type": "title",
@@ -8843,7 +9200,7 @@ window.CRM = {
     "type": "line",
     "cells": [
      "Sources",
-     "Shep's Numbers file updated 2026-10-12 (source_updated_2026-10-12.numbers; year tabs 2020–2026 + 'Total Raised'), Elevate 2026 commission screenshot (Frontier, Sequoia, Parkview, Riverside), compare.md reconciliation."
+     "Shep's Numbers file updated 2026-10-12 (source_updated_2026-10-12.numbers; year tabs 2020–2026 + 'Total Raised'), Elevate 2026 commission screenshot (Frontier, Sequoia, Parkview, Riverside), brokered_re_deals.csv (closing / commission docs), compare.md reconciliation."
     ]
    },
    {

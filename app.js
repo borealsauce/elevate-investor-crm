@@ -1,6 +1,6 @@
 (function(){
 const D = window.CRM, S = D.sheets;
-const TABS = ['Dashboard','Investors','Investor Positions','Deals','Commissions','Raise Income','Brokering Income','Combined','Pipeline','Activity Log','Year by Year','Reconciliation','Notes'];
+const TABS = ['Dashboard','Investors','Investor Positions','Deals','Commissions','Raise Income','Brokering Income','Brokered RE Transactions','Combined','Pipeline','Activity Log','Year by Year','Reconciliation','Notes'];
 const $ = (h)=>{const t=document.createElement('template');t.innerHTML=h.trim();return t.content.firstChild;};
 const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const money = (v,dec) => (v<0?'-':'')+'$'+Math.abs(v).toLocaleString('en-US',{minimumFractionDigits:dec?2:0,maximumFractionDigits:dec?2:0});
@@ -29,7 +29,7 @@ function countUp(el, target, {duration=1200, decimals=false, prefix='$'}={}){
 
 const pct = v => (v*100).toLocaleString('en-US',{maximumFractionDigits:2})+'%';
 const isPct = h => /RATE|COMM\. %|MARGIN|VS BEST/.test(h);
-const isMoney = h => /\$|RAISE|COMMISSION|AMOUNT|INCOME|GAP|BASIS|DIFFERENCE|SHEP SHEET|SCREENSHOT|^20\d\d$|TOTAL RAISED|LIFETIME|INVESTED/.test(h) && !/YEAR|YR|TAB NAME|NOTE|STATUS|COMMENT|OFFERING\(S\)/.test(h);
+const isMoney = h => /\$|RAISE|COMMISSION|AMOUNT|INCOME|GAP|BASIS|DIFFERENCE|SHEP SHEET|SCREENSHOT|^20\d\d$|TOTAL RAISED|LIFETIME|INVESTED|SALE PRICE|VOLUME|PRICE/.test(h) && !/YEAR|YR|TAB NAME|NOTE|STATUS|COMMENT|OFFERING\(S\)|PROPERTY TYPE|CONFIDENCE/.test(h);
 function fmt(h, v){
   if(v===null||v===undefined||v==='') return '';
   if(typeof v==='number'){ if(isPct(h)) return pct(v); if(isMoney(h)) return fmtMoney(v); return String(v); }
@@ -38,12 +38,15 @@ function fmt(h, v){
 function badge(v){
   const s=String(v), l=s.toLowerCase();
   let c='b-gray';
-  if(/active|committed|credited|closed|brokering/.test(l)) c='b-gold';
-  if(/past investor|transacted|open/.test(l)) c='b-green';
-  if(/not interested|duplicate/.test(l)) c='b-red';
+  if(/active|committed|credited|closed|brokering|high|sell/.test(l)) c='b-gold';
+  if(/past investor|transacted|open|buy|medium/.test(l)) c='b-green';
+  if(/not interested|duplicate|low|lease/.test(l)) c='b-red';
+  if(l==='low') c='b-warn';
+  if(l==='medium') c='b-amber';
+  if(l==='high') c='b-green';
   return `<span class="badge ${c}">${esc(s)}</span>`;
 }
-const BADGE_COLS = /^(STATUS|STAGE|OUTCOME|TYPE|PROGRAM|PROGRAMS)$/;
+const BADGE_COLS = /^(STATUS|STAGE|OUTCOME|TYPE|PROGRAM|PROGRAMS|CONFIDENCE|CLIENT SIDE)$/;
 const WIDE_COLS = /NOTE|COMMENT|DETAIL|NEXT STEP|FLAG/;
 function tables(name){ return S[name].filter(b=>b.type==='table'); }
 function titles(name){ return S[name].filter(b=>b.type==='title').map(b=>b.text); }
@@ -83,9 +86,9 @@ function renderTable(t, opts={}){
     return tr;
   }
   thead.appendChild(headHtml());
-  const rowHtml=(r,cls='')=>`<tr class="${cls}">${r.map((v,i)=>{const h=t.header[i];
+  const rowHtml=(r,cls='')=>{ const extra=(typeof opts.rowClass==='function'?opts.rowClass(r):'')||''; return `<tr class="${cls} ${extra}">${r.map((v,i)=>{const h=t.header[i];
     const inner = (BADGE_COLS.test(h)&&v&&!cls)? badge(v) : fmt(h,v);
-    return `<td class="${numCol[i]?'num':''} ${(opts.wide||WIDE_COLS).test(h)?'wrapc':''}">${inner}</td>`;}).join('')}</tr>`;
+    return `<td class="${numCol[i]?'num':''} ${(opts.wide||WIDE_COLS).test(h)?'wrapc':''}">${inner}</td>`;}).join('')}</tr>`; };
   const sortKey=v=>{
     if(v==null||v==='') return null;
     if(typeof v==='number') return v;
@@ -265,6 +268,51 @@ const views={
     app.appendChild(sw);
     app.appendChild(sec('All positions','Every park / deal row'));
     app.appendChild(renderTable(T,{search:'positions',filterCol:'PROGRAM',splitTotal:true,wide:/NOTE|^SOURCE$/}));
+  },
+
+  'Brokered RE Transactions'(app){
+    const bl=S['Brokered RE Transactions']||[];
+    const t=bl.find(b=>b.type==='table' && b.header && b.header.some(h=>/DEAL|CLOSING DATE|PROPERTY/i.test(String(h)))) || bl.find(b=>b.type==='table');
+    const titles=bl.filter(b=>b.type==='title').map(b=>b.text);
+    app.appendChild(sec('Brokered RE','Documented closings · no bank numbers / SSNs', titles[1]||'From brokered_re_deals.csv'));
+    if(!t){ app.appendChild($(`<div class="callout">No brokered RE table in data.</div>`)); return; }
+    const H=t.header, ix=n=>H.indexOf(n);
+    const confI=ix('CONFIDENCE'), priceI=ix('SALE PRICE'), ryanI=ix("RYAN'S COMMISSION");
+    const rows=t.rows.filter(r=>r[0] && !/^total/i.test(String(r[0])));
+    const num=v=> (typeof v==='number'&&Number.isFinite(v))?v:0;
+    const n=rows.length;
+    const vol=rows.reduce((a,r)=>a+num(r[priceI]),0);
+    const ryan=rows.reduce((a,r)=>a+num(r[ryanI]),0);
+    const doc=rows.filter(r=>String(r[confI]||'').toLowerCase()==='high');
+    const docRyan=doc.reduce((a,r)=>a+num(r[ryanI]),0);
+    const docVol=doc.reduce((a,r)=>a+num(r[priceI]),0);
+    const heroes=$(`<div class="grand-split brokered-heroes">
+      <div class="grand-card cash"><div class="eyebrow">All deals</div><div class="grand-label">DEALS</div><div class="grand-value" data-count="${n}" data-prefix="">0</div></div>
+      <div class="grand-card cash"><div class="eyebrow">Sale / lease value</div><div class="grand-label">TOTAL VOLUME</div><div class="grand-value" data-count="${vol}" data-dec="0">$0</div></div>
+      <div class="grand-card all"><div class="eyebrow">All rows</div><div class="grand-label">RYAN COMMISSION</div><div class="grand-value" data-count="${ryan}" data-dec="1">$0</div></div>
+      <div class="grand-card bshare"><div class="eyebrow">High confidence · closing / commission docs</div><div class="grand-label">DOCUMENTED · RYAN COMM</div><div class="grand-value" data-count="${docRyan}" data-dec="1">$0</div>
+        <div class="hb-note" style="margin-top:6px;opacity:.85">${doc.length} deals · vol ${fmtMoney(docVol)}</div></div>
+    </div>`);
+    app.appendChild(heroes);
+    app.querySelectorAll('[data-count]').forEach(el=>{
+      const target=Number(el.getAttribute('data-count'));
+      const dec=el.getAttribute('data-dec')==='1';
+      const prefix=el.hasAttribute('data-prefix')?'':'$';
+      countUp(el, target, {duration:1200, decimals:dec, prefix});
+    });
+    app.appendChild($(`<p class="sub">Amber rows = low confidence or conflicting source notes. Click column headers to sort. Documented = confidence high (closing statement / CDA / commission invoice).</p>`));
+    const conflict=/misprint|does not match|misstates|conflict|not match|duplicate|possible duplicate/i;
+    const noteI=ix('NOTES');
+    app.appendChild(renderTable({header:H, rows}, {
+      search:'brokered deals', filterCol:'CONFIDENCE', splitTotal:true, noMax:true, wide:/NOTE|^SOURCE$|ADDRESS|CLIENT$/,
+      rowClass: r=>{
+        const c=String(r[confI]||'').toLowerCase();
+        const n=String(r[noteI]||'');
+        if(c==='low' || conflict.test(n)) return 'row-warn';
+        if(c==='medium') return 'row-warn-soft';
+        return '';
+      }
+    }));
   },
   'Deals'(app){ const t=titles('Deals'); app.appendChild(sec('Deals','Raises & brokering',t[1])); app.appendChild(renderTable(tables('Deals')[0],{search:'deals',filterCol:'TYPE',splitTotal:true})); },
   'Pipeline'(app){ const t=titles('Pipeline'); app.appendChild(sec('Pipeline','Follow-ups',t[1])); app.appendChild(renderTable(tables('Pipeline')[0],{search:'pipeline',filterCol:'STAGE',splitTotal:true})); },
