@@ -46,7 +46,7 @@ function badge(v){
   if(l==='high') c='b-green';
   return `<span class="badge ${c}">${esc(s)}</span>`;
 }
-const BADGE_COLS = /^(STATUS|STAGE|OUTCOME|TYPE|PROGRAM|PROGRAMS|CONFIDENCE|CLIENT SIDE)$/;
+const BADGE_COLS = /^(STATUS|STAGE|OUTCOME|TYPE|PROGRAM|PROGRAMS|SYNDICATOR|SYNDICATORS|CONFIDENCE|CLIENT SIDE)$/;
 const WIDE_COLS = /NOTE|COMMENT|DETAIL|NEXT STEP|FLAG/;
 function tables(name){ return S[name].filter(b=>b.type==='table'); }
 function titles(name){ return S[name].filter(b=>b.type==='title').map(b=>b.text); }
@@ -247,10 +247,10 @@ const views={
       const mine=T.rows.filter(r=>want.has(r[ix('INVESTOR')]));
       if(!mine.length){ app.appendChild($(`<div class="callout">No park positions on record for <b>${esc(inv)}</b> (only amounts shown in the sources are listed).</div>`)); }
       else{
-        const held=mine.filter(r=>r[ix('PROGRAM')]!=='Brokering'), brok=mine.filter(r=>r[ix('PROGRAM')]==='Brokering');
+        const held=mine.filter(r=>r[ix('SYNDICATOR')]!=='Brokering'), brok=mine.filter(r=>r[ix('SYNDICATOR')]==='Brokering');
         const total=held.reduce((a,r)=>a+(r[ix('AMOUNT INVESTED')]||0),0);
         const joint=held.filter(r=>r[ix('INVESTOR')]!==inv||r[ix('JOINT')]).reduce((a,r)=>a+(r[ix('AMOUNT INVESTED')]||0),0);
-        const parks=new Set(); held.forEach(r=>{const d=r[ix('PARK / DEAL')]; if(r[ix('PROGRAM')]==='BoaVida') return; d.split(' & ').filter(x=>/MHC|RV|Park/i.test(x)||!d.includes(' & ')).forEach(x=>parks.add(x.trim()));});
+        const parks=new Set(); held.forEach(r=>{const d=r[ix('DEAL')]; if(r[ix('SYNDICATOR')]==='BoaVida') return; d.split(' & ').filter(x=>/MHC|RV|Park/i.test(x)||!d.includes(' & ')).forEach(x=>parks.add(x.trim()));});
         const yrs=[...new Set(held.map(r=>r[ix('YEAR')]))].sort();
         app.appendChild(kpiGrid([
           {label:'TOTAL INVESTED',value:total,caption:joint?`incl. ${fmtMoney(joint)} joint (${(JOINT[inv]||[]).join(', ')})`:'Elevate + BoaVida'},
@@ -267,7 +267,7 @@ const views={
     sw.addEventListener('click',e=>{const td=e.target.closest('tbody td:first-child'); if(td&&td.textContent.trim()) go('Investor Positions',td.textContent.trim());});
     app.appendChild(sw);
     app.appendChild(sec('All positions','Every park / deal row'));
-    app.appendChild(renderTable(T,{search:'positions',filterCol:'PROGRAM',splitTotal:true,wide:/NOTE|^SOURCE$/}));
+    app.appendChild(renderTable(T,{search:'positions',filterCol:'SYNDICATOR',splitTotal:true,wide:/NOTE|^SOURCE$/}));
   },
 
   'Brokered RE Transactions'(app){
