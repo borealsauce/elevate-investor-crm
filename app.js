@@ -155,7 +155,7 @@ const views={
 
     const panels=$(`<div class="income-split"></div>`);
     const raise=$(`<div class="panel income-panel raise-panel"><div class="panel-head">
-      <div class="eyebrow">Raise commissions</div><h3>RAISE INCOME <span class="h3-total">· <span data-count="${totRaised}" data-dec="1">$0</span> raised</span></h3>
+      <div class="eyebrow">Raise commissions</div><h3>RAISE INCOME <span class="h3-total"><span data-count="${totRaised}" data-dec="1">$0</span> RAISED</span></h3>
       <p class="sub">Elevate = cash (2024+) · Boa Vida Group = B shares, non-cash (2020–2023)</p>
       <div class="hero-kpis twin">
         <div class="hero-block elev">
@@ -183,7 +183,7 @@ const views={
     rtf.appendChild($(`<tr class="total"><td>TOTAL</td><td class="num">${fmtMoney(totElevRaise)}</td><td class="num">${fmtMoney(totElevCash)}</td><td class="num">${fmtMoney(totBvgRaise)}</td><td class="num">${fmtMoney(totBvgShare)}</td></tr>`));
     panels.appendChild(raise);
 
-    const brok=$(`<div class="panel income-panel brok-panel"><div class="panel-head"><div class="eyebrow">Deal commissions · cash</div><h3>BROKERING INCOME <span class="h3-total">· <span data-count="${totSales}" data-dec="1">$0</span> in sales</span></h3><p class="sub">Commission by year · volume noted separately</p>
+    const brok=$(`<div class="panel income-panel brok-panel"><div class="panel-head"><div class="eyebrow">Deal commissions · cash</div><h3>BROKERING INCOME <span class="h3-total"><span data-count="${totSales}" data-dec="1">$0</span> IN SALES</span></h3><p class="sub">Commission by year · volume noted separately</p>
       <div class="hero-kpis">
         <div class="hero"><div class="hl">BROKERING COMMISSION</div><div class="hv" data-count="${totBrok}" data-dec="0">$0</div></div>
       </div>
