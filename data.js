@@ -8601,21 +8601,21 @@ window.CRM = {
       "2026 raise · paid (used in CRM)",
       3628979.53,
       72579.59,
-      "#N/A",
+      3556399.94,
       "Hassan paid: Orchard $1,427,592 / $28,551.84 + Oct 12 batch $2,201,387.53 / $44,027.75 = $72,579.59"
      ],
      [
       "Shep sheet line-item estimate (not used)",
       3844591,
       76891.82,
-      "#N/A",
+      3767699.18,
       "Investor-commitment rows on Shep 2026 tab; Dashboard/Combined ignore this"
      ],
      [
       "Shep printed raise-comm total (not used)",
       null,
       72891.82,
-      "#N/A",
+      null,
       "Printed $72,891.82 is $4,000 under Shep's own line items"
      ]
     ]
