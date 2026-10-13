@@ -143,9 +143,10 @@ const views={
     const totBrok=sum(brokComm), totCash=sum(cashTot), totGrand=sum(grandTot);
 
     const grand=$(`<div class="grand-split">
-      <div class="grand-card cash"><div class="eyebrow">Elevate cash + brokering</div><div class="grand-label">CASH TOTAL INCOME</div><div class="grand-value" data-count="${totCash}" data-dec="1">$0</div></div>
-      <div class="grand-card bshare"><div class="eyebrow">Boa Vida Group · non-cash</div><div class="grand-label">B-SHARE TOTAL</div><div class="grand-value" data-count="${totBvgShare}" data-dec="0">$0</div></div>
-      <div class="grand-card all"><div class="eyebrow">Cash + B-share</div><div class="grand-label">GRAND TOTAL</div><div class="grand-value" data-count="${totGrand}" data-dec="1">$0</div></div>
+      <div class="grand-card cash"><div class="eyebrow">Elevate commissions · cash</div><div class="grand-label">ELEVATE RAISE INCOME</div><div class="grand-value" data-count="${totElevCash}" data-dec="1">$0</div></div>
+      <div class="grand-card bshare"><div class="eyebrow">Boa Vida Group · non-cash</div><div class="grand-label">BVG B-SHARE TOTAL</div><div class="grand-value" data-count="${totBvgShare}" data-dec="0">$0</div></div>
+      <div class="grand-card brok"><div class="eyebrow">All brokering commissions · cash</div><div class="grand-label">AGENT BROKERING INCOME</div><div class="grand-value" data-count="${totBrok}" data-dec="0">$0</div></div>
+      <div class="grand-card all"><div class="eyebrow">Elevate + BVG + Brokering</div><div class="grand-label">TOTAL INCOME</div><div class="grand-value" data-count="${totElevCash+totBvgShare+totBrok}" data-dec="1">$0</div></div>
     </div>`);
     app.appendChild(grand);
 

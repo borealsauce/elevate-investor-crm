@@ -121,8 +121,8 @@ th.sortable:hover{color:var(--gold)}
   .grand-total .grand-value,.hero .hv{transition:none}
 }
 
-.grand-split{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:8px 0 16px}
-@media(max-width:1000px){.grand-split{grid-template-columns:1fr}}
+.grand-split{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:8px 0 16px}
+@media(max-width:1100px){.grand-split{grid-template-columns:1fr 1fr}}@media(max-width:600px){.grand-split{grid-template-columns:1fr}}
 .grand-card{border-radius:16px;padding:16px 18px;color:#fff}
 .grand-card.cash{background:linear-gradient(135deg,#1e3a8a,#1e40af)}
 .grand-card.bshare{background:linear-gradient(135deg,#475569,#64748b)}
@@ -150,3 +150,5 @@ tr.row-warn-soft td{background:#FFFBEB!important}
 .brokered-heroes .grand-value{font-size:26px}
 .th.sortable, th.sortable{cursor:pointer;user-select:none}
 th.sortable:hover{color:var(--gold,#2563EB)}
+
+.grand-card.brok{background:linear-gradient(135deg,#2563eb,#3b82f6)}
